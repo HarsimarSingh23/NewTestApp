@@ -1,5 +1,6 @@
 import { Camera, Mail, Phone, MapPin } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
+import navy_man from '../img/navy_man.jpg';
 
 export function ProfilePage() {
   const { user } = useAuthStore();
@@ -12,7 +13,7 @@ export function ProfilePage() {
           <div className="flex items-end absolute -top+30">
             <div className="relative">
               <img
-                src="src/img/navy_man.jpg"
+                src={navy_man}
                 alt="Profile"
                 className="h-40 w-40 rounded-xl border-4 border-white"
               />
