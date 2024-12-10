@@ -2,13 +2,19 @@ import { useNavigate } from 'react-router-dom';
 import { LogOut } from 'lucide-react';
 import { CourseCard } from '../components/CourseCard';
 import { useAuthStore } from '../store/authStore';
+import course1 from '../img/course1.jpg';
+import course2 from '../img/course2.jpg';
+import course3 from '../img/course3.jpg';
+import course4 from '../img/course4.jpg';
+import course5 from '../img/course5.jpg';
+import course6 from '../img/course6.jpg';
 
 export const courses = [
   {
     id: 1,
     title: 'Long Navigation And Direction',
     description: 'Learn the basics of navigation and direction',
-    imageUrl: 'src/img/course1.jpg',
+    imageUrl: course1,
     progress: 75,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
@@ -24,7 +30,7 @@ export const courses = [
     id: 2,
     title: 'Long Navigation Foreign',
     description: 'Learn the basics of long navigation in foreing languages',
-    imageUrl: 'src/img/course2.jpg',
+    imageUrl: course2,
     progress: 45,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
@@ -40,7 +46,7 @@ export const courses = [
     id: 3,
     title: 'Assistant Commandant Course',
     description: 'Learn the basics assistant commandant course',
-    imageUrl: 'src/img/course4.jpg',
+    imageUrl: course3,
     progress: 30,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
@@ -56,7 +62,7 @@ export const courses = [
     id: 4,
     title: 'SLT x Tech Courses ',
     description: 'Learn the basics of SLT x Tech courses',
-    imageUrl: 'src/img/course3.jpg',
+    imageUrl: course4,
     progress: 60,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
@@ -73,7 +79,7 @@ export const courses = [
     id: 5,
     title: 'PO "Q" Courses',
     description: 'Learn the basics PO "Q" course',
-    imageUrl: 'src/img/course5.jpg',
+    imageUrl: course5,
     progress: 45,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
@@ -89,7 +95,7 @@ export const courses = [
     id: 6,
     title: 'Leading Course',
     description: 'Learn the basics of leading course',
-    imageUrl: 'src/img/course6.jpg',
+    imageUrl: course6,
     progress: 0,
     instructor: 'Capt. Singh',
     duration: '12 weeks',
