@@ -26,7 +26,7 @@ export function CourseDetailsPage() {
         <div className="bg-white shadow rounded-lg overflow-hidden">
           <div className="relative h-64">
             <img
-              src={`/${course.imageUrl}`}
+              src={`${course.imageUrl}`}
               alt={course.title}
               className="w-full h-full object-cover"
             />
