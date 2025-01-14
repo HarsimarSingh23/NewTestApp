@@ -1,10 +1,13 @@
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { courses } from './CoursesPage';
+import { ImageCarousel } from '../components/ImageCarousel';
 
 export function CourseDetailsPage() {
   const { courseId } = useParams();
   const navigate = useNavigate();
+  const [showCarousel, setShowCarousel] = useState(false);
 
   const course = courses.find((c) => c.id === Number(courseId));
 
@@ -14,7 +17,9 @@ export function CourseDetailsPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      {showCarousel && <ImageCarousel onClose={() => setShowCarousel(false)} />}
+
+      <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ${showCarousel ? 'hidden' : ''}`}>
         <button
           onClick={() => navigate('/courses')}
           className="flex items-center text-indigo-600 mb-6"
@@ -77,9 +82,15 @@ export function CourseDetailsPage() {
                 </div>
               </div>
             </div>
+            <button
+              onClick={() => setShowCarousel(true)}
+              className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded"
+            >
+              View Course Images
+            </button>
           </div>
         </div>
       </div>
     </div>
   );
-} 
+}
