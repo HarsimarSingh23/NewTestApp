@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, BookOpen } from 'lucide-react';
 import { courses } from './CoursesPage';
 import { ImageCarousel } from '../components/ImageCarousel';
+import { ContentWindow } from '../components/CourseContentWindow';
 
 export function CourseDetailsPage() {
   const { courseId } = useParams();
   const navigate = useNavigate();
   const [showCarousel, setShowCarousel] = useState(false);
+  const [showContent, setShowContent] = useState(false);
 
   const course = courses.find((c) => c.id === Number(courseId));
 
@@ -18,6 +20,7 @@ export function CourseDetailsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {showCarousel && <ImageCarousel onClose={() => setShowCarousel(false)} />}
+      <ContentWindow isOpen={showContent} onClose={() => setShowContent(false)} />
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ${showCarousel ? 'hidden' : ''}`}>
         <button
@@ -82,12 +85,21 @@ export function CourseDetailsPage() {
                 </div>
               </div>
             </div>
-            <button
-              onClick={() => setShowCarousel(true)}
-              className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded"
-            >
-              View Course Images
-            </button>
+            <div className="flex gap-4 mt-6">
+              <button
+                onClick={() => setShowCarousel(true)}
+                className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition-colors"
+              >
+                View Course Images
+              </button>
+              <button
+                onClick={() => setShowContent(true)}
+                className="flex items-center bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
+              >
+                <BookOpen className="h-5 w-5 mr-2" />
+                Open Course Content
+              </button>
+            </div>
           </div>
         </div>
       </div>

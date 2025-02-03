@@ -37,7 +37,6 @@ function App() {
           <Route path="/settings" element={<SettingsPage />} />
           <Route path="/assessment" element={<AssessmentPage />} />
           <Route path="/course/:courseId" element={<CourseDetailsPage />} />
-        
         </Route>
       </Routes>
     </Router>
