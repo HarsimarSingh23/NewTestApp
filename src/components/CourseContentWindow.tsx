@@ -1,71 +1,90 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 
-import page1Content from '../content/course/course1/page1.txt';
-import page2Content from '../content/course/course1/page2.txt';
-import page3Content from '../content/course/course1/page3.txt';
-
-// Map file numbers to their corresponding imported content
-const contentMap: { [key: number]: string } = {
-  1: page1Content,
-  2: page2Content,
-  3: page3Content,
-};
-
-function bytesToBase64(bytes) {
-  const binString = String.fromCodePoint(...bytes);
-  return btoa(binString);
-}
-
 interface ContentWindowProps {
   isOpen: boolean;
   onClose: () => void;
+  courseNumber: number;
 }
 
-export function ContentWindow({ isOpen, onClose }: ContentWindowProps) {
-  const [content, setContent] = useState('');
-  const [currentFile, setCurrentFile] = useState(1);
+export function ContentWindow({ 
+  isOpen, 
+  onClose, 
+  courseNumber, 
+}: ContentWindowProps) {
+  const [content, setContent] = useState<string[]>([]);
+  const [currentFile, setCurrentFile] = useState(0);
+  const [totalFiles, setTotalFiles] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
-  const totalFiles = 3;
+
+  const courseFileMap: { [key: number]: number } = {
+    1: 47,
+    2: 49,
+    3: 25,
+    4: 37,
+    5: 29,
+    6: 15,
+    7: 27,
+    8: 58,
+    9: 31,
+  };
 
   useEffect(() => {
-    loadContent(currentFile);
-  }, [currentFile]);
+    if (isOpen) {
+      loadAllContent(courseNumber);
+    }
+  }, [isOpen, courseNumber]);
 
-  const loadContent = (fileNumber: number) => {
+  const loadAllContent = async (courseNum: number) => {
     try {
-      // Get the content from the imported file
-      const text = contentMap[fileNumber];
-      if (text) {
-    
-        // Convert base64 to readable text
-        const base64Content = text.split(',')[1]; // Get the base64 part after the comma
-        const decodedContent = atob(base64Content); // Decode base64
-        
-        const unicodeString = new TextDecoder('utf-8').decode(new Uint8Array([...decodedContent].map(c => c.charCodeAt(0))));
+      setIsLoading(true);
+      setError('');
 
-        // Set the decoded content
-        setContent(unicodeString);
-      } else {
-        setContent('Content not found.');
+      const pages: string[] = [];
+      const totalFiles = courseFileMap[courseNum];
+      
+      if (!totalFiles) {
+        throw new Error('Course not found or no files available.');
       }
-    } catch (error) {
-      console.error('Error loading content:', error);
-      setContent('Error loading content. Please try again.');
+
+      for (let pageNumber = 1; pageNumber <= totalFiles; pageNumber++) {
+        const filePath = `/content/course/course${courseNum}/page${pageNumber}.txt`;
+        const response = await fetch(filePath);
+
+        if (!response.ok) {
+          console.warn(`File not found: ${filePath}`);
+          continue;
+        }
+
+        const text = await response.text();
+        pages.push(text);
+      }
+
+      if (pages.length === 0) {
+        throw new Error('No content found for this course.');
+      }
+
+      setContent(pages);
+      setTotalFiles(pages.length);
+      setCurrentFile(0);
+    } catch (err) {
+      console.error('Error loading content:', err);
+      setError('Content not found or failed to load.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
-
   const handleNext = () => {
-    if (currentFile < totalFiles) {
-      setCurrentFile(prev => prev + 1);
+    if (currentFile < totalFiles - 1) {
+      setCurrentFile(currentFile + 1);
     }
   };
 
   const handlePrevious = () => {
-    if (currentFile > 1) {
-      setCurrentFile(prev => prev - 1);
+    if (currentFile > 0) {
+      setCurrentFile(currentFile - 1);
     }
   };
 
@@ -74,7 +93,6 @@ export function ContentWindow({ isOpen, onClose }: ContentWindowProps) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white w-full max-w-4xl rounded-lg shadow-xl overflow-hidden">
-        {/* Banner Image */}
         <div className="relative h-48">
           <img
             src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -89,8 +107,8 @@ export function ContentWindow({ isOpen, onClose }: ContentWindowProps) {
           </button>
         </div>
 
-        {/* Content */}
-        <div className="p-6">
+        {/* Content Section with Scrollbar */}
+        <div className="p-6 h-96 overflow-y-auto">
           <div className="prose max-w-none">
             {isLoading ? (
               <div className="flex justify-center items-center py-8">
@@ -100,19 +118,19 @@ export function ContentWindow({ isOpen, onClose }: ContentWindowProps) {
               <div className="text-red-600 text-center py-8">{error}</div>
             ) : (
               <div className="whitespace-pre-wrap">
-                <p>{content}</p>
+                <p>{content[currentFile]}</p>
               </div>
             )}
           </div>
         </div>
 
-        {/* Navigation */}
+        {/* Navigation Section */}
         <div className="border-t border-gray-200 px-6 py-4 flex items-center justify-between bg-gray-50">
           <button
             onClick={handlePrevious}
-            disabled={currentFile === 1 || isLoading}
+            disabled={currentFile === 0 || isLoading}
             className={`flex items-center ${
-              currentFile === 1 || isLoading
+              currentFile === 0 || isLoading
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:text-indigo-700'
             }`}
@@ -121,13 +139,13 @@ export function ContentWindow({ isOpen, onClose }: ContentWindowProps) {
             Previous
           </button>
           <span className="text-sm text-gray-500">
-            Module {currentFile} of {totalFiles}
+            Page {currentFile + 1} of {totalFiles}
           </span>
           <button
             onClick={handleNext}
-            disabled={currentFile === totalFiles || isLoading}
+            disabled={currentFile === totalFiles - 1 || isLoading}
             className={`flex items-center ${
-              currentFile === totalFiles || isLoading
+              currentFile === totalFiles - 1 || isLoading
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:text-indigo-700'
             }`}

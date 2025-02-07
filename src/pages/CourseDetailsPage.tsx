@@ -10,6 +10,20 @@ export function CourseDetailsPage() {
   const navigate = useNavigate();
   const [showCarousel, setShowCarousel] = useState(false);
   const [showContent, setShowContent] = useState(false);
+  const [selectedContent, setSelectedContent] = useState({ courseNumber: 1, pageNumber: 1 });
+
+  // Mapping course names to numbers
+  const courseNameToNumber: { [key: string]: number } = {
+    "Part A General": 1,
+    "Part B : Steering and Sailing Rules - Section 1": 2,
+    "Part B : Steering and Sailing Rules - Section 1 (Contd.)": 3,
+    "Part B : Steering and Sailing Rules - Section 1  (Contd.)": 4,
+    "Part B : Steering and Sailing Rules - Section 2": 5,
+    "Part B : Steering and Sailing Rules - Section 3": 6,
+    "Part C: Lights and Shapes": 7,
+    "Part C: Lights and Shapes (Contd.)": 8,
+    "Part D: Sound and Light Signals": 9,
+  };
 
   const course = courses.find((c) => c.id === Number(courseId));
 
@@ -17,10 +31,20 @@ export function CourseDetailsPage() {
     return <div>Course not found</div>;
   }
 
+  const handleContentOpen = (courseName: string) => {
+    const courseNumber = courseNameToNumber[courseName];
+    setSelectedContent({ courseNumber, pageNumber: 1 });
+    setShowContent(true);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       {showCarousel && <ImageCarousel onClose={() => setShowCarousel(false)} />}
-      <ContentWindow isOpen={showContent} onClose={() => setShowContent(false)} />
+      <ContentWindow
+        isOpen={showContent}
+        onClose={() => setShowContent(false)}
+        courseNumber={selectedContent.courseNumber}
+      />
 
       <div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 ${showCarousel ? 'hidden' : ''}`}>
         <button
@@ -85,20 +109,19 @@ export function CourseDetailsPage() {
                 </div>
               </div>
             </div>
-            <div className="flex gap-4 mt-6">
-              <button
-                onClick={() => setShowCarousel(true)}
-                className="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition-colors"
-              >
-                View Course Images
-              </button>
-              <button
-                onClick={() => setShowContent(true)}
-                className="flex items-center bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors"
-              >
-                <BookOpen className="h-5 w-5 mr-2" />
-                Open Course Content
-              </button>
+
+            {/* Buttons for Course Content */}
+            <div className="mt-6 grid grid-cols-3 gap-4">
+              {Object.keys(courseNameToNumber).map((courseName) => (
+                <button
+                  key={courseName}
+                  onClick={() => handleContentOpen(courseName)}
+                  className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors flex items-center justify-center"
+                >
+                  <BookOpen className="h-5 w-5 mr-2" />
+                  {courseName}
+                </button>
+              ))}
             </div>
           </div>
         </div>
