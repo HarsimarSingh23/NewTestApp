@@ -19,7 +19,7 @@ export function ContentWindow({
   const [error, setError] = useState('');
 
   const courseFileMap: { [key: number]: number } = {
-    1: 47,
+    1: 42,
     2: 49,
     3: 25,
     4: 37,
@@ -88,7 +88,21 @@ export function ContentWindow({
     }
   };
 
+  const formatContent = (content: string) => {
+    if (!content) return { header: '', subheader: '', body: '' };
+    
+    const lines = content.split('\n');
+    const title = lines[0] || '';
+    const header = lines[1] || '';
+    const subheader = lines[2] || '';
+    const body = lines.slice(2).join('\n');
+    
+    return { title, header, subheader, body };
+  };
+
   if (!isOpen) return null;
+
+  const formattedContent = formatContent(content[currentFile]);
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -117,8 +131,19 @@ export function ContentWindow({
             ) : error ? (
               <div className="text-red-600 text-center py-8">{error}</div>
             ) : (
-              <div className="whitespace-pre-wrap">
-                <p>{content[currentFile]}</p>
+              <div className="space-y-4">
+                <h1 className="text-3xl font-bold text-gray-900">
+                  {formattedContent.title}
+                </h1>
+                <h1 className="text-3xl font-bold text-gray-900">
+                  {formattedContent.header}
+                </h1>
+                <h2 className="text-xl font-semibold text-gray-700">
+                  {formattedContent.subheader}
+                </h2>
+                <div className="whitespace-pre-wrap text-gray-600">
+                  {formattedContent.body}
+                </div>
               </div>
             )}
           </div>
@@ -158,3 +183,5 @@ export function ContentWindow({
     </div>
   );
 }
+
+export default ContentWindow;
