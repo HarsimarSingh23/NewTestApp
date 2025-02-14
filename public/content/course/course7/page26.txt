@@ -1,13 +1,12 @@
-Navigation Direction school.
-Les OF THE ROAD.
-Lights and Shapes.
-Rule Twenty Four Towing and Pushing coned.
-Lights at Night.
-Click for Rule.
-The lights visible at night are as follows.
-Tug m Tow m.
-Tug m Tow m.
-W.
-Tug m Tow m.
-Tug m Tow m.
-F.
+Rules of the road
+Lights and Shape
+
+Rule Twenty Four Towing and Pushing (contd.)
+
+Tug < 50m, Tow < 200m: The tugboat displays two masthead lights in a vertical line, with sidelights (green for starboard and red for port) and a sternlight. The tow exhibits a yellow towing light above the sternlight.
+
+Tug < 50m, Tow > 200m: The tugboat in this case has three masthead lights in a vertical line instead of two, indicating a longer tow. The side and stern lights remain the same, and the tow continues to show a yellow towing light above the sternlight.
+
+Tug > 50m, Tow < 200m: When the tug is longer than 50 meters but the tow is still under 200 meters, it follows the same lighting pattern as a smaller tug towing under 200 meters but with an additional masthead light positioned higher.
+
+Tug > 50m, Tow > 200m: For a larger tugboat with a tow exceeding 200 meters, it exhibits three masthead lights in a vertical line, sidelights, and a sternlight. The tow still shows a yellow towing light above the sternlight.

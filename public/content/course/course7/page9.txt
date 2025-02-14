@@ -1,43 +1,18 @@
-Navigation Direction school.
-Us OF THE ROAD.
-Lights and Shapes.
-Rule Twenty Two Visibility of Lights.
-Lights displayed on vessels have to be visible from a certain distance.
-Click for Rule.
-The table below gives the distances for.
-Vessels greater than meters in length.
-Vessels between and meters.
-Vessels less than meters long.
-For vessels M in length the ranges mentioned below is the range for the second masthead light.
-Placed aft and higher that the forward masthead light.
-Type of.
-Min Ranges.
-L M.
-L M.
-L M.
-No.
-No.
-No.
-No for M.
-Red Green.
-No.
-No.
-No.
-Stem light.
-No.
-No.
-No.
-No.
-No.
-No.
-All around.
-No.
-No.
-No.
-YellowBlue.
-No.
-No.
-No.
-Flashing lights as displayed on surfaced submarines and nondisplacement.
-Craft e. G. Hovercraft in the nondisplacement mode while underway stopped.
-Or in motion must flash at regular intervals at Hz.
+Rules of the road
+Lights and Shape
+
+Rule Twenty Two : Visibility of Lights.
+
+Lights displayed on vessels have to be visible from a certain distance
+
+The table below gives the distances for
+
+● Vessels greater than meters in length
+
+● Vessels between and meters
+
+● Vessels less than meters long
+
+1. For vessels M in length the ranges mentioned below is the range for the second masthead light placed aft and higher that the forward masthead light.
+
+Flashing lights as displayed on surfaced submarines and non-displacement craft (e.g. Hovercraft) in the non-displacement mode while underway stopped or in motion must flash at regular intervals at Hz.

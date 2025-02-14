@@ -1,15 +1,10 @@
-Macromedia Flash Player.
-Navigation Direction school.
-LES OF THE ROAD.
-Steering and Sailing Rules Section One coned.
-Rule Seven Risk of Collision coned.
+Rules of the road
+Steering and Sailing Rules - Section One
+
+Rule Seven Risk of Collision (contd.)
+
 Assumptions on Scanty Information.
-Risk of collision should be determined by multiple and successive observations taken as accurately as.
-Possible. The following table gives the change of bearing for each change of range of mile as a vessel.
-Approaches or recedes assuming that neither vessel alters course or speed.
-CHANGE OF BEARING WITH CHANGE OF RANGE.
-Range in nautical miles.
-O.
-O.
-Example. For closest approach of. Mile the change of bearing as the range decreases from.
-To miles.
+
+Risk of collision should be determined by multiple and successive observations taken as accurately as possible. 
+
+The following table gives the change of bearing for each change of range of mile as a vessel approaches or recedes assuming that neither vessel alters course or speed.
