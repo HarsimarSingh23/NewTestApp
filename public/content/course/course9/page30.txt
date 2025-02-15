@@ -1,27 +1,13 @@
-Navigation Direction school.
-Rules OF THE ROAD.
-Sound and Light Signal.
-Rule Thirty Eight Exemptions coned.
-New lights and shapes which are required to be carried by certain vessels.
-Click for Rule.
-Are listed below.
-Color of Light.
-Vessel characteristics and operations.
-Prescribed in.
-Yellow towing.
-Powerdriven vessel engaged in towing another.
-Rule air.
-Around flashing yellow.
-Pincushion vessels nondisplacement mode.
-Rule b.
-Powerdriven vessel engaged in difficult towing.
-All round red white red.
-Rule C.
-Two around red lights.
-Vessel engaged in dredging underwater.
-Rule d.
-Around green lights.
-Operations with an underwater obstruction.
-Rigid into. Code Flag A.
-Small vessel engaged in diving operations.
-Rule e.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Eight: Exemptions (contd.)
+New lights and shapes which are required to be carried by certain vessels are listed below :
+
+| Colour of Light                    | Vessel characteristics and operations                                           | Prescribed in     |
+|-------------------------------------|--------------------------------------------------------------------------------|-------------------|
+| Yellow towing                       | Power-driven vessel engaged in towing another                                 | Rule 24(a)(iv)   |
+| All-round flashing yellow           | Air-cushion vessels – non-displacement mode                                   | Rule 23(b)       |
+| All round red – white – red         | Power-driven vessel engaged in difficult towing operation                     | Rule 27(c)       |
+| Two all-round red lights / all-round green lights | Vessel engaged in dredging / underwater operations, with an underwater obstruction | Rule 27(d)       |
+| Rigid Intl. Code Flag ‘A’           | Small vessel engaged in diving operations                                     | Rule 27(e)       |

@@ -1,18 +1,15 @@
-Navigation Direction School.
-RULES OF THE ROAD.
-Sound and Light Signal.
-Rule Thirty Five Sound Signals in Restricted Visibility coned.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Five: Sound Signals in Restricted Visibility (contd.)
 This Rule deals with sound signals to be given in times of restricted visibility.
-Click for Rule.
-The following table gives the sound signals for various vessels in varied conditions.
-Status in restricted.
-Vessel characteristics.
-Sound Signal.
-Rapid ringing of the ships bell rapid beating of the gong and one short one prolonged.
-Powerdriven.
-And one short blast every minute.
-Three distinct strokes on the ships bell rapid ringing of the ships bell for seconds rapid.
-Sounding of the gong for seconds and three distinct strokes on the bell at the end.
-Powerdriven.
-One short one prolonged and one short blast may also be sounded.
-Signal U You are running into danger two short blasts followed by one long blast.
+
+The following table gives the sound signals for various vessels in varied conditions :
+
+
+| Vessel characteristics | Status in restricted visibility | Sound Signal |
+|------------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Power-driven          | Anchored                        | Rapid ringing of the ship’s bell, rapid beating of the gong and one short, one prolonged and one short blast; every minute.                                                   |
+| Power-driven          | Aground                         | Three distinct strokes on the ship’s bell, rapid ringing of the ship’s bell for 5 seconds, rapid sounding of the gong for 5 seconds and three distinct strokes on the bell at the end. |
+|                        |                                 | One short, one prolonged and one short blast may also be sounded.                                                                                                             |
+|                        |                                 | Signal U - You are running into danger: two short blasts followed by one long blast.                                                                                         |

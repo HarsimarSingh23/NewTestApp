@@ -1,20 +1,12 @@
-Navigation Direction school.
-Rules OF THE ROAD.
-Sound and Light Signal.
-Rule Thirty Five Sound Signals in Restricted Visibility coned.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Five: Sound Signals in Restricted Visibility (contd.)
 This Rule deals with sound signals to be given in times of restricted visibility.
-Click for Rule.
-The following table gives the sound signals for various vessels in varied conditions.
-Status in restricted.
-Vessel characteristics.
-Sound Signal.
-One prolonged blast sounded every two minutes.
-Engaged in pilotage.
-Pilot vessel.
-Two prolonged blasts with an interval of two seconds sounded every two minutes.
-An identity signal comprising four short blasts.
-Vessels powerdriven sailing between and meters need not give bell signals.
-Vessels powerdriven sailing less than meters long need not give any of the above prescribed.
-Sound signals.
-However both should give some effective sound signal every minutes as a warning.
-I.
+
+The following table gives the sound signals for various vessels in varied conditions :
+| Vessel characteristics | Status in restricted visibility   | Sound Signal                                                                                     |
+|------------------------|----------------------------------|------------------------------------------------------------------------------------------------|
+| Pilot vessel          | Engaged in pilotage duty        | One prolonged blast sounded every two minutes;                                                 |
+|                        |                                  | Two prolonged blasts with an interval of two seconds; sounded every two minutes;              |
+|                        |                                  | An identity signal comprising four short blasts.                                               |

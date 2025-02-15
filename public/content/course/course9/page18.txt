@@ -1,16 +1,13 @@
-Navigation Direction school.
-RULES OF THE ROAD.
-Sound and Light Signal.
-Rule Thirty Five Sound Signals in Restricted Visibility coned.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Five: Sound Signals in Restricted Visibility (contd.)
+
 This Rule deals with sound signals to be given in times of restricted visibility.
-Click for Rule.
-The following table gives the sound signals for various vessels in varied conditions.
-Status in restricted.
-Vessel characteristics.
-Sound Signal.
-Powerdriven sailing.
-Rapid ringing of the ships bell for five seconds every minute.
-Powerdriven sailing.
-Rapid ringing of the ships bell for five seconds every minute followed by the gong for.
-Length more than M.
-Te same period.
+
+The following table gives the sound signals for various vessels in varied conditions :
+
+| Vessel characteristics                       | Status in restricted visibility | Sound Signal                                                                                              |
+|----------------------------------------------|---------------------------------|-----------------------------------------------------------------------------------------------------------|
+| Power-driven / sailing                       | Anchored                        | Rapid ringing of the ship’s bell for five seconds every minute.                                           |
+| Power-driven / sailing length more than 100M | Anchored                        | Rapid ringing of the ship’s bell for five seconds every minute, followed by the gong for the same period  |

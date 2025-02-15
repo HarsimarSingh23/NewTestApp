@@ -1,43 +1,15 @@
-Navigation Direction school.
-Us OF THE ROAD.
-Lights and Shapes.
-Rule Twenty Two Visibility of Lights.
-Lights displayed on vessels have to be visible from a certain distance.
-Click for Rule.
-The table below gives the distances for.
-Vessels greater than meters in length.
-Vessels between and meters.
-Vessels less than meters long.
-For vessels M in length the ranges mentioned below is the range for the second masthead light.
-Placed aft and higher that the forward masthead light.
-Type of.
-Min Ranges.
-L M.
-L M.
-L M.
-No.
-No.
-No.
-No for M.
-Red Green.
-No.
-No.
-No.
-Stem light.
-No.
-No.
-No.
-No.
-No.
-No.
-All around.
-No.
-No.
-No.
-YellowBlue.
-No.
-No.
-No.
-Flashing lights as displayed on surfaced submarines and nondisplacement.
-Craft e. G. Hovercraft in the nondisplacement mode while underway stopped.
-Or in motion must flash at regular intervals at Hz.
+Rules of the road
+Lights and Shapes (contd.)
+
+Rule Twenty Six: Fishing Vessels (contd.)
+d. Vessels engaged in fishing in close proximity to one another must display
+
+the signals as per Annexure II to these Regulations. The requirements are :
+
+Signals for Trawlers
+
+Trawlers of 20 metres or more, using demersal or pelagic gear, shall exhibit :
+Condition - Signal to be exhibited
+when shooting a net - two white lights in a vertical line
+when hauling in nets - a white light over a red light in a vertical line
+when the net is obstructed - two red lights in a vertical line

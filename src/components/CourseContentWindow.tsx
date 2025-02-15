@@ -26,7 +26,7 @@ export function ContentWindow({
     5: 29,
     6: 15,
     7: 27,
-    8: 58,
+    8: 31,
     9: 31,
   };
 

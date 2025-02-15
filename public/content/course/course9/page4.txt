@@ -1,25 +1,25 @@
-Navigation Direction school.
-Us OF THE ROAD.
-Sound and Light Signal.
-Rule Thirty Three Equipment for Sound Signals coned.
-Annexure wii coned.
-Whistles.
-Click for subtle.
-C Sound signal intensity and range of audibility.
-The distance a whistle can be heard depends upon the frequency measured in Hertz or Hz and the.
-Loudness measured in decibels or dB. The following table gives more information.
-Length of vessel.
-Octave band level at mere.
-Audibility range in.
-In dB referred to x no.
-Meters.
-Nautical miles no.
-Or more.
-But less than.
-But less than.
-Less than.
-When the measured frequencies lie within the range Hz.
-When the measured frequencies lie within the range Hz.
-When the measured frequencies lie within the range Hz.
-The range within which a whistle may be heard depends upon the weather conditions.
-Prevailing at that time and the ambient noise prevailing at the listening post.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Three: Equipment for Sound Signals (contd.)
+Annexure III (contd.)
+1. Whistles
+
+(c) Sound signal intensity and range of audibility
+The distance a whistle can be heard depends upon the frequency (measured in Hertz or Hz) and the
+loudness (measured in decibels or dB). The following table gives more information :
+
+| Length of vessel (metres)   | 1/3rd-octave band level at 1 metre in dB referred to 2 × 10⁻⁵ N/m² | Audibility range in nautical miles (nm) |
+|-----------------------------|------------------------------------------------------------------|--------------------------------------|
+| 200 or more                 | 143                                                              | 2                                    |
+| 75 but less than 200        | 138                                                              | 1.5                                  |
+| 20 but less than 75         | 130                                                              | 1                                    |
+| Less than 200               | 120¹                                                             | 0.5                                  |
+|                             | 115²                                                             |                                      |
+|                             | 111³                                                             |                                      |
+
+
+*1 - When the measured frequencies lie within the range 180 - 450 Hz.
+*2 — When the measured frequencies lie within the range 450 — 800 Hz.
+*3 – When the measured frequencies lie within the range 800 – 2100 Hz.
+The range within which a whistle may be heard depends upon the weather conditions prevailing at that time and the ambient noise prevailing at the listening post.

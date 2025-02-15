@@ -1,20 +1,19 @@
-Navigation Direction School.
-RULES OF THE ROAD.
-Sound and Light Signals.
-Rule Thirty Three Equipment for Sound Signals coned.
-Technical details of sound signal appliances are given in Annexure wii to the rips.
-Annexure wii.
-Whistles.
-Click for Sound.
-A Frequencies range.
-The main frequency of a ships whistle must be within.
-And Hz.
-The frequency range for a vessel of meters or.
-Larger is to Hz.
-The frequency range for a vessel of less than meters.
-Is between and Hz.
+RULES OF THE ROAD
+Sound and Light Signal
+
+Rule Thirty Three: Equipment for Sound Signals (contd.)
+
+Technical details of sound signal appliances are given in Annexure III to the IRPCS.
+Annexure III
+1. Whistles
+
+(a) Frequencies & range
+The main frequency of a ship's whistle must be within 70 and 700 Hz.
+The frequency range for a vessel of 20 metres or larger is 180 to 700 Hz.
+The frequency range for a vessel of less than 20 metres is between 180 and 2100 Hz.
 The range of audibility is determined by these frequencies.
-B Limits of fundamental frequencies.
-For vessels of meters or more in length between and Hz.
-For vessels between meters and meters long between and Hz.
-For vessels sized below meters between and Hz.
+
+(b) Limits of fundamental frequencies
+For vessels of 200 metres or more in length – between 70 and 200 Hz.
+For vessels between 75 metres and 200 metres long — between 130 and 350 Hz.
+For vessels sized below 75 metres – between 250 and 700 Hz.
