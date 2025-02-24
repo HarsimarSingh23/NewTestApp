@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useAuthStore } from '../store/authStore';
 import { useNavigate } from 'react-router-dom';
 import { LogOut, PenSquare } from 'lucide-react';
-import MCQTest from '../components/mcqtest';
+import MCQTest from '../components/McqTest';
 
 interface TestResult {
   testTitle: string;
