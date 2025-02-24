@@ -11,111 +11,215 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "What is the primary purpose of a ship's compass?",
+    question: "What does continuous sounding of fog signaling apparatus mean?",
     options: [
-      "To measure water depth",
-      "To determine direction",
-      "To calculate speed",
-      "To predict weather"
+      "Vessel is in distress and requires immediate assistance",
+      "Vessel is approaching dangerous weather",
+      "Vessel is stopping engines",
+      "Vessel is changing course"
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 2,
+    question: "What does it indicate when a vessel in bad visibility sounds signal 'GU'?",
+    options: [
+      "Vessel is not under command",
+      "Vessel is requesting pilot",
+      "Vessel is towing another vessel",
+      "Vessel is turning to starboard"
     ],
     correctAnswer: 1
   },
   {
-    id: 2,
-    question: "Which of these is NOT a cardinal direction?",
-    options: [
-      "North",
-      "Southeast",
-      "Northwest-east",
-      "Southwest"
-    ],
-    correctAnswer: 2
-  },
-  {
     id: 3,
-    question: "What does GPS stand for?",
+    question: "Where are the anchor lights of an aircraft carrier positioned?",
     options: [
-      "Global Positioning System",
-      "Geographic Place Search",
-      "General Position Satellite",
-      "Global Path System"
+      "Forward and aft of the flight deck",
+      "At the highest point of the superstructure",
+      "On the bow and stern",
+      "At the fore and aft ends of the island structure"
     ],
     correctAnswer: 0
   },
   {
     id: 4,
-    question: "Which celestial body is most commonly used for celestial navigation?",
+    question: "A vessel flying Inter-co group NE 2 indicates:",
     options: [
-      "Mars",
-      "Venus",
-      "The Sun",
-      "Polaris (North Star)"
+      "Vessel is changing course to port",
+      "Vessel requires medical assistance",
+      "Vessel's engines are broken down",
+      "Vessel requires immediate assistance"
     ],
-    correctAnswer: 3
+    correctAnswer: 2
   },
   {
     id: 5,
-    question: "What is a nautical mile equal to?",
+    question: "What is the luminous range of a submarine's NUC light?",
     options: [
-      "1.852 kilometers",
-      "1 kilometer",
-      "1 mile",
-      "1.5 kilometers"
+      "2 nautical miles",
+      "3 nautical miles",
+      "4 nautical miles",
+      "5 nautical miles"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 6,
+    question: "How much clearance should you give to a vessel engaged in seismic survey?",
+    options: [
+      "1 nautical mile",
+      "2 nautical miles",
+      "3 nautical miles",
+      "5 nautical miles"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 7,
+    question: "When two vessels are approaching one another at different ports in a tidal river, which vessel should wait?",
+    options: [
+      "The vessel with tide against her",
+      "The vessel with tide in her favor",
+      "The larger vessel",
+      "The vessel on the port side"
     ],
     correctAnswer: 0
   },
   {
-    id: 6,
-    question: "What is the purpose of a sextant?",
-    options: [
-      "Measure wind speed",
-      "Calculate celestial angles",
-      "Determine water depth",
-      "Monitor weather patterns"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 7,
-    question: "Which navigation chart scale provides the most detail?",
-    options: [
-      "1:1,000,000",
-      "1:100,000",
-      "1:10,000",
-      "1:1,000"
-    ],
-    correctAnswer: 3
-  },
-  {
     id: 8,
-    question: "What is dead reckoning?",
+    question: "A submarine flashing amber light indicates:",
     options: [
-      "Navigation without instruments",
-      "Calculating position based on previous position and movement",
-      "Using depth soundings for navigation",
-      "Navigation during nighttime"
+      "Preparing to surface",
+      "Emergency condition",
+      "Request for assistance",
+      "Diving operations in progress"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 9,
-    question: "What color is typically used for safe water marks on navigation charts?",
+    question: "A vessel using an anchor light to turn is said to be underway. Is this statement true or false?",
     options: [
-      "Red",
-      "Green",
-      "Yellow",
-      "Red and White"
+      "True",
+      "False"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 10,
+    question: "Does the narrow channel rule apply to lanes of TSS although such lanes may be relatively narrow?",
+    options: [
+      "Yes, always",
+      "No, never",
+      "Only during daylight hours",
+      "Only in heavy traffic"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 11,
+    question: "When is fishing permitted in a narrow channel?",
+    options: [
+      "Never permitted",
+      "Only during daylight hours",
+      "When it does not impede passage of vessels that can safely navigate only within the channel",
+      "Only during slack water"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 12,
+    question: "Is anchoring permitted in narrow channels and traffic separation schemes?",
+    options: [
+      "Yes, always permitted",
+      "No, never permitted",
+      "Only in emergencies or with proper authorization",
+      "Only during daylight hours"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 13,
+    question: "Which vessels are exempted from entering traffic separation zones?",
+    options: [
+      "Only fishing vessels",
+      "Only military vessels",
+      "No vessels are exempted",
+      "Vessels less than 20 meters"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 14,
+    question: "When is a vessel permitted to enter or cross a traffic separation zone?",
+    options: [
+      "In cases of emergency to avoid immediate danger",
+      "During daylight hours only",
+      "When traffic is light",
+      "When visibility is good"
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 15,
+    question: "What factors should you consider when overtaking in a narrow channel?",
+    options: [
+      "Only vessel speed",
+      "Only water depth",
+      "Only traffic density",
+      "All factors including vessel speed, water depth, traffic density, and channel characteristics"
     ],
     correctAnswer: 3
   },
   {
-    id: 10,
-    question: "Which type of chart projection is most commonly used for marine navigation?",
+    id: 16,
+    question: "Who has the right of way: a NUC vessel overtaking a power-driven vessel?",
     options: [
-      "Mercator",
-      "Gnomonic",
-      "Lambert",
-      "Azimuthal"
+      "The NUC vessel",
+      "The power-driven vessel",
+      "The faster vessel",
+      "The vessel with more maneuverability"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 17,
+    question: "A vessel constrained by her draught is expected to keep out of the way of a power-driven vessel crossing from her starboard side so as to involve risk of collision. True or False?",
+    options: [
+      "True",
+      "False"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 18,
+    question: "What should be the fundamental frequency range and audibility of a ship's sound signaling apparatus?",
+    options: [
+      "70-200Hz, 1 nautical mile",
+      "130-350Hz, 1.5 nautical miles",
+      "70-700Hz, 2 nautical miles",
+      "200-800Hz, 2.5 nautical miles"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 19,
+    question: "Hovercraft/hydrofoils are classified as seaplanes even when operating in the non-displacement mode. True or False?",
+    options: [
+      "True",
+      "False"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 20,
+    question: "Why do air cushion vessels operating in non-displacement mode exhibit an all-round flashing yellow light in addition to the lights prescribed for power-driven vessels underway?",
+    options: [
+      "To indicate their unique operating mode and unusual maneuvering characteristics",
+      "To show they are restricted in maneuverability",
+      "To indicate they are engaged in special operations",
+      "To show they are operating at high speed"
     ],
     correctAnswer: 0
   }
@@ -240,7 +344,7 @@ const MCQTest: React.FC<MCQTestProps> = ({ onClose }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white rounded-lg p-8 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-6">Navigation Knowledge Test</h2>
+        <h2 className="text-2xl font-bold mb-6">Maritime Navigation and Regulations Test</h2>
         <div className="space-y-6">
           {questions.map((question, questionIndex) => (
             <div key={question.id} className="border rounded-lg p-4">
