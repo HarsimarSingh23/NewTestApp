@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useAuthStore } from '../store/authStore';
 import { useNavigate } from 'react-router-dom';
-import { LogOut } from 'lucide-react';
+import { LogOut, PenSquare } from 'lucide-react';
+import MCQTest from '../components/mcqtest';
 
 interface TestResult {
   testTitle: string;
@@ -19,6 +20,7 @@ interface CourseAssessment {
 const Assessment: React.FC = () => {
   const { user, logout } = useAuthStore();
   const navigate = useNavigate();
+  const [showTest, setShowTest] = useState(false);
 
   const handleLogout = () => {
     logout();
@@ -67,6 +69,13 @@ const Assessment: React.FC = () => {
           <div className="flex justify-between items-center">
             <h1 className="text-3xl font-bold text-gray-900">Course Assessments</h1>
             <div className="flex items-center space-x-4">
+              <button
+                onClick={() => setShowTest(true)}
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              >
+                <PenSquare className="h-4 w-4 mr-2" />
+                Take New Test
+              </button>
               <span className="text-gray-700">Welcome, {user?.name}</span>
               <button
                 onClick={handleLogout}
@@ -124,6 +133,8 @@ const Assessment: React.FC = () => {
           ))}
         </div>
       </main>
+
+      {showTest && <MCQTest onClose={() => setShowTest(false)} />}
     </div>
   );
 };
