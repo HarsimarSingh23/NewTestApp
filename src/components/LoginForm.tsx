@@ -22,7 +22,7 @@ export function LoginForm() {
         navigate('/dashboard');
         
       } else {
-        setError('Invalid credentials. Use admin@gmail.com / admin');
+        setError('Invalid credentials');
       }
     } catch (error) {
       setError('An error occurred. Please try again.');
@@ -63,7 +63,7 @@ export function LoginForm() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
-                placeholder="admin@gmail.com"
+                placeholder="Enter Email"
               />
             </div>
           </div>
@@ -83,7 +83,7 @@ export function LoginForm() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
-                placeholder="admin"
+                placeholder="Enter Password"
               />
             </div>
           </div>

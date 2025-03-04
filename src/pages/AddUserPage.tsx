@@ -59,6 +59,7 @@ export function AddUserPage() {
     }
 
     if (adminPassword !== ADMIN_PASSWORD) {
+      console.log("value of adminpassword is ", adminPassword)
       setMessage('Invalid admin password. Access denied.');
       setIsError(true);
       return;
