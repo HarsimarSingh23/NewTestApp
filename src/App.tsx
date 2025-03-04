@@ -11,6 +11,7 @@ import { SettingsPage } from './pages/SettingsPage';
 import { useAuthStore } from './store/authStore';
 import { CourseDetailsPage } from './pages/CourseDetailsPage';
 import AssessmentPage from './pages/Assessment';
+import { AddUserPage } from './pages/AddUserPage';
 
 function PrivateRoute({ children }: { children: React.ReactNode }) {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
@@ -22,6 +23,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<LoginPage />} />
+        <Route path="/add-user" element={<AddUserPage />} />
+        
         <Route
           element={
             <PrivateRoute>

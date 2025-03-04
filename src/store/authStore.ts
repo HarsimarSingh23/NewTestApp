@@ -1,5 +1,12 @@
 import { create } from 'zustand';
-import { User } from '../types/auth';
+import { supabase } from '../backend/supabaseClient';
+import bcrypt from 'bcryptjs';
+
+interface User {
+  id: string;
+  email: string;
+  name: string;
+}
 
 interface AuthState {
   user: User | null;
@@ -11,25 +18,49 @@ interface AuthState {
 export const useAuthStore = create<AuthState>((set) => ({
   user: null,
   isAuthenticated: false,
-  login: async (email: string, password: string) => {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+  login: async (email, password) => {
     
-    // Check credentials
-    if (email === 'admin@gmail.com' && password === 'admin') {
-      set({
-        user: {
-          id: '1',
-          email,
-          name: 'Singh',
-        },
-        isAuthenticated: true,
-      });
-      return true;
+    const { data: userData, error: userError } = await supabase
+      .from('users')
+      .select('password_hash')
+      .eq('email', email)
+      .single();
+
+    if (userError || !userData) {
+      console.error('User not found:', userError);
+      return false;
     }
-    return false;
+
+
+    const isPasswordCorrect = await bcrypt.compare(password, userData.password_hash);
+
+    if (!isPasswordCorrect) {
+      console.error('Invalid password');
+      return false;
+    }
+
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+    
+    if (error) {
+      console.error('Login Error:', error.message);
+      return false;
+    }
+
+    set({ 
+      user: { 
+        id: data.user?.id, 
+        email: data.user?.email || '', 
+        name: '' 
+      }, 
+      isAuthenticated: true 
+    });
+
+    return true;
   },
-  logout: () => {
+
+  logout: async () => {
+    await supabase.auth.signOut();
     set({ user: null, isAuthenticated: false });
   },
 }));

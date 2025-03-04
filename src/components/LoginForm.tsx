@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Lock, Mail } from 'lucide-react';
+import { Lock, Mail, Plus } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 
 export function LoginForm() {
@@ -15,11 +15,12 @@ export function LoginForm() {
     e.preventDefault();
     setError('');
     setIsLoading(true);
-    
+
     try {
       const success = await login(email, password);
       if (success) {
         navigate('/dashboard');
+        
       } else {
         setError('Invalid credentials. Use admin@gmail.com / admin');
       }
@@ -32,11 +33,14 @@ export function LoginForm() {
 
   return (
     <div className="w-full max-w-md space-y-8 p-8 bg-white rounded-xl shadow-lg">
+      {/* Header */}
       <div className="text-center">
         <h2 className="text-3xl font-bold text-gray-900">Welcome back</h2>
         <p className="mt-2 text-sm text-gray-600">Please sign in to your account</p>
       </div>
-      <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
+
+      {/* Login Form */}
+      <form className="mt-4 space-y-6" onSubmit={handleSubmit}>
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-lg text-sm">
             {error}
@@ -85,6 +89,7 @@ export function LoginForm() {
           </div>
         </div>
 
+        {/* Sign In Button */}
         <button
           type="submit"
           disabled={isLoading}
@@ -93,6 +98,14 @@ export function LoginForm() {
           {isLoading ? 'Signing in...' : 'Sign in'}
         </button>
       </form>
+
+      <button
+        onClick={() => navigate('/add-user')}
+        className="w-full mt-4 flex items-center justify-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
+      >
+        <Plus className="w-5 h-5" />
+        Create a New User
+      </button>
     </div>
   );
 }
