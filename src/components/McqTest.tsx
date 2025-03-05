@@ -1,395 +1,277 @@
-import React, { useState } from 'react';
-import { CheckCircle, XCircle, X } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { supabase } from '../backend/supabaseClient';
+import { useAuthStore } from '../store/authStore';
 
+// Interfaces for Questions and Test
 interface Question {
-  id: number;
-  question: string;
+  id: string;
+  test_id: string;
+  question_text: string;
+  marks: number;
   options: string[];
-  correctAnswer: number;
+  correct_answer: string;
 }
 
-const questions: Question[] = [
-  {
-    id: 1,
-    question: "What does continuous sounding of fog signaling apparatus mean?",
-    options: [
-      "Vessel is in distress and requires immediate assistance",
-      "Vessel is approaching dangerous weather",
-      "Vessel is stopping engines",
-      "Vessel is changing course"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 2,
-    question: "What does it indicate when a vessel in bad visibility sounds signal 'GU'?",
-    options: [
-      "Vessel is not under command",
-      "Vessel is requesting pilot",
-      "Vessel is towing another vessel",
-      "Vessel is turning to starboard"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 3,
-    question: "Where are the anchor lights of an aircraft carrier positioned?",
-    options: [
-      "Forward and aft of the flight deck",
-      "At the highest point of the superstructure",
-      "On the bow and stern",
-      "At the fore and aft ends of the island structure"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 4,
-    question: "A vessel flying Inter-co group NE 2 indicates:",
-    options: [
-      "Vessel is changing course to port",
-      "Vessel requires medical assistance",
-      "Vessel's engines are broken down",
-      "Vessel requires immediate assistance"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 5,
-    question: "What is the luminous range of a submarine's NUC light?",
-    options: [
-      "2 nautical miles",
-      "3 nautical miles",
-      "4 nautical miles",
-      "5 nautical miles"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 6,
-    question: "How much clearance should you give to a vessel engaged in seismic survey?",
-    options: [
-      "1 nautical mile",
-      "2 nautical miles",
-      "3 nautical miles",
-      "5 nautical miles"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 7,
-    question: "When two vessels are approaching one another at different ports in a tidal river, which vessel should wait?",
-    options: [
-      "The vessel with tide against her",
-      "The vessel with tide in her favor",
-      "The larger vessel",
-      "The vessel on the port side"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 8,
-    question: "A submarine flashing amber light indicates:",
-    options: [
-      "Preparing to surface",
-      "Emergency condition",
-      "Request for assistance",
-      "Diving operations in progress"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 9,
-    question: "A vessel using an anchor light to turn is said to be underway. Is this statement true or false?",
-    options: [
-      "True",
-      "False"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 10,
-    question: "Does the narrow channel rule apply to lanes of TSS although such lanes may be relatively narrow?",
-    options: [
-      "Yes, always",
-      "No, never",
-      "Only during daylight hours",
-      "Only in heavy traffic"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 11,
-    question: "When is fishing permitted in a narrow channel?",
-    options: [
-      "Never permitted",
-      "Only during daylight hours",
-      "When it does not impede passage of vessels that can safely navigate only within the channel",
-      "Only during slack water"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 12,
-    question: "Is anchoring permitted in narrow channels and traffic separation schemes?",
-    options: [
-      "Yes, always permitted",
-      "No, never permitted",
-      "Only in emergencies or with proper authorization",
-      "Only during daylight hours"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 13,
-    question: "Which vessels are exempted from entering traffic separation zones?",
-    options: [
-      "Only fishing vessels",
-      "Only military vessels",
-      "No vessels are exempted",
-      "Vessels less than 20 meters"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 14,
-    question: "When is a vessel permitted to enter or cross a traffic separation zone?",
-    options: [
-      "In cases of emergency to avoid immediate danger",
-      "During daylight hours only",
-      "When traffic is light",
-      "When visibility is good"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 15,
-    question: "What factors should you consider when overtaking in a narrow channel?",
-    options: [
-      "Only vessel speed",
-      "Only water depth",
-      "Only traffic density",
-      "All factors including vessel speed, water depth, traffic density, and channel characteristics"
-    ],
-    correctAnswer: 3
-  },
-  {
-    id: 16,
-    question: "Who has the right of way: a NUC vessel overtaking a power-driven vessel?",
-    options: [
-      "The NUC vessel",
-      "The power-driven vessel",
-      "The faster vessel",
-      "The vessel with more maneuverability"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 17,
-    question: "A vessel constrained by her draught is expected to keep out of the way of a power-driven vessel crossing from her starboard side so as to involve risk of collision. True or False?",
-    options: [
-      "True",
-      "False"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 18,
-    question: "What should be the fundamental frequency range and audibility of a ship's sound signaling apparatus?",
-    options: [
-      "70-200Hz, 1 nautical mile",
-      "130-350Hz, 1.5 nautical miles",
-      "70-700Hz, 2 nautical miles",
-      "200-800Hz, 2.5 nautical miles"
-    ],
-    correctAnswer: 2
-  },
-  {
-    id: 19,
-    question: "Hovercraft/hydrofoils are classified as seaplanes even when operating in the non-displacement mode. True or False?",
-    options: [
-      "True",
-      "False"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 20,
-    question: "Why do air cushion vessels operating in non-displacement mode exhibit an all-round flashing yellow light in addition to the lights prescribed for power-driven vessels underway?",
-    options: [
-      "To indicate their unique operating mode and unusual maneuvering characteristics",
-      "To show they are restricted in maneuverability",
-      "To indicate they are engaged in special operations",
-      "To show they are operating at high speed"
-    ],
-    correctAnswer: 0
-  }
-];
+interface Test {
+  id: string;
+  title: string;
+  course_id: string;
+  total_marks: number;
+  passing_marks: number;
+  is_retestable: boolean;
+}
 
 interface MCQTestProps {
+  test: Test;
   onClose: () => void;
+  onTestComplete: () => void;
 }
 
-const MCQTest: React.FC<MCQTestProps> = ({ onClose }) => {
-  const [currentAnswers, setCurrentAnswers] = useState<number[]>(new Array(questions.length).fill(-1));
-  const [showResults, setShowResults] = useState(false);
-  const [score, setScore] = useState(0);
-  const [showBanner, setShowBanner] = useState(false);
+const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
+  const { user } = useAuthStore();
+  
+  // State management
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [selectedAnswers, setSelectedAnswers] = useState<{[key: string]: string}>({});
+  const [timeRemaining, setTimeRemaining] = useState(0);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [showResult, setShowResult] = useState(false);
+  const [testResult, setTestResult] = useState<{ marks: number; totalMarks: number; result: string } | null>(null);
 
-  const handleAnswerSelect = (questionIndex: number, answerIndex: number) => {
-    const newAnswers = [...currentAnswers];
-    newAnswers[questionIndex] = answerIndex;
-    setCurrentAnswers(newAnswers);
+  // Fetch questions and initialize timer
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      try {
+        const { data, error } = await supabase
+          .from('questions')
+          .select('*')
+          .eq('test_id', test.id);
+
+        if (error) throw error;
+        
+        const questionsList = data || [];
+        
+        setQuestions(questionsList);
+        // Set timer based on number of questions (1 minute per question)
+        setTimeRemaining(questionsList.length * 60);
+
+      } catch (err) {
+        console.error('Error fetching questions:', err);
+      }
+    };
+
+    fetchQuestions();
+
+  }, [test.id]);
+
+  // Timer logic
+  useEffect(() => {
+    if (!showResult && timeRemaining > 0) {
+      const timer = setInterval(() => {
+        setTimeRemaining(prev => {
+          if (prev <= 1) {
+            clearInterval(timer);
+            handleSubmitTest();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+
+      return () => clearInterval(timer);
+    }
+  }, [timeRemaining, showResult]);
+
+  // Handle answer selection
+  const handleAnswerSelect = (questionId: string, selectedOption: string) => {
+    setSelectedAnswers(prev => ({
+      ...prev,
+      [questionId]: selectedOption
+    }));
   };
 
-  const calculateResults = () => {
-    const correctAnswers = currentAnswers.reduce((acc, answer, index) => {
-      return acc + (answer === questions[index].correctAnswer ? 1 : 0);
-    }, 0);
-    setScore(correctAnswers);
-    setShowResults(true);
-    setShowBanner(true);
+  // Calculate test results
+  const calculateTestResults = useCallback(() => {
+    
+    let correctAnswers = 0;
+    let totalMarks = 0; 
+    console.log("questions", questions)
+    console.log("selected answers", selectedAnswers)
+    questions.forEach(question => {
+      
+      if (selectedAnswers[question.id] === question.correct_answer) {
+        correctAnswers += question.marks;
+      }
+
+      totalMarks += question.marks;
+
+    });
+
+    const marks = correctAnswers;
+    const result = marks >= test.passing_marks ? 'Pass' : 'Fail';
+    console.log("marks, total marks, result", marks, totalMarks, result)
+
+    return { marks, totalMarks, result };
+  }, [questions, selectedAnswers, test.passing_marks]);
+
+  // Submit test results to Supabase
+  const handleSubmitTest = async () => {
+    
+    if (isSubmitting) return;
+    
+    setIsSubmitting(true);
+
+    try {
+      
+      const results = calculateTestResults();
+
+      setTestResult(results);
+      setShowResult(true);
+
+
+      console.log("test results ", results)
+
+      // Insert test result
+      const { error: resultError } = await supabase
+        .from('test_results')
+        .insert({
+          user_id: user?.id,
+          test_id: test.id,
+          test_title: test.title,
+          course_id: test.course_id,
+          marks: results.marks,
+          total_marks: results.totalMarks,
+          result: results.result,
+          is_retestable: test.is_retestable
+        });
+
+      console.log("result error", resultError)
+
+      if (resultError) throw resultError;
+
+    } catch (err) {
+      console.error('Error submitting test:', err);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
-  const isTestComplete = currentAnswers.every(answer => answer !== -1);
-  const percentage = (score / questions.length) * 100;
-  const isPassing = percentage >= 70;
-
-  const handleBack = () => {
-    setShowResults(false);
-    setCurrentAnswers(new Array(questions.length).fill(-1));
-    setScore(0);
-    setShowBanner(false);
+  // Handle closing after showing results
+  const handleClose = () => {
+    onTestComplete();
+    onClose();
   };
 
-  const ResultBanner = () => {
-    if (!showBanner) return null;
+  // Render test results
+  const renderResults = () => {
+    if (!testResult) return null;
 
     return (
-      <div className={`fixed top-4 left-1/2 transform -translate-x-1/2 z-50 ${isPassing ? 'bg-green-100' : 'bg-red-100'} rounded-lg p-4 shadow-lg max-w-md w-full flex items-center justify-between`}>
-        <div className="flex items-center">
-          {isPassing ? (
-            <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
-          ) : (
-            <XCircle className="h-6 w-6 text-red-600 mr-3" />
-          )}
-          <p className={`font-medium ${isPassing ? 'text-green-800' : 'text-red-800'}`}>
-            {isPassing
-              ? "Outstanding! You've passed with excellence!"
-              : "Unfortunately, you didn't meet the passing criteria. Keep practicing!"}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h2 className="text-2xl font-bold mb-4">Test Results</h2>
+        <div className="space-y-4">
+          <p className="text-lg">
+            Score: <span className="font-bold">{testResult.marks}/{testResult.totalMarks}</span>
           </p>
+          <p className="text-lg">
+            Result: {' '}
+            <span className={`font-bold ${testResult.result === 'Pass' ? 'text-green-600' : 'text-red-600'}`}>
+              {testResult.result}
+            </span>
+          </p>
+          <button
+            onClick={handleClose}
+            className="w-full px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition"
+          >
+            Return to Assessment Page
+          </button>
         </div>
-        <button
-          onClick={() => setShowBanner(false)}
-          className="ml-4 text-gray-400 hover:text-gray-600"
-        >
-          <X className="h-5 w-5" />
-        </button>
       </div>
     );
   };
 
-  if (showResults) {
+  // Render individual question
+  const renderQuestion = () => {
+    const currentQuestion = questions[currentQuestionIndex];
+
+    if (!currentQuestion) return null;
+
     return (
-      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-40">
-        <ResultBanner />
-        <div className="bg-white rounded-lg p-8 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
-          <h2 className="text-2xl font-bold mb-6">Test Results</h2>
-          <div className="mb-6">
-            <p className="text-xl mb-2">Your Score: {score} out of {questions.length}</p>
-            <p className="text-lg mb-4">Percentage: {percentage.toFixed(1)}%</p>
-            <div className="space-y-4">
-              {questions.map((question, index) => (
-                <div key={question.id} className="border rounded-lg p-4">
-                  <div className="flex items-start gap-2">
-                    {currentAnswers[index] === question.correctAnswer ? (
-                      <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
-                    ) : (
-                      <XCircle className="w-6 h-6 text-red-500 flex-shrink-0 mt-1" />
-                    )}
-                    <div>
-                      <p className="font-medium">{question.question}</p>
-                      <p className="text-sm mt-1">
-                        Your answer: {question.options[currentAnswers[index]]}
-                      </p>
-                      {currentAnswers[index] !== question.correctAnswer && (
-                        <p className="text-sm text-green-600 mt-1">
-                          Correct answer: {question.options[question.correctAnswer]}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-xl font-semibold">
+            Question {currentQuestionIndex + 1} of {questions.length}
+          </h2>
+          <div className="text-red-500 font-bold">
+            Time Left: {Math.floor(timeRemaining / 60)}:
+            {timeRemaining % 60 < 10 ? '0' : ''}{timeRemaining % 60}
           </div>
-          <div className="flex justify-between">
+        </div>
+
+        <p className="mb-4 text-gray-800">{currentQuestion.question_text}</p>
+
+        <div className="space-y-3">
+          {currentQuestion.options.map((option, index) => (
             <button
-              onClick={handleBack}
-              className="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700"
+              key={index}
+              onClick={() => handleAnswerSelect(currentQuestion.id, option)}
+              className={`w-full text-left p-3 rounded-md border ${
+                selectedAnswers[currentQuestion.id] === option
+                  ? 'bg-blue-100 border-blue-500'
+                  : 'bg-gray-100 border-gray-300'
+              } hover:bg-gray-200 transition`}
             >
-              Back to Test
+              {option}
             </button>
+          ))}
+        </div>
+
+        <div className="mt-6 flex justify-between">
+          {currentQuestionIndex > 0 && (
             <button
-              onClick={onClose}
-              className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
+              onClick={() => setCurrentQuestionIndex(prev => prev - 1)}
+              className="px-4 py-2 bg-gray-200 rounded-md"
             >
-              Close
+              Previous
             </button>
-          </div>
+          )}
+
+          {currentQuestionIndex < questions.length - 1 ? (
+            <button
+              onClick={() => setCurrentQuestionIndex(prev => prev + 1)}
+              className="px-4 py-2 bg-blue-600 text-white rounded-md ml-auto"
+            >
+              Next
+            </button>
+          ) : (
+            <button
+              onClick={handleSubmitTest}
+              className="px-4 py-2 bg-green-600 text-white rounded-md ml-auto"
+            >
+              Submit Test
+            </button>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  // Render loading state
+  if (questions.length === 0) {
+    return (
+      <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="bg-white p-6 rounded-lg">
+          <p>Loading test questions...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-8 max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-6">Maritime Navigation and Regulations Test</h2>
-        <div className="space-y-6">
-          {questions.map((question, questionIndex) => (
-            <div key={question.id} className="border rounded-lg p-4">
-              <p className="font-medium mb-3">
-                {questionIndex + 1}. {question.question}
-              </p>
-              <div className="space-y-2">
-                {question.options.map((option, optionIndex) => (
-                  <label
-                    key={optionIndex}
-                    className="flex items-center space-x-3 p-2 rounded hover:bg-gray-50 cursor-pointer"
-                  >
-                    <input
-                      type="radio"
-                      name={`question-${question.id}`}
-                      checked={currentAnswers[questionIndex] === optionIndex}
-                      onChange={() => handleAnswerSelect(questionIndex, optionIndex)}
-                      className="h-4 w-4 text-indigo-600 focus:ring-indigo-500"
-                    />
-                    <span>{option}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="mt-6 flex justify-between">
-          <button
-            onClick={onClose}
-            className="px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50"
-          >
-            Cancel
-          </button>
-          <button
-            onClick={calculateResults}
-            disabled={!isTestComplete}
-            className={`px-4 py-2 rounded-md text-white ${
-              isTestComplete
-                ? 'bg-indigo-600 hover:bg-indigo-700'
-                : 'bg-gray-400 cursor-not-allowed'
-            }`}
-          >
-            Submit Test
-          </button>
-        </div>
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
+      <div className="w-full max-w-2xl">
+        {showResult ? renderResults() : renderQuestion()}
       </div>
     </div>
   );

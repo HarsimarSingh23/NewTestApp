@@ -23,7 +23,7 @@ export const useAuthStore = create<AuthState>((set) => ({
     
     const { data: userData, error: userError } = await supabase
       .from('users')
-      .select('password_hash')
+      .select('password_hash, name, email')
       .eq('email', email)
       .single();
 
@@ -50,8 +50,8 @@ export const useAuthStore = create<AuthState>((set) => ({
     set({ 
       user: { 
         id: data.user?.id, 
-        email: data.user?.email || '', 
-        name: '' 
+        email: userData.email, 
+        name: userData.name 
       }, 
       isAuthenticated: true 
     });
