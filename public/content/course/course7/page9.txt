@@ -3,6 +3,37 @@ Lights and Shape
 
 Rule Twenty Two : Visibility of Lights.
 
+
+>>> Click to see rule
+
+The lights prescribed in these Rules shall have an intensity as specified in Section 8 of Annex I to these Regulations so as to be visible at the following minimum ranges :
+
+(a) In vessels of 50 meters or more in length:
+-- a masthead light, 6 miles;
+-- a sidelight, 3 miles;
+-- a stern light, 3 miles;
+-- a towing light, 3 miles;
+-- a white, red, green, or yellow all-round light, 3 miles;
+
+(b) In vessels of 12 meters or more in length but less than 50 meters in length:
+-- a masthead light, 5 miles; except that where the length of the vessel is less than 20 meters, 3 miles;
+-- a sidelight, 2 miles;
+-- a stern light, 2 miles;
+-- a towing light, 2 miles;
+-- a white, red, green or yellow all-round light, 2 miles;
+
+(c) In vessels of less than 12 meters in length:
+-- a masthead light, 2 miles;
+-- a sidelight, 1 mile;
+-- a stern light, 2 miles;
+-- a towing light, 2 miles;
+-- a white, red, green or yellow all-round light, 2 miles;
+
+(d) In inconspicuous, partly submerged vessels or objects being towed:
+-- a white all-round light, 3 miles.
+
+<<<
+
 Lights displayed on vessels have to be visible from a certain distance
 
 The table below gives the distances for

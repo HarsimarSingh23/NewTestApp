@@ -7,6 +7,21 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Performing a Navigational Watch (contd.)
 
+
+>>> Click to see rule
+
+
+In hours of darkness
+
+46. The Master and the officer in charge of the navigational watch when arranging look-out duty shall have due regard to the bridge equipment and navigational aids available for use, their limitations; procedures and safeguards implemented.
+Coastal and congested waters
+
+47. The largest scale chart on board, suitable for the area and corrected with the latest available information, shall be used. Fixes shall be taken at frequent intervals, and shall be carried out by more than one method whenever circumstances allow.
+
+48. The officer in charge of the navigational watch shall positively identify all relevant navigation marks.
+
+<<<
+
 Watchkeeping in the Dark Hours.
 
 46. The Captain and the Officer of the Watch shall use bridge equipment navigational equipment and aids available including their limitations procedures and safeguards.

@@ -7,6 +7,18 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Performing a Navigational Watch (contd.)
 
+
+>>> Click to see rule
+
+Clear weather
+
+43. The officer in charge of the navigational watch shall take frequent and accurate compass bearings of approaching ships as a means of early detection of risk of collision and bear in mind that such risk may sometimes exist even when an appreciable bearing change is evident, particularly when approaching a very large ship or a tow or when approaching a ship at close range. The officer in charge of the navigational watch shall also take early and positive action in compliance with the applicable regulations for preventing collisions at sea and subsequently check that such action is having the desired effect.
+
+44. In clear weather, whenever possible, the officer in charge of the navigational watch shall carry out radar practice.
+
+
+<<<
+
 Watchkeeping in Clear Weather 
 
 43. The Officer of the Watch must take frequent and accurate compass bearings of approaching ships to check for risk of collision. Care should be taken in cases of very large ships tows and ships at close range. The said Officer shall also take early and positive action to prevent.

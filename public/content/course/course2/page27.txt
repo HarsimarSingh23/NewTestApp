@@ -7,6 +7,32 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Taking Over the Watch (contd.)
 
+
+
+>>> Click to see rule
+
+21. Relieving officers shall personally satisfy themselves regarding the:
+
+1. Standing orders and other special instructions of the master relating to navigation of the ship;
+
+2. Position, course, speed and draught of the ship;
+
+3. Prevailing and predicted tides, currents, weather, visibility and the effect of these factors upon course and speed;
+
+4. Procedures for the use of main engines to manoeuvre when the main engines are on bridge control; and
+
+5. Navigational situation, including but not limited to:
+5.1 The operational condition of all navigational and safety equipment being used or likely to be used during the watch,
+5.2 The errors of gyro and magnetic compasses,
+5.3 The presence and movement of ships in sight or known to be in the vicinity,
+5.4 The conditions and hazards likely to be encountered during the watch, and
+5.5 The possible effects of heel, trim, water density and squat on under keel clearance.
+
+22. If at any time the officer in charge of the navigational watch is to be relieved when a manoeuvre or other action to avoid any hazard is taking place, the relief of that officer shall be deferred until such action has been completed.
+
+
+<<<
+
 21. Relieving officers shall also satisfy themselves regarding.
 
 	● Standing orders issued by the Captain.

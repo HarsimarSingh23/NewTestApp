@@ -7,6 +7,26 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Taking Over the Watch (contd.)
 
+
+>>> Click to see rule
+
+27. Officers of the navigational watch shall make the most effective use of all navigational equipment at their disposal.
+
+28. When using radar, the officer in charge of the navigational watch shall bear in mind the necessity to comply at all times with the provisions on the use of radar contained in the applicable International Regulations for Preventing Collisions at Sea, 1972.
+
+29. In cases of need the officer in charge of the navigational watch shall not hesitate to use the helm, engines and sound signalling apparatus. However, timely notice of intended variations of engine speed shall be given where possible or effective use made of UMS engine controls provided on the bridge in accordance with the applicable procedures.
+
+30. Officers of the navigational watch shall know the handling characteristics of their ship, including its stopping distances, and should appreciate that other ships may have different handling characteristics.
+
+31. A proper record shall be kept during the watch of the movements and activities relating to the navigation of the ship.
+
+32. It is of special importance that at all times the officer in charge of the watch ensures that a proper look-out is maintained. In a ship with a separate chart room the officer in charge of the watch may visit the chart room, when essential for a short period for the necessary performance of navigational duties, but shall first ensure that it is safe to do so and that proper look-out is maintained.
+
+33. Operational tests of shipboard navigational equipment shall be carried out at sea as frequently as practicable and as circumstances permit, in particular before hazardous conditions affecting navigation are expected. Whenever appropriate these tests shall be recorded. Such tests shall also be carried out prior to port arrival and departure.
+
+
+<<<
+
 Performing a Navigational Watch coned.
 
 The Officer of the Watch shall also.

@@ -3,6 +3,34 @@ Application Responsibility and Definitions
 
 Rule Eighteen: Responsibilities between Vessels (contd.)
 
+>>> Click to see rule
+
+Except where Rules 9, 10 and 13 otherwise require :
+(a) A power-driven vessel underway shall keep out of the way of :
+     (i) a vessel not under command;
+    (ii) a vessel restricted in her ability to manoeuvre;
+   (iii) a vessel engaged in fishing; and
+   (iv) a sailing vessel.
+
+(b) A sailing vessel underway shall keep out of the way of :
+     (i) a vessel not under command;
+    (ii) a vessel restricted in her ability to manoeuvre; and
+   (iii) a vessel engaged in fishing.
+
+(c) A vessel engaged in fishing when underway, shall, so far as possible, keep out of the way of
+     (i) a vessel not under command; and
+    (ii) a vessel restricted in her ability to manoeuvre.
+
+(d) (i) Any vessel other than a vessel not under command or a vessel restricted in her ability to manoeuvre shall, if the circumstances of the case admit, avoid impeding the safe passage of a vessel constrained by her draught, exhibiting the signals in Rule 28.
+(ii) A vessel constrained by her draught shall navigate with particular caution having full regard to her special condition.
+
+(e) A seaplane on the water shall, in general, keep well clear of all vessels and avoid impending their navigation. In circumstances, however, where risk of collision exists, she shall comply with the Rules of this Part.
+
+(f) (i) A WIG craft when taking-off, landing and in flight near the surface, shall keep clear of all other vessels and avoid impending their navigation.
+(ii) A WIG aircraft operating on the water surface shall comply with the Rules of this Part as a power-driven vessel.
+
+>>>
+
 f. WIG (Wing in Ground) crafts have got the least privileges. While taking off, landing and in flight near the
 surface of water they are required to keep clear of other vessels whether risk of collision exists or
 not. When operating on water surface, not taking off or landing, a WIG craft must comply with the Rules

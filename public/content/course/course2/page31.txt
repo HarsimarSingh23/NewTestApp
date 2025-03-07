@@ -5,7 +5,28 @@ Rule Five Lookouts and Watchkeeping (contd.)
 
 Mandatory Standards for Safe Watchkeeping (contd.)
 
-Performing a Navigational Watch coned.
+Performing a Navigational Watch contd.
+
+
+>>> Click to see rule
+
+35. The officer in charge of the navigational watch shall bear in mind the necessity to comply at all times with the current requirements of the International Convention for the Safety of Life at Sea (SOLAS) 1974. The officer of the watch shall take into account:
+
+1. The need to station a person to steer the ship and to put the steering into manual control in good time to allow any potentially hazardous situation to be dealt with in a safe manner, and
+
+2. That with a ship under automatic steering it is highly dangerous to allow a situation to develop to the point where the officer in charge of the watch is without assistance and has to break the continuity of the look-out in order to take emergency action.
+
+36. Officers of the navigational watch shall be thoroughly familiar with the use of all electronic navigational aids carried, including their capabilities and limitations, and shall use each of these aids when appropriate and shall bear in mind that the echo-sounder is a valuable navigational aid.
+
+37. The officer in charge of the navigational watch shall use the radar whenever restricted visibility is encountered or expected, and at all times in congested waters having due regard to its limitations.
+
+38. The officer in charge of the navigational watch shall ensure that range scales employed are changed at sufficiently frequent intervals so that echoes are detected as early as possible. It shall be borne in mind that small or poor echoes may escape detection.
+
+39. Whenever radar is in use, the officer in charge of the navigational watch shall select an appropriate range scale and observe the display carefully, and shall ensure that plotting or systematic analysis is commenced in ample time.
+
+
+
+<<<
 
 The Officer of the Watch shall also.
 

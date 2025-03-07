@@ -7,6 +7,36 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Performing a Navigational Watch (contd.)
 
+
+>>> Click to see rule
+
+Ship at anchor
+
+51. If the Master considers it necessary, a continuous navigational watch shall be maintained at anchor. While at anchor, the officer in charge of the navigational watch shall:
+
+1. Determine and plot the ship's position on the appropriate chart as soon as practicable;
+
+2. When circumstances permit, check at sufficiently frequent intervals whether the ship is remaining securely at anchor by taking bearings of fixed navigation marks or readily identifiable shore objects;
+
+3. Ensure that proper look-out is maintained;
+
+4. Ensure that inspection rounds of the ship are made periodically;
+
+5. Observe meteorological and tidal conditions and the state of the sea;
+
+6. Notify the Master and undertake all necessary measures if the ship drags anchor;
+
+7. Ensure that the state of readiness of the main engines and other machinery is in accordance with the Master's instructions;
+
+8. If visibility deteriorates, notify the Master;
+
+9. Ensure that the ship exhibits the appropriate lights and shapes and that appropriate sound signals are made in accordance with all applicable regulations; and
+
+10. Take measures to protect the environment from pollution by the ship and comply with applicable pollution regulations.
+
+
+<<<
+
 Watchkeeping with the Ship at Anchor
 
 51. Shall be carried out on instruction from the Captain. An Officer of the Watch shall.

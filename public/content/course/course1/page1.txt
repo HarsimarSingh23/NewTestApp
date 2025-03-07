@@ -5,6 +5,7 @@ Introduction
 
 Why do collisions occur?
 
+
 A collision-scenario exists
 
 ● when demarcations are absent,

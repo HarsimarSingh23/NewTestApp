@@ -5,6 +5,19 @@ Rule Five Lookouts and Watchkeeping (contd.)
 
 Mandatory Standards for Safe Watchkeeping (contd.)
 
+
+>>> Click to see rule
+
+Taking over the watch
+
+18. The officer in charge of the navigational watch shall not hand over the watch to the relieving officer if there is reason to believe that the latter is not capable of carrying out the watchkeeping duties effectively, in which case the Master shall be notified.
+
+19. The relieving officer shall ensure that the members of the relieving watch are fully capable of performing their duties, particularly as regards their adjustment to night vision. Relieving officers shall not take over the watch until their vision is fully adjusted to the light conditions.
+
+20. Prior to taking over the watch relieving officers shall satisfy themselves as to the ship's estimated or true position and confirm its intended track, course and speed and UMS controls as appropriate, and shall note any dangers to navigation expected to be encountered during their watch.
+
+<<<
+
 Taking Over the Watch.
 
 18. The Officer of the Watch shall hand over charge to the relieving officer only if he feels that the said officer is capable of carrying out the said watchkeeping duties effectively.

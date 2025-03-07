@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { X, ChevronLeft, ChevronRight, Info } from 'lucide-react';
-import {supabase} from '../backend/supabaseClient';
+import { X, ChevronLeft, ChevronRight, Info, ChevronDown, ChevronUp } from 'lucide-react';
+import { supabase } from '../backend/supabaseClient';
 
 // Dictionary interface
 interface DictionaryEntry {
@@ -14,6 +14,11 @@ interface ContentWindowProps {
   courseNumber: number;
 }
 
+interface CollapsibleSection {
+  title: string;
+  content: string;
+}
+
 export function ContentWindow({ 
   isOpen, 
   onClose, 
@@ -24,6 +29,7 @@ export function ContentWindow({
   const [totalFiles, setTotalFiles] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
+  const [expandedSections, setExpandedSections] = useState<Set<number>>(new Set());
   
   // Dictionary state
   const [dictionary, setDictionary] = useState<DictionaryEntry[]>([]);
@@ -42,12 +48,10 @@ export function ContentWindow({
     9: 31,
   };
 
-  // Load dictionary on component mount
   useEffect(() => {
     loadDictionary();
   }, []);
 
-  // Original content load effect
   useEffect(() => {
     if (isOpen) {
       loadAllContent(courseNumber);
@@ -56,7 +60,6 @@ export function ContentWindow({
 
   const loadDictionary = async () => {
     try {
-      // Fetch data from the 'dictionary' table
       const { data, error } = await supabase
         .from('dictionary')
         .select('word, description');
@@ -65,50 +68,96 @@ export function ContentWindow({
         throw error;
       }
       
-      console.log("dictionary data", data)
-      // Transform the data into the desired format
       const dictionaryEntries = data.map((entry) => ({
         word: entry.word,
         description: entry.description,
       }));
   
-      // Set the dictionary state (assuming `setDictionary` is a state setter function)
       setDictionary(dictionaryEntries);
-      console.log(dictionaryEntries)
-
     } catch (err) {
       console.error('Error loading dictionary:', err);
     }
   };
 
-  // Enhanced content formatting to add dictionary identifiers
+  const parseCollapsibleSections = (text: string): { regularContent: string, collapsibleSections: CollapsibleSection[] } => {
+    const sections: CollapsibleSection[] = [];
+    let regularContent = '';
+    
+    const lines = text.split('\n');
+    let isInCollapsibleSection = false;
+    let currentSection: CollapsibleSection = { title: '', content: '' };
+    
+    lines.forEach(line => {
+      if (line.startsWith('>>>')) {
+        isInCollapsibleSection = true;
+        currentSection = {
+          title: line.slice(3).trim(),
+          content: ''
+        };
+      } else if (line.startsWith('<<<') && isInCollapsibleSection) {
+        isInCollapsibleSection = false;
+        sections.push(currentSection);
+      } else if (isInCollapsibleSection) {
+        currentSection.content += line + '\n';
+      } else {
+        regularContent += line + '\n';
+      }
+    });
+
+    return { regularContent, collapsibleSections: sections };
+  };
+
   const formatContentWithDictionaryIdentifiers = (content: string) => {
-    if (!content) return { title: '', header: '', subheader: '', body: '' };
+    if (!content) return { title: '', header: '', subheader: '', body: '', collapsibleSections: [] };
     
     const lines = content.split('\n');
     const title = lines[0] || '';
     const header = lines[1] || '';
     const subheader = lines[2] || '';
     
-    // Add dictionary identifiers to words
-    const bodyWithIdentifiers = lines.slice(3).map(line => {
-      return line.split(/\s+/).map(word => {
-        const cleanWord = word.replace(/[^a-zA-Z]/g, '').toLowerCase();
-        const dictEntry = dictionary.find(entry => 
-          entry.word.toLowerCase() === cleanWord
-        );
-        
-        return dictEntry 
-          ? `<span class="dictionary-word cursor-help hover:underline" data-identifier="${dictEntry.word}">${word}</span>` 
-          : word;
-      }).join(' ');
-    }).join('\n');
+    const remainingContent = lines.slice(3).join('\n');
+    const { regularContent, collapsibleSections } = parseCollapsibleSections(remainingContent);
+    
+    const processText = (text: string) => {
+      // Split by lines first to preserve line breaks
+      return text.split('\n').map(line => {
+        // Process each line separately
+        const processedLine = line.split(/(\s+)/).map(part => {
+          // Keep whitespace as is
+          if (part.trim() === '') return part;
+          
+          const cleanWord = part.replace(/[^a-zA-Z]/g, '').toLowerCase();
+          const dictEntry = dictionary.find(entry => 
+            entry.word.toLowerCase() === cleanWord
+          );
+          
+          return dictEntry 
+            ? `<span class="dictionary-word cursor-help hover:underline" data-identifier="${dictEntry.word}">${part}</span>` 
+            : part;
+        }).join('');
+
+        // Convert bullet points to proper HTML
+        return line.trim().startsWith('•') 
+          ? `<div class="flex items-start space-x-2 my-1">
+              <span class="text-gray-500 mt-1">•</span>
+              <span>${processedLine.slice(1)}</span>
+            </div>`
+          : `<div>${processedLine}</div>`;
+      }).join('\n');
+    };
+
+    const bodyWithIdentifiers = processText(regularContent);
+    const processedSections = collapsibleSections.map(section => ({
+      ...section,
+      content: processText(section.content)
+    }));
 
     return { 
       title, 
       header, 
       subheader, 
-      body: bodyWithIdentifiers 
+      body: bodyWithIdentifiers,
+      collapsibleSections: processedSections
     };
   };
 
@@ -152,7 +201,6 @@ export function ContentWindow({
     }
   };
 
-  // Handle dictionary word hover
   const handleWordHover = (e: React.MouseEvent<HTMLDivElement>) => {
     const target = e.target as HTMLElement;
     const identifier = target.getAttribute('data-identifier');
@@ -169,20 +217,31 @@ export function ContentWindow({
     }
   };
 
-  // Clear hover definition
   const handleMouseLeave = () => {
     setHoveredDefinition(null);
+  };
+
+  const toggleSection = (index: number) => {
+    const newExpandedSections = new Set(expandedSections);
+    if (newExpandedSections.has(index)) {
+      newExpandedSections.delete(index);
+    } else {
+      newExpandedSections.add(index);
+    }
+    setExpandedSections(newExpandedSections);
   };
 
   const handleNext = () => {
     if (currentFile < totalFiles - 1) {
       setCurrentFile(currentFile + 1);
+      setExpandedSections(new Set());
     }
   };
 
   const handlePrevious = () => {
     if (currentFile > 0) {
       setCurrentFile(currentFile - 1);
+      setExpandedSections(new Set());
     }
   };
 
@@ -207,9 +266,8 @@ export function ContentWindow({
           </button>
         </div>
         
-        {/* Content Section with Scrollbar and Dictionary Hover */}
         <div 
-          className="p-6 h-96 overflow-y-auto relative" 
+          className="p-6 h-[calc(100vh-16rem)] overflow-y-auto relative" 
           onMouseOver={handleWordHover}
           onMouseLeave={handleMouseLeave}
         >
@@ -222,24 +280,54 @@ export function ContentWindow({
               <div className="text-red-600 text-center py-8">{error}</div>
             ) : (
               <div className="space-y-4">
-                <h1 className="text-3xl font-bold text-gray-900">
+                <h1 className="text-3xl font-bold text-gray-900 mb-2">
                   {formattedContent.title}
                 </h1>
-                <h1 className="text-3xl font-bold text-gray-900">
-                  {formattedContent.header}
-                </h1>
-                <h2 className="text-xl font-semibold text-gray-700">
-                  {formattedContent.subheader}
-                </h2>
+                {formattedContent.header && (
+                  <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+                    {formattedContent.header}
+                  </h2>
+                )}
+                {formattedContent.subheader && (
+                  <h3 className="text-xl font-medium text-gray-700 mb-4">
+                    {formattedContent.subheader}
+                  </h3>
+                )}
+
+                
+
                 <div 
-                  className="whitespace-pre-wrap text-gray-600"
+                  className="text-gray-600 space-y-2 leading-relaxed"
                   dangerouslySetInnerHTML={{ __html: formattedContent.body }}
                 />
+
+            {formattedContent.collapsibleSections.map((section, index) => (
+                  <div key={index} className="border rounded-lg overflow-hidden mb-4">
+                    <button
+                      onClick={() => toggleSection(index)}
+                      className="w-full flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 transition-colors"
+                    >
+                      <span className="font-medium text-gray-900">{section.title}</span>
+                      {expandedSections.has(index) ? (
+                        <ChevronUp className="h-5 w-5 text-gray-500" />
+                      ) : (
+                        <ChevronDown className="h-5 w-5 text-gray-500" />
+                      )}
+                    </button>
+                    {expandedSections.has(index) && (
+                      <div 
+                        className="p-4 bg-white text-gray-600 space-y-2"
+                        dangerouslySetInnerHTML={{ __html: section.content }}
+                      />
+                    )}
+                  </div>
+                ))}
+            
+                
               </div>
             )}
           </div>
 
-          {/* Dictionary Popup */}
           {hoveredDefinition && (
             <div 
               className="fixed bg-white shadow-lg rounded-md p-4 z-50 border border-gray-200"
@@ -257,7 +345,6 @@ export function ContentWindow({
           )}
         </div>
 
-        {/* Navigation Section */}
         <div className="border-t border-gray-200 px-6 py-4 flex items-center justify-between bg-gray-50">
           <button
             onClick={handlePrevious}

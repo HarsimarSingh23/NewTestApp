@@ -3,11 +3,24 @@ Sound and Light Signal
 
 Rule Thirty Two: Definitions
 
-The IRPCS has laid down certain guidelines for sound-signalling devices
+The IRPCS has laid down certain guidelines for sound-signalling devices to be used on vessels.
 
-to be used on vessels.
-This chapter will enlighten you on the various sound-signalling devices, their volume levels and durations
-of their use – with the meanings attached to each.
+>>> Click to see rule
+
+Rule Thirty Two: Definitions
+
+(a) The word “whistle” means any sound signaling appliance capable of producing the prescribed blasts and which complies with the specifications in Annex III to these Regulations.
+
+(b) The term “short blast” means a blast of about one second’s duration.
+
+(c) The term “prolonged blast” means a blast of from four to six seconds’ duration.
+
+
+<<<
+
+
+This chapter will enlighten you on the various sound-signalling devices, their volume levels and durations of their use – with the meanings attached to each.
+
 The Whistle – is a device capable of producing blasts of sound – which must comply with specifications
 laid down.
 

@@ -7,6 +7,35 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Performing a Navigational Watch (contd.)
 
+
+>>> Click to see rule
+
+40. The officer in charge of the navigational watch shall notify the Master immediately:
+
+1. If restricted visibility is encountered or expected;
+
+2. If the traffic conditions or the movements of other ships are causing concern;
+
+3. If difficulty is experienced in maintaining course;
+
+4. On failure to sight land, a navigation mark or to obtain soundings by the expected time;
+
+5. If, unexpectedly, land or a navigation mark is sighted or a change in soundings occurs;
+
+6. On breakdown of the engines, propulsion machinery remote control, steering gear or any essential navigational equipment, alarm or indicator.
+
+7. If the radio equipment malfunctions;
+
+8. In heavy weather, if in any doubt about the possibility of weather damage;
+
+9. If the ship meets any hazard to navigation, such as ice or a derelict; and
+
+10. In any other emergency or if in any doubt.
+
+
+
+<<<
+
 The Officer of the Watch shall also.
 
 40. Notify the Captain immediately when.

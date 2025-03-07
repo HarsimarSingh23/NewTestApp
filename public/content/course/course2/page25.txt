@@ -5,6 +5,31 @@ Rule Five Lookouts and Watchkeeping (contd.)
 
 Mandatory Standards for Safe Watchkeeping (contd.)
 
+
+>>> Click to see rule
+
+
+
+17. When deciding the composition of the watch on the bridge, which may include appropriately qualified ratings, the following factors, inter alia, shall be taken into account:
+
+1. At no time shall the bridge be left unattended;
+
+2. Weather conditions, visibility and whether there is daylight or darkness;
+
+3. Proximity of navigational hazards which may make it necessary for the officer in charge of the watch to carry out additional navigational duties;
+
+4. Use and operational condition of navigational aids such as radar or electronic position-indicating devices and any other equipment affecting the safe navigation of the ship;
+
+5. Whether the ship is fitted with automatic steering;
+
+6. Whether there are radio duties to be performed;
+
+7. Unmanned machinery space (UMS)controls, alarms and indicators provided on the bridge, procedures for their use and limitations; and
+
+8. Any unusual demands on the navigational watch that may arise as a result of special operational circumstances.
+
+<<<
+
 17. Watch Arrangements.
 
 The following factors to be considered when deciding the composition of the watch on the bridge.

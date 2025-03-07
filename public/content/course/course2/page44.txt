@@ -3,6 +3,44 @@ Steering and Sailing Rules - Section One
 
 Rule Six Safe Speed (contd.)
 
+
+>>> Click to see rule
+
+Every vessel shall at all times proceed at a safe speed so that she can take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions.
+
+In determining a safe speed, the following factors shall be among those taken into account:
+
+a.  By all vessels:
+
+i. The state of visibility.
+
+ii. The traffic density, including concentrations of fishing vessels or any other vessels.
+
+iii. The manoeuverability of the vessel with special reference to stopping distance and turning ability in the prevailing conditions.
+
+iv. At night, the presence of background light such as from the shore or from backscatter of her own lights.
+
+v. The state of the wind, the sea and current and the proximity of navigational hazards, and
+
+vi. The draught in relation to the available depth of water.
+
+b.  Additionally, by vessels with operational radar:
+
+i. The characteristics, efficiency and limitations of the radar equipment.
+
+ii. Any constraint imposed by the radar range scale in use.
+
+iii. The effect on radar detection of the sea state, weather and other sources of interference.
+
+iv. The possibility that small vessels, ice and other floating objects may not be detected by radar at an adequate range.
+
+v. The number, location and movement of vessels detected by radar, and
+
+vi. The more exact assessment of the visibility that may be possible when radar is used to determine the range of vessels or other objects in the vicinity.
+
+
+<<<
+
 ● Safe speed is one in which a vessel will be able to stop within half the range of visibility. However each vessels safe speed should be judged on a casetocase basis. Attempts have been made to quantify speed in relation to the size of the vessel and the visibility levels but no final decision has been reached even at various limo meetings.
 
 ● Safe speed depends on the vessels length turning circle drought and type of machinery. Most of this information is now supplied to navigating officers who are expected to be familiar with the navigating.

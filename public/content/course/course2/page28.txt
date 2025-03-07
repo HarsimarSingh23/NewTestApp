@@ -7,6 +7,31 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Taking Over the Watch (contd.)
 
+
+>>> Click to see rule
+
+Performing the navigational watch
+
+23. The officer in charge of the navigational watch shall:
+
+1. Keep the watch on the bridge;
+
+2. In no circumstances leave the bridge until properly relieved;
+
+3. Continue to be responsible for the safe navigation of the ship, despite the presence of the Master on the bridge, until informed specifically that the Master has assumed that responsibility and this is mutually understood; and 
+
+4. Notify the Master when in any doubt as to what action to take in the interest of safety.
+
+24. During the watch the course steered, position and speed shall be checked at sufficiently frequent intervals, using any available navigational aids necessary, to ensure that the ship follows the planned course.
+
+25. The officer in charge of the navigational watch shall have full knowledge of the location and operation of all safety and navigational equipment on board the ship and shall be aware and take account of the operating limitations of such equipment.
+
+26. The officer in charge of the navigational watch shall not be assigned or undertake any duties which would interfere with the safe navigation of the ship.
+
+
+
+<<<
+
 23. The Officer of the Watch shall
 	
 	A. Keep watch on the bridge.
