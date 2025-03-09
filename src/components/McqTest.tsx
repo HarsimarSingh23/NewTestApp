@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../backend/supabaseClient';
 import { useAuthStore } from '../store/authStore';
 
-// Interfaces for Questions and Test
 interface Question {
   id: string;
   test_id: string;
@@ -10,6 +9,7 @@ interface Question {
   marks: number;
   options: string[];
   correct_answer: string;
+  is_image_options: boolean;
 }
 
 interface Test {
@@ -30,7 +30,6 @@ interface MCQTestProps {
 const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
   const { user } = useAuthStore();
   
-  // State management
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState<{[key: string]: string}>({});
@@ -39,7 +38,6 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
   const [showResult, setShowResult] = useState(false);
   const [testResult, setTestResult] = useState<{ marks: number; totalMarks: number; result: string } | null>(null);
 
-  // Fetch questions and initialize timer
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
@@ -51,21 +49,16 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
         if (error) throw error;
         
         const questionsList = data || [];
-        
         setQuestions(questionsList);
-        // Set timer based on number of questions (1 minute per question)
         setTimeRemaining(questionsList.length * 60);
-
       } catch (err) {
         console.error('Error fetching questions:', err);
       }
     };
 
     fetchQuestions();
-
   }, [test.id]);
 
-  // Timer logic
   useEffect(() => {
     if (!showResult && timeRemaining > 0) {
       const timer = setInterval(() => {
@@ -83,7 +76,6 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
     }
   }, [timeRemaining, showResult]);
 
-  // Handle answer selection
   const handleAnswerSelect = (questionId: string, selectedOption: string) => {
     setSelectedAnswers(prev => ({
       ...prev,
@@ -91,48 +83,32 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
     }));
   };
 
-  // Calculate test results
   const calculateTestResults = useCallback(() => {
-    
     let correctAnswers = 0;
-    let totalMarks = 0; 
-    console.log("questions", questions)
-    console.log("selected answers", selectedAnswers)
+    let totalMarks = 0;
+    
     questions.forEach(question => {
-      
       if (selectedAnswers[question.id] === question.correct_answer) {
         correctAnswers += question.marks;
       }
-
       totalMarks += question.marks;
-
     });
 
     const marks = correctAnswers;
     const result = marks >= test.passing_marks ? 'Pass' : 'Fail';
-    console.log("marks, total marks, result", marks, totalMarks, result)
 
     return { marks, totalMarks, result };
   }, [questions, selectedAnswers, test.passing_marks]);
 
-  // Submit test results to Supabase
   const handleSubmitTest = async () => {
-    
     if (isSubmitting) return;
-    
     setIsSubmitting(true);
 
     try {
-      
       const results = calculateTestResults();
-
       setTestResult(results);
       setShowResult(true);
 
-
-      console.log("test results ", results)
-
-      // Insert test result
       const { error: resultError } = await supabase
         .from('test_results')
         .insert({
@@ -146,10 +122,7 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
           is_retestable: test.is_retestable
         });
 
-      console.log("result error", resultError)
-
       if (resultError) throw resultError;
-
     } catch (err) {
       console.error('Error submitting test:', err);
     } finally {
@@ -157,13 +130,11 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
     }
   };
 
-  // Handle closing after showing results
   const handleClose = () => {
     onTestComplete();
     onClose();
   };
 
-  // Render test results
   const renderResults = () => {
     if (!testResult) return null;
 
@@ -191,7 +162,37 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
     );
   };
 
-  // Render individual question
+  const renderImageOption = (option: string, isSelected: boolean, onClick: () => void) => (
+    <div
+      onClick={onClick}
+      className={`cursor-pointer rounded-lg overflow-hidden border-2 transition-all ${
+        isSelected ? 'border-blue-500 ring-2 ring-blue-300' : 'border-gray-200 hover:border-gray-300'
+      }`}
+    >
+      <img
+        src={option}
+        alt="Option"
+        className="w-full h-48 object-contain bg-white"
+        onError={(e) => {
+          (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x300?text=Image+Not+Found';
+        }}
+      />
+    </div>
+  );
+
+  const renderTextOption = (option: string, isSelected: boolean, onClick: () => void) => (
+    <button
+      onClick={onClick}
+      className={`w-full text-left p-3 rounded-md border ${
+        isSelected
+          ? 'bg-blue-100 border-blue-500'
+          : 'bg-gray-100 border-gray-300'
+      } hover:bg-gray-200 transition`}
+    >
+      {option}
+    </button>
+  );
+
   const renderQuestion = () => {
     const currentQuestion = questions[currentQuestionIndex];
 
@@ -211,19 +212,21 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
 
         <p className="mb-4 text-gray-800">{currentQuestion.question_text}</p>
 
-        <div className="space-y-3">
+        <div className={`${currentQuestion.is_image_options ? 'grid grid-cols-2 gap-4' : 'space-y-3'}`}>
           {currentQuestion.options.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => handleAnswerSelect(currentQuestion.id, option)}
-              className={`w-full text-left p-3 rounded-md border ${
-                selectedAnswers[currentQuestion.id] === option
-                  ? 'bg-blue-100 border-blue-500'
-                  : 'bg-gray-100 border-gray-300'
-              } hover:bg-gray-200 transition`}
-            >
-              {option}
-            </button>
+            <div key={index}>
+              {currentQuestion.is_image_options
+                ? renderImageOption(
+                    option,
+                    selectedAnswers[currentQuestion.id] === option,
+                    () => handleAnswerSelect(currentQuestion.id, option)
+                  )
+                : renderTextOption(
+                    option,
+                    selectedAnswers[currentQuestion.id] === option,
+                    () => handleAnswerSelect(currentQuestion.id, option)
+                  )}
+            </div>
           ))}
         </div>
 
@@ -257,7 +260,6 @@ const MCQTest: React.FC<MCQTestProps> = ({ test, onClose, onTestComplete }) => {
     );
   };
 
-  // Render loading state
   if (questions.length === 0) {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
