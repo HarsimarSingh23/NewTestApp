@@ -3,6 +3,6 @@ Steering and Sailing Rules - Section One v
 
 Rule Seven Risk of Collision (contd.)
 
-Assumptions on Scanty Information coned.
+Assumptions on <bi> Scanty <.bi> Information coned.
 
-In restricted visibility a vessel may make appreciable changes in her bearing but may continue making a series of small alterations which may not be observed. This could also lead to collision. 
+In restricted visibility a vessel may make appreciable changes in her bearing but may continue making a series of small <bi> alterations <.bi> which may not be observed. This could also lead to collision. 

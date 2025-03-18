@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section One
 
 Rule Five Lookouts and Watchkeeping (contd.)
 
-Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
+Basic Principles for Safe Watchkeeping <bi> Regulation <.bi> 1/1(contd.)
 
 4. Watch arrangements.
 
@@ -15,15 +15,15 @@ Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
 
 (a) The composition of the watch shall at all times be adequate and appropriate to the prevailing circumstances and conditions and shall take into account the need for maintaining a proper look-out.
 
-(b) When deciding the composition of the watch on the bridge which may include appropriate deck ratings, the following factors, inter alia, shall be taken into account:
+(b) When deciding the composition of the watch on the <bi> bridge <.bi> which may include appropriate deck ratings, the following factors, inter alia, shall be taken into account:
 
-(i) at no time shall the bridge be left unattended;
+(i) at no time shall the <bi> bridge <.bi> be left unattended;
 
 (ii) weather conditions, visibility and whether there is day-light or darkness;
 
 (iii) proximity of navigational hazards which may make it necessary for the officer in charge of the watch to carry out additional navigational duties;
 
-(iv) use and operational condition of navigational aids such as radar or electronic position-indicating devices and any other equipment affecting the safe navigation of the ship;
+(iv) use and operational condition of navigational aids such as <bi> radar <.bi> or electronic position-indicating devices and any other equipment affecting the safe <bi> navigation <.bi> of the ship;
 
 (v) whether the ship is fitted with automatic steering;
 
@@ -34,9 +34,9 @@ Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
 A The watch posted should be adequate and appropriate to the conditions at all times.
 
 B The following factors should be taken into account when posting a watch.
-	I. The bridge should NOT be left unattended at any time.
+	I. The <bi> bridge <.bi> should NOT be left unattended at any time.
 	II. Weather conditions visibility and the presence of darkness are to be noted.
 	III. The Officer in charge of the Watch shall have to take additional responsibility in case 	other navigational hazards manmade or natural are close.
-	IV. The condition and operational capacity of radar and other navigational aids present on the 	vessel.
+	IV. The condition and operational capacity of <bi> radar <.bi> and other navigational aids present on the 	vessel.
 	V. The presence or lack of automatic steering.
 	VI. Any unusual demands on the navigational watch that may arise as a result of special 	operational circumstances.

@@ -8,9 +8,9 @@ Rule Thirty Three: Equipment for Sound Signals (contd.)
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 
@@ -19,15 +19,15 @@ Annexure III (contd.)
 
 (d) Directional properties
 
-Sound pressure levels of directional whistles should not be more than 4 dB below the prescribed sound
+Sound pressure levels of directional whistles should not be more than 4 <bi> dB <.bi> below the prescribed sound
 pressure level on the axis. This area extends to 45 degrees in any direction on the horizontal plane.
-The sound pressure should not be more than 10 dB below  prescribed pressure levels on the axis. This
-ensures that the range of audibility in any direction is at least half the range on the forward axis.
-The audibility range is determined by the second pressure level measured in the 1/3rd-octave band.
+The sound pressure should not be more than 10 <bi> dB <.bi> below  prescribed pressure levels on the axis. This
+ensures that the range of <bi> audibility <.bi> in any direction is at least half the range on the forward axis.
+The <bi> audibility <.bi> range is determined by the second pressure level measured in the 1/3rd-octave band.
 
 (e) Positioning of whistles
 
 Directional whistles should be positioned straight ahead.
 Whistles are to be placed as high as possible on a vessel.
-Avoid placing a whistle outlet behind any other object on the vessel.
-Place a whistle as high above the normal height of personnel, so as to reduce the risk of hearing damage.
+Avoid placing a <bi> whistle <.bi> outlet behind any other object on the vessel.
+Place a <bi> whistle <.bi> as high above the normal height of personnel, so as to reduce the risk of hearing damage.

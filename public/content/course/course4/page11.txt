@@ -8,7 +8,7 @@ When vessels pass each other through narrow channels an interaction takes place 
 
 As interaction depends on pressure it is inversely proportional to the ships velocity. Halving the speed reduces the effect to a quarter. Some of the effects are.
 
-Shallow Water Effect we or Squat Proportional to the ships speed displacement and channel breadth this effect can cause the ship to bottom out or strike the bed of the channel while in motion. The first indicator is a wide wake which could be detrimental to small passing craft and coastal habitation.
+Shallow Water Effect we or <bi> Squat <.bi> Proportional to the ships speed displacement and channel breadth this effect can cause the ship to bottom out or strike the bed of the channel while in motion. The first indicator is a wide wake which could be detrimental to small passing craft and coastal habitation.
 
 Rudder effectiveness is reduced.
 

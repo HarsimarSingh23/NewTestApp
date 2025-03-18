@@ -6,8 +6,8 @@ Rule Three: General Definitions (contd.)
 Vessel Not Under Command (contd.)
 
 
-A Vessel is considered Not Under Command when she through some exceptional circumstances is unable to maneuver as required by these Rules. Circumstances must be exceptional for a vessel to qualify as nut. A vessel drifting to conserve fuel does not qualify as nut and is not justified in displaying the lights and shapes specified at 
-Rule 27(a). Unnecessary use of nut lights shapes is inconsistent with IRPCS. A vessel may display NUC signals in case:
+A Vessel is considered Not Under Command when she through some exceptional circumstances is unable to maneuver as required by these Rules. Circumstances must be exceptional for a vessel to qualify as nut. A vessel drifting to conserve fuel does not qualify as nut and is not justified in displaying the lights and shapes specified at <bi> 
+Rule <.bi> 27(a). Unnecessary use of nut lights shapes is inconsistent with IRPCS. A vessel may display <bi> NUC <.bi> signals in case:
 
 
 ● She has engine failure breakdown.
@@ -18,7 +18,7 @@ Rule 27(a). Unnecessary use of nut lights shapes is inconsistent with IRPCS. A v
 
 ● She is a sailing vessel becalmed stranded because of absence of any winds.
 
-● She has loss of rudder propeller.
+● She has loss of <bi> rudder <.bi> propeller.
 
 ● Her anchor is down but not holding dragging.
 

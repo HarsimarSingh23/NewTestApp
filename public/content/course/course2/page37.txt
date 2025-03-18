@@ -10,9 +10,9 @@ Performing a Navigational Watch (contd.)
 
 >>> Click to see rule
 
-49. Despite the duties and obligations of pilots, their presence on board does not relieve the Master or officer in charge of the watch from their duties and obligations for the safety of the ship. The Master and the pilot shall exchange information regarding navigation procedures, local conditions, and the ship's characteristics. The Master and/or the officer in charge of the navigational watch shall cooperate closely with the pilot and maintain an accurate check on the ship's position and movement.
+49. Despite the duties and obligations of pilots, their presence on board does not relieve the <bi> Master <.bi> or officer in charge of the watch from their duties and obligations for the safety of the ship. The <bi> Master <.bi> and the pilot shall exchange information regarding <bi> navigation <.bi> procedures, local conditions, and the ship's characteristics. The <bi> Master <.bi> and/or the officer in charge of the navigational watch shall cooperate closely with the pilot and maintain an accurate check on the ship's position and movement.
 
-50. If in any doubt as to the pilot's actions or intentions, the officer in charge of the navigational watch shall seek clarification from the pilot and, if doubt still exists, shall notify the Master immediately and take whatever action is necessary before the Master arrives.
+50. If in any doubt as to the pilot's actions or intentions, the officer in charge of the navigational watch shall seek clarification from the pilot and, if doubt still exists, shall notify the <bi> Master <.bi> immediately and take whatever action is necessary before the <bi> Master <.bi> arrives.
 
 
 <<<

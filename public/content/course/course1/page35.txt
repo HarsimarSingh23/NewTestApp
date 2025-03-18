@@ -10,15 +10,15 @@ A vessel which from the nature of her work is restricted in her ability to maneu
 
 The term vessels 'restricted in their ability to maneuver' shall include but not be limited to:
 
-● A vessel engaged in laying, servicing or picking up a navigation mark, submarine cable or pipeline.
+● A vessel engaged in laying, servicing or picking up a <bi> navigation <.bi> mark, submarine cable or pipeline.
 
-● A vessel engaged in dredging surveying or underwater operations.
+● A vessel engaged in <bi> dredging <.bi> surveying or underwater operations.
 
 ● A vessel engaged in replenishment or transferring persons provisions or cargo while underway.
 
 ● A vessel engaged in launching or recovery of aircraft.
 
-● A vessel engaged in mine clearance operations.
+● A vessel engaged in <bi> mine <.bi> clearance operations.
 
 ● A vessel engaged in a towing operation such as severely restricts the towing vessel and her tow in their ability to deviate from their course.
 

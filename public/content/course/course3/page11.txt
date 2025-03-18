@@ -3,6 +3,6 @@ Steering and Sailing Rules - Section One  (contd.)
 
 Rule Seven Risk of Collision (contd.)
 
-Assumptions on Scanty Information coned.
+Assumptions on <bi> Scanty <.bi> Information coned.
 
-This example serves to illustrate the danger of attempting to assess if a risk of collision exists from a small number of observations taken at long range. Errors in bearings of +/- 1 deg. are possible when using radar and small errors in range measurement may also occur.
+This example serves to illustrate the danger of attempting to assess if a risk of collision exists from a small number of observations taken at long range. Errors in bearings of +/- 1 deg. are possible when using <bi> radar <.bi> and small errors in range measurement may also occur.

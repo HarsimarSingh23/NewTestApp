@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section One
 
 Rule Five Lookouts and Watchkeeping (contd.)
 
-Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
+Basic Principles for Safe Watchkeeping <bi> Regulation <.bi> 1/1(contd.)
 
 
 >>> Click to see rule
@@ -13,7 +13,7 @@ Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
 
 (a) The Officer of the Watch shall make the most effective use of all navigational equipment at his disposal.
 
-(b) When using radar, the Officer of the Watch shall bear in mind the necessity to comply at all times with the provisions on the use of radar contained in the applicable regulations for preventing collisions at sea.
+(b) When using radar, the Officer of the Watch shall bear in mind the necessity to comply at all times with the provisions on the use of <bi> radar <.bi> contained in the applicable regulations for preventing <bi> collisions <.bi> at sea.
 
 (c) In cases of need the Officer of the Watch shall not hesitate to use the helm, engines and sound signalling apparatus.
 
@@ -23,6 +23,6 @@ Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
 
 A. The Officer of the Watch must make the most effective use of all navigational equipment at his disposal.
 
-B. When using radar he must know and follow the provisions laid down in the Regulations for Prevention of Collision at Sea.
+B. When using <bi> radar <.bi> he must know and follow the provisions laid down in the Regulations for Prevention of Collision at Sea.
 
-C. The Officer of the Watch should not hesitate to use the helm engines and sound-signalling apparatus if the need should arise.
+C. The Officer of the Watch should not hesitate to use the <bi> helm <.bi> engines and sound-signalling apparatus if the need should arise.

@@ -7,13 +7,13 @@ Vessels CBD
 Vessels Constrained by Draught should keep out of the way of approaching power-driven vessels
 crossing from her starboard side, so as to avoid collision.
 
-Vessels CBD should clearly indicate their status by displaying the prescribed lights / dayshapes.
-Crossing vessels should take into account the constraint on the vessel CBD and alter their courses accordingly, so
+Vessels <bi> CBD <.bi> should clearly indicate their status by displaying the prescribed lights / dayshapes.
+Crossing vessels should take into account the constraint on the vessel <bi> CBD <.bi> and alter their courses accordingly, so
 as to avoid a collision. 
 
-Sufficient sea room should be left for safe passage in accordance with Rule 8(f).
+Sufficient sea room should be left for safe <bi> passage <.bi> in accordance with <bi> Rule <.bi> 8(f).
 
-Accordingly, sufficient and adequate action should be taken in accordance with Rule 17.
+Accordingly, sufficient and adequate action should be taken in accordance with <bi> Rule <.bi> 17.
 
 Vessels lying stopped
 

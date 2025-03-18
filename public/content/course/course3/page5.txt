@@ -7,7 +7,7 @@ Use of the Radiotelephone/VHF
 
 The use of all available means in this context refers to the use of VHF and the radiotelephone.
 
-In international waters radiotelephony is occasionally used to advantage.
+In international waters <bi> radiotelephony <.bi> is occasionally used to advantage.
 
 It is a bit problematic when using the VHF radio in crowded waters especially when there are numerous other vessels of various nationalities.
 

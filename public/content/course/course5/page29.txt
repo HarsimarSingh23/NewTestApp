@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section Two
 
 CONCLUSION
 
-Sailing vessels should keep out of the way of one another and must take early and substantial action to
+Sailing vessels should keep out of the way of one another and must take early and <bi> substantial <.bi> action to
 achieve safe passing distance. They must keep clear of fishing vessels and vessels NUC.
 
 When a vessel is overtaking another, the former should keep clear and be aware of the forces of
@@ -16,5 +16,5 @@ to starboard in case of a head-on situation.
 In a crossing situation, the vessel off the port bow should give way by slowing down / altering her own
 course to starboard, so as to pass behind the other vessel.
 
-Rule 15 on crossing does not apply to vessels that are hampered in any manner. In this situation, make
+Rule 15 on crossing does not apply to vessels that are <bi> hampered <.bi> in any manner. In this situation, make
 changes to your course and speed as early as possible, to prevent a collision situation from arising.

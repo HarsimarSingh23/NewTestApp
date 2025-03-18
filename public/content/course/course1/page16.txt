@@ -1,15 +1,15 @@
 Rules of the road
 Application Responsibility and Definitions
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
 Importance of Good Seamanship
 
 Vessels have limitations because of their size.
 
-The smaller the vessel, the less visual it is, either on radar or all round visibility is rather
+The smaller the vessel, the less visual it is, either on <bi> radar <.bi> or all round visibility is rather
 physically.
 
 
 The larger the vessel, the poorer the level of maneuverability and speed-control. Captains of large
-vessels may also be restricted by bridge visibility, or by the presence of other ships nearby. 
+vessels may also be restricted by <bi> bridge <.bi> visibility, or by the presence of other ships nearby. 

@@ -7,4 +7,4 @@ Sailing vessel.
 Any vessel under sail provided that propelling machinery if fitted is not being used.
 
 
-A sailing vessel when also being propelled by machinery shall not be considered as a sailing vessel for purpose of Rule (18) responsibility since she could then use her engines to  maneuver as required by the Rules. She shall however exhibit the lights specified in Rule and shall exhibit a conical shape apex downwards.
+A sailing vessel when also being <bi> propelled <.bi> by machinery shall not be considered as a sailing vessel for purpose of <bi> Rule <.bi> (18) responsibility since she could then use her engines to  maneuver as required by the Rules. She shall however exhibit the lights specified in <bi> Rule <.bi> and shall exhibit a conical shape apex downwards.

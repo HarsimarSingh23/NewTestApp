@@ -8,26 +8,26 @@ Rule Thirty Three: Equipment for Sound Signals (contd.)
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 
 Annexure III (contd.)
 
-2. Bell or Gong
+2. <bi> Bell <.bi> or Gong
 Click for Sound
 
-(a) Intensity of signal : Any bell or gong for maritime use should have a pressure level of at
-least 110 dB when heard from a distance of 1 metre away.
+(a) Intensity of signal : Any <bi> bell <.bi> or <bi> gong <.bi> for maritime use should have a pressure level of at
+least 110 <bi> dB <.bi> when heard from a distance of 1 metre away.
 (b) Construction :Maritime bells must be made from corrosion resistant metal.
-The bell / gong should give off a clear tone when struck.
-Diameter of the bell mouth should be at least 300mm (vessels of
+The <bi> bell <.bi> / <bi> gong <.bi> should give off a clear tone when struck.
+Diameter of the <bi> bell <.bi> mouth should be at least 300mm (vessels of
 20M or more).
 
 
-A maritime bell may be struck by a power-driven appliance to ensure
+A maritime <bi> bell <.bi> may be struck by a power-driven appliance to ensure
 constant force.
-Manual striking of such a bell should also be possible.
-The striker mass should be at least 3% of that of the bell.
+Manual striking of such a <bi> bell <.bi> should also be possible.
+The <bi> striker <.bi> mass should be at least 3% of that of the bell.

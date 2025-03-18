@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section One
 
 Conclusion 
 
-● A lookout placed as forward or as high as possible is a responsible posting to avoid collisions at sea.
+● A lookout placed as forward or as high as possible is a responsible posting to avoid <bi> collisions <.bi> at sea.
 
 ● Lookouts should be dedicated individuals physically fit and mentally alert for their tasks with no other duty during the period of their watch.
 
@@ -13,10 +13,10 @@ Conclusion
 
 ● Watchkeeping duty has to be handed over only if the relieving officer is capable of taking on this duty.
 
-● Officers of the Watch have the permission to take over the helm light or sound signalling devices anytime they feel it is critical to the safety of the ship at sea.
+● Officers of the Watch have the permission to take over the <bi> helm <.bi> light or sound signalling devices anytime they feel it is critical to the safety of the ship at sea.
 
-● The Captain of the vessel is overall responsible for ensuring adequate watchkeeping and safe navigation inspire of having a harbor pilot aboard.
+● The Captain of the vessel is overall responsible for ensuring adequate watchkeeping and safe <bi> navigation <.bi> inspire of having a harbor pilot aboard.
 
-● Safe speed is that speed at which a vessel can stop in half the distance between her and an obstacle when using radar the range scale must not be changed when there is a target at close range.
+● Safe speed is that speed at which a vessel can stop in half the distance between her and an obstacle when using <bi> radar <.bi> the range scale must not be changed when there is a target at close range.
 
 ● This safe speed varies depending on the size of the ship ambient lighting conditions weather and traffic density.

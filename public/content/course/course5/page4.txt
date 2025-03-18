@@ -9,19 +9,19 @@ Rule Twelve: Sailing Vessels (contd.)
 
 i. When each has the wind on a different side, the vessel which has the wind on the port side shall keep out of the way of the other;
 
-ii. When both have the wind on the same side, the vessel which is to windward shall keep out of the way of the vessel which is to leeward;
+ii. When both have the wind on the same side, the vessel which is to <bi> windward <.bi> shall keep out of the way of the vessel which is to leeward;
 
-iii. If a vessel with the wind on the port side sees a vessel to windward and cannot determine with certainty whether the other vessel has the wind on the port or on the starboard side, she shall keep out of the way of the other.
+iii. If a vessel with the wind on the port side sees a vessel to <bi> windward <.bi> and cannot determine with certainty whether the other vessel has the wind on the port or on the starboard side, she shall keep out of the way of the other.
 
-(b) For the purposes of this Rule, the windward side shall be deemed to be the side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried.
+(b) For the purposes of this Rule, the <bi> windward <.bi> side shall be deemed to be the side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried.
 
 <<<
 
 
 Exceptions
 
-A sailing vessel approaching another from a direction more than 22.5° abaft her beam is an overtaking
-vessel and must keep clear regardless of wind direction. Rule 13 overrides Rule 12 here.
+A sailing vessel approaching another from a direction more than 22.5° <bi> abaft <.bi> her beam is an overtaking
+vessel and must keep clear regardless of wind direction. <bi> Rule <.bi> 13 overrides <bi> Rule <.bi> 12 here.
 
 A sailing vessel must also keep clear of another sailing vessel
 

@@ -10,19 +10,19 @@ Performing a Navigational Watch contd.
 
 >>> Click to see rule
 
-35. The officer in charge of the navigational watch shall bear in mind the necessity to comply at all times with the current requirements of the International Convention for the Safety of Life at Sea (SOLAS) 1974. The officer of the watch shall take into account:
+35. The officer in charge of the navigational watch shall bear in mind the necessity to comply at all times with the current requirements of the International <bi> Convention <.bi> for the Safety of Life at Sea (SOLAS) 1974. The officer of the watch shall take into account:
 
 1. The need to station a person to steer the ship and to put the steering into manual control in good time to allow any potentially hazardous situation to be dealt with in a safe manner, and
 
-2. That with a ship under automatic steering it is highly dangerous to allow a situation to develop to the point where the officer in charge of the watch is without assistance and has to break the continuity of the look-out in order to take emergency action.
+2. That with a ship under automatic steering it is highly dangerous to allow a situation to develop to the point where the officer in charge of the watch is without assistance and has to break the continuity of the <bi> look-out <.bi> in order to take emergency action.
 
 36. Officers of the navigational watch shall be thoroughly familiar with the use of all electronic navigational aids carried, including their capabilities and limitations, and shall use each of these aids when appropriate and shall bear in mind that the echo-sounder is a valuable navigational aid.
 
-37. The officer in charge of the navigational watch shall use the radar whenever restricted visibility is encountered or expected, and at all times in congested waters having due regard to its limitations.
+37. The officer in charge of the navigational watch shall use the <bi> radar <.bi> whenever restricted visibility is encountered or expected, and at all times in <bi> congested <.bi> waters having due regard to its limitations.
 
 38. The officer in charge of the navigational watch shall ensure that range scales employed are changed at sufficiently frequent intervals so that echoes are detected as early as possible. It shall be borne in mind that small or poor echoes may escape detection.
 
-39. Whenever radar is in use, the officer in charge of the navigational watch shall select an appropriate range scale and observe the display carefully, and shall ensure that plotting or systematic analysis is commenced in ample time.
+39. Whenever <bi> radar <.bi> is in use, the officer in charge of the navigational watch shall select an appropriate range scale and observe the display carefully, and shall ensure that plotting or systematic analysis is commenced in ample time.
 
 
 
@@ -30,7 +30,7 @@ Performing a Navigational Watch contd.
 
 The Officer of the Watch shall also.
 
-35. Comply with the conditions and standards of the International Convention for the Safety Of Life At Sea solar. He shall also.
+35. Comply with the conditions and standards of the International <bi> Convention <.bi> for the Safety Of Life At Sea solar. He shall also.
 
 ● Ensure manual steering of the vessel in good time to avoid any potentially dangerous situation.
 
@@ -38,8 +38,8 @@ The Officer of the Watch shall also.
 
 36. Know understand and use the capabilities and limitations of all the electronic navigational aids carried as and when necessary.
 
-37. Use radar whenever restricted visibility arises and continuously in congested areas.
+37. Use <bi> radar <.bi> whenever restricted visibility arises and continuously in <bi> congested <.bi> areas.
 
 38. Ensure that range scales are adopted and their return echoes analyzed as frequently as possible.
 
-39. Select an appropriate range scale while using radar to enable effective plotting and systematic analysis.
+39. Select an appropriate range scale while using <bi> radar <.bi> to enable effective plotting and systematic analysis.

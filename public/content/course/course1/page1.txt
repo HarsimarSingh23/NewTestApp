@@ -3,8 +3,7 @@ Application Responsibility and Definitions
 
 Introduction
 
-Why do collisions occur?
-
+Why do <bi> collisions <.bi> occur?
 
 A collision-scenario exists
 
@@ -19,10 +18,11 @@ A collision-scenario exists
 ● when there are no fixed points of reference.
 
 
-Collisions finally occur because
+<bi> Collisions <.bi> finally occur because
 
 ● it is difficult to know the other party’s thoughts
 
 ● corrections are made by one party and simultaneous reflective corrections are made by the other
 
 ● corrections are imagined so thoroughly that they cause what they are trying to prevent …
+

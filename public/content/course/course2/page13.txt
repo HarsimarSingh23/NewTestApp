@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section One
 
 Rule Five Lookouts and Watchkeeping (contd.)
 
-Basic Principles for Safe Watchkeeping Regulation 1/1(contd.)
+Basic Principles for Safe Watchkeeping <bi> Regulation <.bi> 1/1(contd.)
 
 
 >>> Click to see rule
@@ -20,7 +20,7 @@ The watch system shall be such that the efficiency of watchkeeping officers and 
 
 (c) The Officer of the Watch shall have full knowledge of the location and operation of all safety and navigational equipment on board the ship and shall be aware and take account of the operating limitations of such equipment.
 
-(d) The officer in charge of a navigational watch shall not be assigned or undertake any duties which would interfere with the safe navigation of the ship.
+(d) The officer in charge of a navigational watch shall not be assigned or undertake any duties which would interfere with the safe <bi> navigation <.bi> of the ship.
 
 
 <<<

@@ -7,7 +7,7 @@ Rule Thirty Five: Sound Signals in Restricted Visibility (contd.)
 
 Rule Thirty Five: Sound Signals in Restricted Visibility
 
-In or near an area of restricted visibility, whether by day or night, the signals prescribed in this Rule shall be used as follows:-
+In or near an area of restricted visibility, whether by day or night, the signals prescribed in this <bi> Rule <.bi> shall be used as follows:-
 
 (a) A power-driven vessel making way through the water shall sound at intervals of not more than 2 minutes one prolonged blast.
 
@@ -15,29 +15,29 @@ In or near an area of restricted visibility, whether by day or night, the signal
 
 (c) A vessel not under command, a vessel restricted in her ability to maneuver, a vessel constrained by her draft, a sailing vessel, a vessel engaged in fishing and a vessel engaged in towing or pushing another vessel shall, instead of the signals prescribed in paragraphs (a) or (b) of this Rule, sound at intervals of not more than 2 minutes three blasts in succession, namely one prolonged followed by two short blasts.
 
-(d) A vessel engaged in fishing, when at anchor, and a vessel restricted in her ability to maneuver when carrying out her work at anchor, shall instead of the signals prescribed in paragraph (g) of this Rule sound the signal prescribed in paragraph (c) of this Rule.
+(d) A vessel engaged in fishing, when at anchor, and a vessel restricted in her ability to maneuver when carrying out her work at anchor, shall instead of the signals prescribed in paragraph (g) of this <bi> Rule <.bi> sound the signal prescribed in paragraph (c) of this Rule.
 
 (e) A vessel towed or if more than one vessel is towed the last vessel of the tow, if manned, shall at intervals of not more than 2 minutes sound four blasts in succession, namely one prolonged followed by three short blasts. When practicable, this signal shall be made immediately after the signal made by the towing vessel.
 
 (f) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and shall give the signals prescribed in paragraphs (a) or (b) of this Rule.
 
-(g) A vessel at anchor shall at intervals of not more than one minute ring the bell rapidly for about 5 seconds. In a vessel of 100 meters or more in length the bell shall be sounded in the forepart of the vessel and immediately after the ringing of the bell the gong shall be sounded rapidly for about 5 seconds in the after part of the vessel. A vessel at anchor may in addition sound three blasts in succession, namely one short, one prolonged and one short blast, to give warning of her position and of the possibility of collision to an approaching vessel.
+(g) A vessel at anchor shall at intervals of not more than one minute ring the <bi> bell <.bi> rapidly for about 5 seconds. In a vessel of 100 meters or more in length the <bi> bell <.bi> shall be sounded in the forepart of the vessel and immediately after the ringing of the <bi> bell <.bi> the <bi> gong <.bi> shall be sounded rapidly for about 5 seconds in the after part of the vessel. A vessel at anchor may in addition sound three blasts in succession, namely one short, one prolonged and one short blast, to give warning of her position and of the possibility of collision to an approaching vessel.
 
-(h) A vessel aground shall give the bell signal and if required the gong signal prescribed in paragraph (g) of this Rule and shall, in addition, give three separate and distinct strokes on the bell immediately before and after the rapid ringing of the bell. A vessel aground may in addition sound an appropriate whistle signal.
+(h) A vessel aground shall give the <bi> bell <.bi> signal and if required the <bi> gong <.bi> signal prescribed in paragraph (g) of this <bi> Rule <.bi> and shall, in addition, give three separate and distinct strokes on the <bi> bell <.bi> immediately before and after the rapid ringing of the bell. A vessel aground may in addition sound an appropriate <bi> whistle <.bi> signal.
 
-(i) A vessel of 12 meters or more but less than 20 metres in length shall not be obliged to give the bell signals prescribed in paragraphs (g) and (h) of this Rule. However, if she does not, she shall make some other efficient sound signal at intervals of not more than 2 minutes.
+(i) A vessel of 12 meters or more but less than 20 metres in length shall not be obliged to give the <bi> bell <.bi> signals prescribed in paragraphs (g) and (h) of this Rule. However, if she does not, she shall make some other efficient sound signal at intervals of not more than 2 minutes.
 
 (j) A vessel less than 12 meters in length shall not be obliged to give the above-mentioned signals but, if she does not, shall make some other efficient sound signal at intervals of not more than 2 minutes.
 
-(k) A pilot vessel when engaged on pilotage duty may in addition to the signals prescribed in paragraphs (a), (b), or (g) of this Rule sound an identity signal consisting of four short blasts.
+(k) A pilot vessel when engaged on pilotage duty may in addition to the signals prescribed in paragraphs (a), (b), or (g) of this <bi> Rule <.bi> sound an identity signal consisting of four short blasts.
 
 <<<
 
-This Rule deals with sound signals to be given in times of restricted visibility.
+This <bi> Rule <.bi> deals with sound signals to be given in times of restricted visibility.
 
 The following table gives the sound signals for various vessels in varied conditions :
 
 | Vessel characteristics                       | Status in restricted visibility | Sound Signal                                                                                              |
 |----------------------------------------------|---------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Power-driven / sailing                       | Anchored                        | Rapid ringing of the ship’s bell for five seconds every minute.                                           |
-| Power-driven / sailing length more than 100M | Anchored                        | Rapid ringing of the ship’s bell for five seconds every minute, followed by the gong for the same period  |
+| Power-driven / sailing                       | Anchored                        | Rapid ringing of the ship’s <bi> bell <.bi> for five seconds every minute.                                           |
+| Power-driven / sailing length more than 100M | Anchored                        | Rapid ringing of the ship’s <bi> bell <.bi> for five seconds every minute, followed by the <bi> gong <.bi> for the same period  |

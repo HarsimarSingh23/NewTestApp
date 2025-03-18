@@ -6,15 +6,15 @@ Rule Nineteen Conduct of Vessels in Restricted Visibility (contd.)
 
 >>> Click to see rule
 
-a. This Rule applies to vessels not in sight of one another when navigating in or near an area of restricted visibility.
+a. This <bi> Rule <.bi> applies to vessels not in sight of one another when navigating in or near an area of restricted visibility.
 
 b. Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility. A power-driven vessel shall have her engines ready for immediate manoeuvre.
 
 c. Every vessel shall have due regard to the prevailing circumstances and conditions of restricted visibility when complying with the Rules of Section I of this Part.
 
-d. A vessel which detects by radar alone the presence of another vessel shall determine if a close-quarters situation is developing and / or risk exists. If so, she shall take avoiding action in ample time, provided that when such action consists of an alteration of course, so far as possible, the following shall be avoided :
+d. A vessel which detects by <bi> radar <.bi> alone the presence of another vessel shall determine if a close-quarters situation is developing and / or risk exists. If so, she shall take avoiding action in ample time, provided that when such action consists of an alteration of course, so far as possible, the following shall be avoided :
 i. an alteration of course to port for a vessel forward of the beam, other than for a vessel being overtaken.
-ii. an alteration of course towards a vessel abeam or abaft the beam.
+ii. an alteration of course towards a vessel abeam or <bi> abaft <.bi> the beam.
 
 e. Except where it has been determined that a risk of collision does not exist, every vessel which hears apparently forward of her beam the fog signal of another vessel or which cannot avoid the close-quarters situation with another vessel forward of her beam, shall reduce her speed to the minimum at which she can be kept on her course. She shall, if necessary, take all her way off and in any event, navigate with extreme caution until the danger of collision is over.
 
@@ -28,6 +28,6 @@ In 1972, the Conference decided that no vessel should alter course to port for a
 
 Rules 14, 15 and 17(c) impose a similar restriction on power-driven vessels in sight of one another when meeting or crossing so as to involve risk of collision.
 
-Avoid alterations of course towards vessels approaching from abeam or abaft the beam do not alter course to port in a close-quarters situation this is to reduce the possibility of conflicting action being taken by the other vessel.
+Avoid <bi> alterations <.bi> of course towards vessels approaching from abeam or <bi> abaft <.bi> the beam do not alter course to port in a close-quarters situation this is to reduce the possibility of conflicting action being taken by the other vessel.
 
-However a substantial alteration to port is permissible for vessels approaching forward of the starboard beam.
+However a <bi> substantial <.bi> alteration to port is permissible for vessels approaching forward of the starboard beam.

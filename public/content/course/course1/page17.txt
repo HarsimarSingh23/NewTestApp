@@ -1,9 +1,9 @@
 Rules of the road
 Application Responsibility and Definitions
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
-Importance of Good Seamanship (contd)
+Importance of Good <bi> Seamanship <.bi> (contd)
 
 Under the steering Rules
 
@@ -17,7 +17,7 @@ LEGAL IMPLICATIONS.
 
 ● The part that is the most complicated.
 
-● Few cases of collisions exist where one vessel is held wholly responsible.
+● Few cases of <bi> collisions <.bi> exist where one vessel is held wholly responsible.
 
 Combined liability is usually divided between the two vessels in proportion to the percentage of.
 Blame of each.

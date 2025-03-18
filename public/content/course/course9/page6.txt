@@ -8,9 +8,9 @@ Rule Thirty Three: Equipment for Sound Signals (contd.)
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 Annexure III (contd.)
@@ -22,12 +22,12 @@ Annexure III (contd.)
 If a vessel is fitted with more than one whistle, care should be taken to ensure that both are not sounded
 simultaneously.
 
-(g) Combined whistle systems
+(g) Combined <bi> whistle <.bi> systems
 
-In case there are too many obstructions to the emissions of a whistle on a vessel, a combined system
+In case there are too many obstructions to the emissions of a <bi> whistle <.bi> on a vessel, a combined system
 may be fitted.
 
-The units of the combined whistle system should not be more than 100 metres from each other.
-The frequency of whistles must differ from one another by at least 10 Hz.
+The units of the combined <bi> whistle <.bi> system should not be more than 100 metres from each other.
+The <bi> frequency <.bi> of whistles must differ from one another by at least 10 Hz.
 Both or all whistles under the combined system should be arranged so that they sound simultaneously at
 the press of a single button.

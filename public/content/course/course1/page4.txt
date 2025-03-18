@@ -1,7 +1,7 @@
 Rules of the road
 Application Responsibility and Definitions
 
-Overview of IRPCS 
+Overview of <bi> IRPCS <.bi> 
 
 Collision Avoidance - the Regulations
 
@@ -20,14 +20,14 @@ Follow Rules or regulations ???
 
 Rules basically describe what is generally considered to be proper.
 
-E.g. Rule 16 describes action by a giveaway vessel and expects her to take 'Early and Substantial Action'
+E.g. <bi> Rule <.bi> 16 describes action by a giveaway vessel and expects her to take 'Early and <bi> Substantial <.bi> Action'
 to keep 'Well Clear'.
 
 Regulations prescribe exactly what is required, correct, legal or permitted.
 
-E.g. Rule 28 prescribes exactly the light sound signal for vessel constrained by her drought.
+E.g. <bi> Rule <.bi> 28 prescribes exactly the light sound signal for vessel constrained by her drought.
 
-Treat a rule as a kind of implicit social contract rather than an externally imposed restriction on behavior
+Treat a <bi> rule <.bi> as a kind of implicit social contract rather than an externally imposed restriction on behavior
 
 Train yourself to properly interpret the Rules within the parameters of the International Regulations for
 Collision at Sea. This is more difficult and requires practice at sea.

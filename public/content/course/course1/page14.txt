@@ -2,15 +2,15 @@ Rules of the road
 Application Responsibility and Definitions
 
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
-Good Seamanship 
+Good <bi> Seamanship <.bi> 
 
 What exactly is good seamanship? 
 
 It means correct maritime behavior when one vessel comes in proximity with another
 
-Good seamanship involves
+Good <bi> seamanship <.bi> involves
 
 
 ● Compliance with the Rules.
@@ -23,6 +23,6 @@ Good seamanship involves
 
 ● Anchoring without endangering others.
 
-● Anchoring in fog in case radar is not available.
+● Anchoring in fog in case <bi> radar <.bi> is not available.
 
 ● Vessels proceeding upstream waiting before bends for opposing traffic to pass.

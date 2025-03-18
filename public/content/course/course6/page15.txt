@@ -9,9 +9,9 @@ In restricted visibility conditions vessels must.
 
 ● have engines ready for immediate maneuver
 
-When one vessel detects another by radar she should determine whether a close-quartes situation exists and find ways to avoid it.
+When one vessel detects another by <bi> radar <.bi> she should determine whether a close-quartes situation exists and find ways to avoid it.
 
-A minimum of 2 miles is the distance considered as a close-quarters situation in restricted visibility or in congested waters.
+A minimum of 2 miles is the distance considered as a close-quarters situation in restricted visibility or in <bi> congested <.bi> waters.
 
 In a close-quarters situation,
 
@@ -21,7 +21,7 @@ In a close-quarters situation,
 
 ● Navigate with extreme caution till the danger of collision is past
 
-● Avoid continuous alterations of course in the fog
+● Avoid continuous <bi> alterations <.bi> of course in the fog
 
 Reversing engines should be avoided as the noise may drown out further fog signals.
 

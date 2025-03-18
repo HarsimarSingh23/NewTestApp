@@ -7,7 +7,7 @@ CONCLUSION
 Vessels have various sound signalling devices like whistles, bells and gongs, to be sounded for various
 periods and in various combinations.
 
-Frequencies and audibility of sound-signalling devices depend on the size of the vessel.
+Frequencies and <bi> audibility <.bi> of sound-signalling devices depend on the size of the vessel.
 
 All sound-signalling devices must be approved by competent authorities of the State where the vessel is
 registered.
@@ -18,9 +18,9 @@ Sound-signals may be complemented with light signals to ensure the message is tr
 
 Sound and light signals are extremely important especially in conditions of restricted visibility.
 
-Bell signals must have an interval of at least 1 minute; whistle signals 2 minutes.
+Bell signals must have an interval of at least 1 minute; <bi> whistle <.bi> signals 2 minutes.
 
-Distress signals involve firing a weapon from the deck, continuous sounding of a foghorn or shooting a
+Distress signals involve firing a weapon from the deck, continuous sounding of a <bi> foghorn <.bi> or shooting a
 rocket, a shell or a flare from the deck.
 
 SOS is the international telegraph signal for distress, usually transmitted by Morse Code or wireless

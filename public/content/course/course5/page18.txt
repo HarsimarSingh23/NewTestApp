@@ -9,16 +9,16 @@ Rule Sixteen: Action by Give-way Vessel
 Explanation: -
 1. Vessels are classified as give-way and stand-on vessel only when they
 are in sight of one another.
-2. A give-way vessel is required to take all actions of Rule 8 to avoid
+2. A give-way vessel is required to take all actions of <bi> Rule <.bi> 8 to avoid
 collision with the other vessel. So any alteration of course or speed must be
 made in ample time and be large enough to be readily apparent.
 Note: - A give-way vessel is required to avoid crossing ahead of a
 power-driven vessel crossing from her starboard side (Rule 15). She is
 however not required to avoid crossing ahead if the stand-on vessel is a
-hampered vessel or a vessel of higher privilege (RAM or NUC or sailing
-vessel or fishing vessel as per the situation) as per Rule 18.
+hampered vessel or a vessel of higher privilege (RAM or <bi> NUC <.bi> or sailing
+vessel or fishing vessel as per the situation) as per <bi> Rule <.bi> 18.
 
 <<<
 
 Every vessel which is directed to keep out of the way of another vessel shall, so far as possible, take
-early and substantial action to keep well clear.
+early and <bi> substantial <.bi> action to keep well clear.

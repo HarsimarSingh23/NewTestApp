@@ -21,7 +21,7 @@ Require that watch systems are so arranged that the efficiency of all watchkeepi
 
 <<<
 
-International Convention on Standards of Training Certification and watchkeeping for Seafarers ANNEX.
+International <bi> Convention <.bi> on Standards of Training Certification and watchkeeping for <bi> Seafarers <.bi> ANNEX.
 
 Regulation VIII/1 - Prevention of Fatigue with respect to watchkeeping personnel.
 

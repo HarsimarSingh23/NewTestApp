@@ -12,11 +12,11 @@ Part 3: Watchkeeping at Sea
 
 Part 3.1: Principles to be Observed in Keeping a Navigational Watch
 
-12. The officer in charge of the navigational watch is the Master's representative and is primarily responsible at all times for the safe navigation of the ship and for complying with the International Regulations for Preventing Collisions at Sea, 1972.
+12. The officer in charge of the navigational watch is the Master's representative and is primarily responsible at all times for the safe <bi> navigation <.bi> of the ship and for complying with the International Regulations for Preventing <bi> Collisions <.bi> at Sea, 1972.
 
 Look-out
 
-13. A proper look-out shall be maintained at all times in compliance with Rule 3 of the International Regulations for Preventing Collisions at Sea, 1972 and shall serve the purpose of:
+13. A proper <bi> look-out <.bi> shall be maintained at all times in compliance with <bi> Rule <.bi> 3 of the International Regulations for Preventing <bi> Collisions <.bi> at Sea, 1972 and shall serve the purpose of:
 
 1. Maintaining a continuous state of vigilance by sight and hearing as well as by all other available means, with regard to any significant change in the operating environment;
 
@@ -24,12 +24,12 @@ Look-out
 
 3. Detecting ships or aircraft in distress, shipwrecked persons, wrecks, debris and other hazards to safe navigation.
 
-14. The look-out must be able to give full attention to the keeping of a proper look-out and no other duties shall be undertaken or assigned which could interfere with that task.
+14. The <bi> look-out <.bi> must be able to give full attention to the keeping of a proper <bi> look-out <.bi> and no other duties shall be undertaken or assigned which could interfere with that task.
 
 
 <<<
 
-12. The Officer of the Watch is the Captains representative and primarily responsible for the safe navigation of the ship and for complying with the rips.
+12. The Officer of the Watch is the Captains representative and primarily responsible for the safe <bi> navigation <.bi> of the ship and for complying with the rips.
 
 13. A proper lookout shall be made available to 
 	
@@ -39,4 +39,4 @@ Look-out
 
 	C. Detect ships or aircraft in distress shipwrecked persons wrecks debris and other hazards to 	safe navigation.
 
-14. The look-out should be dedicated and should have no other duties that will interfere with his duties. 
+14. The <bi> look-out <.bi> should be dedicated and should have no other duties that will interfere with his duties. 

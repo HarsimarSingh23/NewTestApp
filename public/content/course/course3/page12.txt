@@ -3,16 +3,16 @@ Steering and Sailing Rules - Section One v
 
 Rule Seven Risk of Collision (contd.)
 
-Assumptions on Scanty Information coned
+Assumptions on <bi> Scanty <.bi> Information coned
 
 Further inaccuracy may result from the reading and plotting of ranges and bearings.
 
 Several observations should be taken at short and regular intervals to reduce the effects of these random errors when there is a possibility of a close-quarters situation developing.
 
-When vessels are in sight of one another visual compass bearings normally give greater accuracy than radar bearings but when the vessel is in a storm or tossing and pitching heavily errors may be present especially with the magnetic compass.
+When vessels are in sight of one another visual compass bearings normally give greater accuracy than <bi> radar <.bi> bearings but when the vessel is in a storm or tossing and pitching heavily errors may be present especially with the magnetic compass.
 
 Bearings taken relative to the ships structure could be misleading leading to collisions.
 
 Risk of collision is high when the compass bearing of an approaching vessel does not appreciably change for example the bearing will change by more than as the range closes from miles to mile. Such a passing distance will bring danger of collision especially if vessels are overtaking each other if the water is shallow.
 
-Assumptions on scanty information also include reliance on unavailable unreliable inputs non consideration of all the factors into account scanty radar information etc.
+Assumptions on <bi> scanty <.bi> information also include reliance on unavailable unreliable inputs non consideration of all the factors into account <bi> scanty <.bi> <bi> radar <.bi> information etc.

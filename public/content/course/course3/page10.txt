@@ -3,7 +3,7 @@ Steering and Sailing Rules - Section One  (contd.)
 
 Rule Seven Risk of Collision (contd.)
 
-Assumptions on Scanty Information.
+Assumptions on <bi> Scanty <.bi> Information.
 
 Risk of collision should be determined by multiple and successive observations taken as accurately as possible. 
 

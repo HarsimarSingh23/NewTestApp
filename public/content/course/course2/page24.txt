@@ -10,7 +10,7 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 >>> Click to see rule
 
 
-16. In determining that the composition of the navigational watch is adequate to ensure that a proper look-out can continuously be maintained, the Master shall take into account all relevant factors, including those described in this section of the Code, as well as the following factors:
+16. In determining that the composition of the navigational watch is adequate to ensure that a proper <bi> look-out <.bi> can continuously be maintained, the <bi> Master <.bi> shall take into account all relevant factors, including those described in this section of the Code, as well as the following factors:
 
 1. Visibility, state of weather and sea;
 
@@ -26,11 +26,11 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 7. The experience of each officer of the watch, and the familiarity of that officer with the ship's equipment, procedures and maneuvering capability;
 
-8. Activities taking place on board the ship at any particular time, including radio communication activities and the availability of assistance to be summoned immediately to the bridge when necessary;
+8. Activities taking place on board the ship at any particular time, including radio communication activities and the availability of assistance to be summoned immediately to the <bi> bridge <.bi> when necessary;
 
-9. The operational status of bridge instrumentation and controls, including alarm systems;
+9. The operational status of <bi> bridge <.bi> instrumentation and controls, including alarm systems;
 
-10. Rudder and propeller control and ship maneuvering characteristics;
+10. <bi> Rudder <.bi> and <bi> propeller <.bi> control and ship maneuvering characteristics;
 
 11. The size of the ship and the field of vision available from the conning position;
 
@@ -42,7 +42,7 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 <<<
 
-16. Factors to be considered by the Master to ensure proper lookout (contd.)
+16. Factors to be considered by the <bi> Master <.bi> to ensure proper lookout (contd.)
 
 
 	D. The additional workload caused by the ships functions to the lookout.
@@ -55,10 +55,10 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 	H. Inboard activities taking place including radiocommunication activities.
 
-	I. The operational status of bridge instrumentation and controls including alarm systems 	rudder and propeller control and ship maneuvering characteristics.
+	I. The operational status of <bi> bridge <.bi> instrumentation and controls including alarm systems <bi> 	rudder <.bi> and <bi> propeller <.bi> control and ship maneuvering characteristics.
 
 	K. The size of the ship and the view available from the commanding position.
 
-	I. The configuration of the bridge with an eye to impediments to the watchkeeper.
+	I. The configuration of the <bi> bridge <.bi> with an eye to <bi> impediments <.bi> to the watchkeeper.
 
 	M. Any other approved and relevant standard procedure or guidance relating to watchkeeping 	arrangements and fitness for duty.

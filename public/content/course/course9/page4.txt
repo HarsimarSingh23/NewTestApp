@@ -8,9 +8,9 @@ Rule Thirty Three: Equipment for Sound Signals (contd.)
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 
@@ -18,10 +18,10 @@ Annexure III (contd.)
 1. Whistles
 
 (c) Sound signal intensity and range of audibility
-The distance a whistle can be heard depends upon the frequency (measured in Hertz or Hz) and the
+The distance a <bi> whistle <.bi> can be heard depends upon the <bi> frequency <.bi> (measured in Hertz or Hz) and the
 loudness (measured in decibels or dB). The following table gives more information :
 
-| Length of vessel (metres)   | 1/3rd-octave band level at 1 metre in dB referred to 2 × 10⁻⁵ N/m² | Audibility range in nautical miles (nm) |
+| Length of vessel (metres)   | 1/3rd-octave band level at 1 metre in <bi> dB <.bi> referred to 2 × 10⁻⁵ N/m² | <bi> Audibility <.bi> range in nautical miles (nm) |
 |-----------------------------|------------------------------------------------------------------|--------------------------------------|
 | 200 or more                 | 143                                                              | 2                                    |
 | 75 but less than 200        | 138                                                              | 1.5                                  |
@@ -34,4 +34,4 @@ loudness (measured in decibels or dB). The following table gives more informatio
 *1 - When the measured frequencies lie within the range 180 - 450 Hz.
 *2 — When the measured frequencies lie within the range 450 — 800 Hz.
 *3 – When the measured frequencies lie within the range 800 – 2100 Hz.
-The range within which a whistle may be heard depends upon the weather conditions prevailing at that time and the ambient noise prevailing at the listening post.
+The range within which a <bi> whistle <.bi> may be heard depends upon the weather conditions prevailing at that time and the ambient noise prevailing at the listening post.

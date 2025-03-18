@@ -7,9 +7,9 @@ Rule Thirty Three: Equipment for Sound Signals
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 
@@ -21,7 +21,7 @@ Whistle or other device like foghorn
 Vessel more than 12M long
 Whistle and Bell
 Vessel more than 20M long
-Whistle, Bell and Gong (deeper sound)
+Whistle, <bi> Bell <.bi> and <bi> Gong <.bi> (deeper sound)
 Vessel more than 100M long
 Vessels below 12M in length need not have the above sound signalling devices, but should carry some
 means of producing an efficient sound signal – for example – an air-powered or electric foghorn.

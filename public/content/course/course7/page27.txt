@@ -13,7 +13,7 @@ Pincushion vessels have to display a flashing yellow light to indicate that they
 
 WIG craft have to display a flashing red light to indicate surface activity.
 
-The Rule has prescribed for visibility of lights depending on the size of the vessel.
+The <bi> Rule <.bi> has prescribed for visibility of lights depending on the size of the vessel.
 
 Tugs display either two or three masthead lights depending on the length of the tow.
 

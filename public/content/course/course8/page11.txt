@@ -9,7 +9,7 @@ Rule Twenty Six: Fishing Vessels (contd.)
 
 (b) A vessel when engaged in trawling, by which is meant the dragging through the water of a dredge net or other apparatus used as a fishing appliance, shall exhibit:
 (i) two all-round lights in a vertical line, the upper being green and the lower white, or a shape consisting of two cones with their apexes together in a vertical line one above the other;
-(ii) a masthead light abaft of and higher than the all-round green light; a vessel of less than 50 meters in length shall not be obliged to exhibit such a light but may do so;
+(ii) a masthead light <bi> abaft <.bi> of and higher than the all-round green light; a vessel of less than 50 meters in length shall not be obliged to exhibit such a light but may do so;
 (iii) when making way through the water, in addition to the lights prescribed in this paragraph, sidelights and a sternlight.
 
 (c) A vessel engaged in fishing, other than trawling, shall exhibit:
@@ -23,11 +23,11 @@ Rule Twenty Six: Fishing Vessels (contd.)
 
 <<<
 
-Vessels fishing with purse seine gear may exhibit :
+Vessels fishing with purse <bi> seine <.bi> gear may exhibit :
 
 Condition - Signal to be exhibited
 when fishing - two yellow lights in a vertical line
-when hampered by fishing gear - two yellow lights flashing once every second
+when <bi> hampered <.bi> by fishing gear - two yellow lights flashing once every second
 Vessels of less than 20 metres in length may also exhibit the above signals.
 
 Annexure II

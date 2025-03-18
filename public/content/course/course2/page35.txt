@@ -12,13 +12,13 @@ Watchkeeping in Restricted Visibility.
 
 >>> Click to see rule
 
-45. When restricted visibility is encountered or expected, the first responsibility of the officer of the watch is to comply with the relevant rules of the International Regulations for Preventing Collisions at Sea, with particular regard to the sounding of fog signals, proceeding at a safe speed and having the engines ready for immediate manoeuvre. In addition, the officer in charge of the navigational watch shall:
+45. When restricted visibility is encountered or expected, the first responsibility of the officer of the watch is to comply with the relevant rules of the International Regulations for Preventing <bi> Collisions <.bi> at Sea, with particular regard to the sounding of fog signals, proceeding at a safe speed and having the engines ready for immediate manoeuvre. In addition, the officer in charge of the navigational watch shall:
 
 A. inform the Master,
 
 b. post a proper look-out,
 
-c. exhibit navigation lights, and
+c. exhibit <bi> navigation <.bi> lights, and
 
 d. operate and use the radar.
 

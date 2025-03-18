@@ -26,17 +26,17 @@ vi. The draught in relation to the available depth of water.
 
 b.  Additionally, by vessels with operational radar:
 
-i. The characteristics, efficiency and limitations of the radar equipment.
+i. The characteristics, efficiency and limitations of the <bi> radar <.bi> equipment.
 
-ii. Any constraint imposed by the radar range scale in use.
+ii. Any constraint imposed by the <bi> radar <.bi> range scale in use.
 
-iii. The effect on radar detection of the sea state, weather and other sources of interference.
+iii. The effect on <bi> radar <.bi> detection of the sea state, weather and other sources of interference.
 
-iv. The possibility that small vessels, ice and other floating objects may not be detected by radar at an adequate range.
+iv. The possibility that small vessels, ice and other floating objects may not be detected by <bi> radar <.bi> at an adequate range.
 
 v. The number, location and movement of vessels detected by radar, and
 
-vi. The more exact assessment of the visibility that may be possible when radar is used to determine the range of vessels or other objects in the vicinity.
+vi. The more exact assessment of the visibility that may be possible when <bi> radar <.bi> is used to determine the range of vessels or other objects in the vicinity.
 
 
 <<<

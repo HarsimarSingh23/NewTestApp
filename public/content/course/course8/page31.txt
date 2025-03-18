@@ -12,9 +12,9 @@ Fishing vessels require to display lighting adequate to their status.
 Pair trawling requires flood-lighting and various combinations of lights depending on the
 activity on the trawler.
 
-Vessels NUC, RAM and CBD have additional lighting to warn other vessels of their special status.
+Vessels NUC, RAM and <bi> CBD <.bi> have additional lighting to warn other vessels of their special status.
 
 Pilot boats need to fly International Code H flag to indicate the presence of a pilot on board.
 
 Vessels have to display a special combination of lights when anchored or aground.
-Seaplanes and WIG craft have their own combinations of lighting, which is quite similar to that
+Seaplanes and <bi> WIG <.bi> craft have their own combinations of lighting, which is quite similar to that

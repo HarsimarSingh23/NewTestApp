@@ -9,7 +9,7 @@ Stay as close to the border on your starboard side, as possible.
 
 Use appropriate sound signals if you wish to overtake in a narrow channel. Avoid crossing.
 
-Five whistle blasts means - DO NOT OVERTAKE.
+Five <bi> whistle <.bi> blasts means - DO NOT OVERTAKE.
 
 Sound a prolonged blast when approaching a bend in a narrow channel. An answering blast means there
 is another vessel around the corner.

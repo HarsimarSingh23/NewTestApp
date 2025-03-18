@@ -12,13 +12,13 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 17. When deciding the composition of the watch on the bridge, which may include appropriately qualified ratings, the following factors, inter alia, shall be taken into account:
 
-1. At no time shall the bridge be left unattended;
+1. At no time shall the <bi> bridge <.bi> be left unattended;
 
 2. Weather conditions, visibility and whether there is daylight or darkness;
 
 3. Proximity of navigational hazards which may make it necessary for the officer in charge of the watch to carry out additional navigational duties;
 
-4. Use and operational condition of navigational aids such as radar or electronic position-indicating devices and any other equipment affecting the safe navigation of the ship;
+4. Use and operational condition of navigational aids such as <bi> radar <.bi> or electronic position-indicating devices and any other equipment affecting the safe <bi> navigation <.bi> of the ship;
 
 5. Whether the ship is fitted with automatic steering;
 
@@ -34,18 +34,18 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 The following factors to be considered when deciding the composition of the watch on the bridge.
 
-	A. There shall be a qualified officer on the bridge at all times.
+	A. There shall be a qualified officer on the <bi> bridge <.bi> at all times.
 
 	B. Weather conditions visibility and the presence or absence of daylight.
 	
 	C. Proximity of navigational hazards which make it necessary for additional navigational 	duties.
 
-	D. Use of and condition of navigational aids like radar VHF radio and position indicating 	devices.
+	D. Use of and condition of navigational aids like <bi> radar <.bi> VHF radio and position indicating 	devices.
 
 	E. The presence of and condition of automatic steering if fitted.
 
 	F. Whether there are radio duties to be performed.
 
-	G. The presence of unmanned machinery space controls alarms and indicators provided on the 	bridge procedures for their use and limitations.
+	G. The presence of unmanned machinery space controls alarms and indicators provided on the <bi> 	bridge <.bi> procedures for their use and limitations.
 
 	H. Any possible unusual demands on the navigational watch that may arrive because of special 	operational circumstances.

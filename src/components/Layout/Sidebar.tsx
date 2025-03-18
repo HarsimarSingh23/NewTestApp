@@ -1,5 +1,5 @@
-
 import { NavLink } from 'react-router-dom';
+import crestImage from '../../img/crest_round.png';
 import { 
   Home,
   BookOpen, 
@@ -7,7 +7,8 @@ import {
   MessageSquare,
   Settings,
   User,
-  BookmarkCheck
+  BookmarkCheck,
+  GraduationCap
 } from 'lucide-react';
 
 const menuItems = [
@@ -18,14 +19,18 @@ const menuItems = [
   { icon: MessageSquare, label: 'Messages', path: '/messages' },
   { icon: User, label: 'Profile', path: '/profile' },
   { icon: Settings, label: 'Settings', path: '/settings' }
-  
 ];
 
 export function Sidebar() {
   return (
-    <div className="h-screen w-64 bg-indigo-800 text-white fixed left-0 top-0">
-      <div className="p-4">
-        <h2 className="text-2xl font-bold mb-8">Learning Hub</h2>
+    <div className="h-screen w-64 bg-indigo-800 text-white fixed left-0 top-0 flex flex-col">
+      <div className="flex-1 p-4">
+        <div className="flex items-center gap-3 mb-8">
+          <div className="bg-white p-2 rounded-lg">
+            <GraduationCap className="h-8 w-8 text-indigo-800" />
+          </div>
+          <h2 className="text-2xl font-bold">Learning Hub</h2>
+        </div>
         <nav className="space-y-2">
           {menuItems.map((item) => (
             <NavLink
@@ -44,6 +49,18 @@ export function Sidebar() {
             </NavLink>
           ))}
         </nav>
+      </div>
+
+      {/* Centered Image and Text at the Bottom */}
+      <div className="p-4 border-t border-indigo-700">
+        <div className="flex flex-col items-center">
+          <img
+            className="h-40 w-auto mb-4"
+            src={crestImage}
+            alt="Company Logo"
+          />
+          <p className="text-sm font-large text-center">School of Excellence</p>
+        </div>
       </div>
     </div>
   );

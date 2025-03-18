@@ -15,4 +15,4 @@ m. the radiotelephone alarm signal;
 
 n. signals transmitted by emergency position-indicating radio beacons;
 
-o. approved signals transmitted by radiocommunication systems, including survival craft radar transponders.
+o. approved signals transmitted by radiocommunication systems, including survival craft <bi> radar <.bi> transponders.

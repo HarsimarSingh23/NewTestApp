@@ -13,6 +13,6 @@ The following precautions should be borne in mind while using AIS.
 
 ● AIS is an additional source for navigational information.
 
-● AIS supports but does not replace navigational systems like radar target-tracking and its.
+● AIS supports but does not replace navigational systems like <bi> radar <.bi> target-tracking and its.
 
 ● The use of AIS does not negate the responsibility of the Officer of the Watch to comply at all times with the Collision Regulations.

@@ -1,10 +1,10 @@
 Rules of the road
 Application Responsibility and Definitions
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
 Squadrons or Convoys.
 
 Single vessels are advised to keep out of the way of naval squadrons in formation or merchant vessels in convoy. 
 
-Vessels in the convoy are advised to keep a sharp lookout for such vessels and be prepared to take evasive action against collision. More information in Notices to Mariners.
+Vessels in the <bi> convoy <.bi> are advised to keep a sharp lookout for such vessels and be prepared to take evasive action against collision. More information in Notices to Mariners.

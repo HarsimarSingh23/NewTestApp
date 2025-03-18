@@ -8,9 +8,9 @@ Rule Thirty Three: Equipment for Sound Signals (contd.)
 
 Rule Thirty Three: Equipment for Sound Signals
 
-(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a bell in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, bell and gong shall comply with the specifications in Annex III to these Regulations. The bell or gong or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
+(a) A vessel of 12 meters or more in length shall be provided with a whistle, a vessel of 20 meters or more in length shall be provided with a <bi> bell <.bi> in addition to a whistle, and a vessel of 100 meters or more in length shall, in addition, be provided with a gong, the tone and sound of which cannot be confused with that of the bell. The whistle, <bi> bell <.bi> and <bi> gong <.bi> shall comply with the specifications in Annex III to these Regulations. The <bi> bell <.bi> or <bi> gong <.bi> or both may be replaced by other equipment having the same respective sound characteristics, provided that manual sounding of the prescribed signals shall always be possible.
 
-(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this Rule but if she does not, she shall be provided with some other means of making an efficient sound signal.
+(b) A vessel of less than 12 meters in length shall not be obliged to carry the sound signaling appliances prescribed in paragraph (a) of this <bi> Rule <.bi> but if she does not, she shall be provided with some other means of making an efficient sound signal.
 
 <<<
 
@@ -21,10 +21,10 @@ Annexure III
 1. Whistles
 
 (a) Frequencies & range
-The main frequency of a ship's whistle must be within 70 and 700 Hz.
-The frequency range for a vessel of 20 metres or larger is 180 to 700 Hz.
-The frequency range for a vessel of less than 20 metres is between 180 and 2100 Hz.
-The range of audibility is determined by these frequencies.
+The main <bi> frequency <.bi> of a ship's <bi> whistle <.bi> must be within 70 and 700 Hz.
+The <bi> frequency <.bi> range for a vessel of 20 metres or larger is 180 to 700 Hz.
+The <bi> frequency <.bi> range for a vessel of less than 20 metres is between 180 and 2100 Hz.
+The range of <bi> audibility <.bi> is determined by these frequencies.
 
 (b) Limits of fundamental frequencies
 For vessels of 200 metres or more in length – between 70 and 200 Hz.

@@ -5,15 +5,15 @@ Rule Nine: Narrow Channels (contd.)
 
 Effect of Canal Navigation
 
-	● Reduction in propeller speed by 15 % to 20 %
+	● Reduction in <bi> propeller <.bi> speed by 15 % to 20 %
 	
-	● Increased turbulence around the propellers
+	● Increased <bi> turbulence <.bi> around the propellers
 
-	● Increased slipstream around the rudder
+	● Increased <bi> slipstream <.bi> around the rudder
 
 	● Larger bow and stern waves which could disrupt life in the channel
 
-	● Increased Squat leading to decreased control
+	● Increased <bi> Squat <.bi> leading to decreased control
 
 Reverse Flow in Canals
 

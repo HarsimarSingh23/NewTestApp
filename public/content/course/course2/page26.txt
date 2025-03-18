@@ -10,11 +10,11 @@ Mandatory Standards for Safe Watchkeeping (contd.)
 
 Taking over the watch
 
-18. The officer in charge of the navigational watch shall not hand over the watch to the relieving officer if there is reason to believe that the latter is not capable of carrying out the watchkeeping duties effectively, in which case the Master shall be notified.
+18. The officer in charge of the navigational watch shall not hand over the watch to the relieving officer if there is reason to believe that the latter is not capable of carrying out the watchkeeping duties effectively, in which case the <bi> Master <.bi> shall be notified.
 
 19. The relieving officer shall ensure that the members of the relieving watch are fully capable of performing their duties, particularly as regards their adjustment to night vision. Relieving officers shall not take over the watch until their vision is fully adjusted to the light conditions.
 
-20. Prior to taking over the watch relieving officers shall satisfy themselves as to the ship's estimated or true position and confirm its intended track, course and speed and UMS controls as appropriate, and shall note any dangers to navigation expected to be encountered during their watch.
+20. Prior to taking over the watch relieving officers shall satisfy themselves as to the ship's estimated or true position and confirm its intended track, course and speed and UMS controls as appropriate, and shall note any dangers to <bi> navigation <.bi> expected to be encountered during their watch.
 
 <<<
 
@@ -24,4 +24,4 @@ Taking Over the Watch.
 
 19. The officer being relieved shall satisfy himself that all the new watchkeeping members are fully. capable of doing their duties especially regarding their adjustment to night vision.
 
-20. Relieving officers shall only accept the watch after confirming the true position of the ship her intended track course and speed and note any projected dangers to navigation that they may be expected to face during their period of watchkeeping.
+20. Relieving officers shall only accept the watch after confirming the true position of the ship her intended track course and speed and note any projected dangers to <bi> navigation <.bi> that they may be expected to face during their period of watchkeeping.

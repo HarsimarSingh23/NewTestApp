@@ -10,7 +10,7 @@ Performing a Navigational Watch (contd.)
 
 >>> Click to see rule
 
-40. The officer in charge of the navigational watch shall notify the Master immediately:
+40. The officer in charge of the navigational watch shall notify the <bi> Master <.bi> immediately:
 
 1. If restricted visibility is encountered or expected;
 
@@ -18,9 +18,9 @@ Performing a Navigational Watch (contd.)
 
 3. If difficulty is experienced in maintaining course;
 
-4. On failure to sight land, a navigation mark or to obtain soundings by the expected time;
+4. On failure to sight land, a <bi> navigation <.bi> mark or to obtain soundings by the expected time;
 
-5. If, unexpectedly, land or a navigation mark is sighted or a change in soundings occurs;
+5. If, unexpectedly, land or a <bi> navigation <.bi> mark is sighted or a change in soundings occurs;
 
 6. On breakdown of the engines, propulsion machinery remote control, steering gear or any essential navigational equipment, alarm or indicator.
 
@@ -46,9 +46,9 @@ The Officer of the Watch shall also.
 
 ● He experiences difficulty in maintaining course.
 
-● He fails to sight land navigation marks or expected soundings at the expected time.
+● He fails to sight land <bi> navigation <.bi> marks or expected soundings at the expected time.
 
-● Land a navigation mark or unexpected sounding is encountered unexpectedly.
+● Land a <bi> navigation <.bi> mark or unexpected sounding is encountered unexpectedly.
 
 ● Engines steering gear remote controls or any essential navigational equipment alarm or indicator breaks down.
 

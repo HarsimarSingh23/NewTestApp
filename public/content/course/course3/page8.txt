@@ -5,7 +5,7 @@ Rule Seven Risk of Collision (contd.)
 
 Proper use of Radar
 
-Proper use of radar to obtain early warning of risk of collision requires that
+Proper use of <bi> radar <.bi> to obtain early warning of risk of collision requires that
 
 	● All controls are at their optimum settings
 
@@ -15,4 +15,4 @@ Proper use of radar to obtain early warning of risk of collision requires that
 
 	● A stabilized display is used enabling compass bearings being read off directly and nonblurring of echoes.
 
-On vessels with two radar systems mounted in close proximity it is advantageous to use the relative motion display on one radar and the true motion display on the other
+On vessels with two <bi> radar <.bi> systems mounted in close proximity it is advantageous to use the relative motion display on one <bi> radar <.bi> and the true motion display on the other

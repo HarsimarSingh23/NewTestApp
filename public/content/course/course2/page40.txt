@@ -10,7 +10,7 @@ Guidelines regarding Watchkeeping Arrangements and Principles to be Observed con
 
 >>> Click to see rule
 
-5. Companies should also issue guidance to Masters and officers in charge of the navigational watch on each ship concerning the need for continuously reassessing how bridge-watch resources are being allocated and used, based on bridge resource management principles such as the following:
+5. Companies should also issue guidance to Masters and officers in charge of the navigational watch on each ship concerning the need for continuously reassessing how bridge-watch resources are being allocated and used, based on <bi> bridge <.bi> resource management principles such as the following:
 
 1. A sufficient number of qualified individuals should be on watch to ensure all duties can be performed effectively;
 
@@ -32,11 +32,11 @@ Guidelines regarding Watchkeeping Arrangements and Principles to be Observed con
 
 10. Non-essential activity and distractions should be avoided, suppressed or removed;
 
-11. All bridge equipment should be operating properly and if not the officer in charge of the navigational watch should take into account any malfunction which may exist in making operational decisions;
+11. All <bi> bridge <.bi> equipment should be operating properly and if not the officer in charge of the navigational watch should take into account any malfunction which may exist in making operational decisions;
 
 12. All essential information should be collected processed and interpreted and made conveniently available to those who require it for the performance of their duties;
 
-13. Non-essential materials should not be placed on the bridge or any work surface; and
+13. Non-essential materials should not be placed on the <bi> bridge <.bi> or any work surface; and
 
 14. Members of the navigational watch should at all times be prepared to respond efficiently and effectively to changes in circumstances.
 
@@ -50,7 +50,7 @@ A. A sufficient number of qualified individuals should be on watch at all times.
 B. The Officer of the Watch should note and consider any limitations in qualification or fitness of the.
 Watchkeeping officers.
 
-C. Watchkeeping and other bridge duties should be clearly explained and confirmation of.
+C. Watchkeeping and other <bi> bridge <.bi> duties should be clearly explained and confirmation of.
 Understanding taken.
 
 D. Tasks should be prioritized and performed accordingly.

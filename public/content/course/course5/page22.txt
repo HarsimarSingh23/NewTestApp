@@ -8,13 +8,13 @@ Rule Seventeen: Action by Stand-on Vessel (contd.)
 >>> Click to see rule
 
 a. i. When one of two vessels is to keep out of the way, the other shall keep her course and speed.
-ii. The latter vessel may, however, take action to avoid collision by her manoeuvre alone, as soon as it becomes apparent to her that the vessel required to keep out of the way is not taking appropriate action in compliance with these Rules.
+ii. The latter vessel may, however, take action to avoid collision by her <bi> manoeuvre <.bi> alone, as soon as it becomes apparent to her that the vessel required to keep out of the way is not taking appropriate action in compliance with these Rules.
 
 b. When, from any cause, the vessel required to keep her course and speed finds herself so close that collision cannot be avoided by the action of the give-way vessel alone, she shall take such action as will best aid to avoid collision.
 
-c. A power-driven vessel which takes action in a crossing situation in accordance with sub-paragraph (a)(ii) of this Rule to avoid collision with another power-driven vessel shall, if the circumstances of the case admit, not alter course to port for a vessel on her own port side.
+c. A power-driven vessel which takes action in a crossing situation in accordance with sub-paragraph (a)(ii) of this <bi> Rule <.bi> to avoid collision with another power-driven vessel shall, if the circumstances of the case admit, not alter course to port for a vessel on her own port side.
 
-d. This Rule does not relieve the give-way vessel of her obligation to keep out of the way.
+d. This <bi> Rule <.bi> does not relieve the give-way vessel of her obligation to keep out of the way.
 
 <<<
 
@@ -25,8 +25,8 @@ Stage Two : At the first instance of a collision risk arising, the give-way vess
 prevent such a collision. The stand-on vessel remains on her course and speed.
 
 Stage Three : When the stand-on vessel sees that the give-way vessel is not taking any action to
-change either her course or speed, she (the stand- on vessel) should give the prescribed whistle signal
-(5 short and rapid blasts) as in Rule 34(d). She should also begin to make collision avoidance
+change either her course or speed, she (the stand- on vessel) should give the prescribed <bi> whistle <.bi> signal
+(5 short and rapid blasts) as in <bi> Rule <.bi> 34(d). She should also begin to make collision avoidance
 manoeuvres.
 
 Stage Four : When collision cannot be avoided by the give-way vessel alone, the stand-on vessel should make the required moves to keep out of the way.

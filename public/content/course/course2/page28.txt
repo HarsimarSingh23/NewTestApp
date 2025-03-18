@@ -16,17 +16,17 @@ Performing the navigational watch
 
 1. Keep the watch on the bridge;
 
-2. In no circumstances leave the bridge until properly relieved;
+2. In no circumstances leave the <bi> bridge <.bi> until properly relieved;
 
-3. Continue to be responsible for the safe navigation of the ship, despite the presence of the Master on the bridge, until informed specifically that the Master has assumed that responsibility and this is mutually understood; and 
+3. Continue to be responsible for the safe <bi> navigation <.bi> of the ship, despite the presence of the <bi> Master <.bi> on the bridge, until informed specifically that the <bi> Master <.bi> has assumed that responsibility and this is mutually understood; and 
 
-4. Notify the Master when in any doubt as to what action to take in the interest of safety.
+4. Notify the <bi> Master <.bi> when in any doubt as to what action to take in the interest of safety.
 
 24. During the watch the course steered, position and speed shall be checked at sufficiently frequent intervals, using any available navigational aids necessary, to ensure that the ship follows the planned course.
 
 25. The officer in charge of the navigational watch shall have full knowledge of the location and operation of all safety and navigational equipment on board the ship and shall be aware and take account of the operating limitations of such equipment.
 
-26. The officer in charge of the navigational watch shall not be assigned or undertake any duties which would interfere with the safe navigation of the ship.
+26. The officer in charge of the navigational watch shall not be assigned or undertake any duties which would interfere with the safe <bi> navigation <.bi> of the ship.
 
 
 
@@ -36,9 +36,9 @@ Performing the navigational watch
 	
 	A. Keep watch on the bridge.
 
-	B. Leave the bridge only if and when properly relieved.
+	B. Leave the <bi> bridge <.bi> only if and when properly relieved.
 
-	C. Continue to be responsible for the safe navigation of the ship inspire of the Captain being 	on the bridge till such responsibility is resumed by the Captain and communicated to the Officer of the Watch.
+	C. Continue to be responsible for the safe <bi> navigation <.bi> of the ship inspire of the Captain being 	on the <bi> bridge <.bi> till such responsibility is resumed by the Captain and communicated to the Officer of the Watch.
 	
 	D. Notify the Captain when any doubt arises as to what action to take in the interests of safety to the vessel.
 
@@ -48,5 +48,5 @@ The said Officer shall also.
 
 25. Know everything about the location and operation of all safety and navigational equipment including its limitations.
 
-26. Not attempt any additional duties which will interfere with the safe navigation of the ship.
+26. Not attempt any additional duties which will interfere with the safe <bi> navigation <.bi> of the ship.
 

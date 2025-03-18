@@ -7,20 +7,20 @@ Rule Twenty Four Towing and Pushing (contd.)
 >>> Click to see rule
 
 (a) A power-driven vessel when towing shall exhibit:
-(i) instead of the light prescribed in Rule 23 (a) (i) or (a) (ii), two masthead lights in a vertical line. When the length of the tow, measuring from the stern of the towing vessel to the after end of the tow exceeds 200 meters, three such lights in a vertical line;
+(i) instead of the light prescribed in <bi> Rule <.bi> 23 (a) (i) or (a) (ii), two masthead lights in a vertical line. When the length of the tow, measuring from the stern of the towing vessel to the after end of the tow exceeds 200 meters, three such lights in a vertical line;
 (ii) sidelights;
 (iii) a stern light;
 (iv) a towing light in a vertical line above the stern light;
 (v) when the length of the tow exceeds 200 meters, a diamond shape where it can best be seen.
 
-(b) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and exhibit the lights prescribed in Rule 23.
+(b) When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit they shall be regarded as a power-driven vessel and exhibit the lights prescribed in <bi> Rule <.bi> 23.
 
 (c) A power-driven vessel when pushing ahead or towing alongside, except in the case of a composite unit, shall exhibit;
-(i) instead of the light prescribed in Rule 23(a)(i) or (a)(ii), two masthead lights in a vertical line;
+(i) instead of the light prescribed in <bi> Rule <.bi> 23(a)(i) or (a)(ii), two masthead lights in a vertical line;
 (ii) sidelights;
 (iii) a stern light.
 
-(d) A power-driven vessel to which paragraphs (a) or (c) of this Rule apply shall also comply with Rule 23(a) (ii).
+(d) A power-driven vessel to which paragraphs (a) or (c) of this <bi> Rule <.bi> apply shall also comply with <bi> Rule <.bi> 23(a) (ii).
 
 (e) A vessel or object being towed, other than those mentioned in paragraph (g) of this Rule, shall exhibit:
 (i) sidelights;
@@ -39,7 +39,7 @@ Rule Twenty Four Towing and Pushing (contd.)
 
 (h) Where from any sufficient cause it is impracticable for a vessel or object being towed to exhibit the lights or shapes prescribed in paragraph (e) or (g) of this Rule, all possible measures shall be taken to light the vessel or object towed or at least to indicate the presence of such vessel or object.
 
-(i) Where from any sufficient cause it is impracticable for a vessel not normally engaged in towing operations to display the lights prescribed in paragraph (a) or (c) of this Rule, such vessel shall not be required to exhibit those lights when engaged in towing another vessel in distress or otherwise in need of assistance. All possible measures shall be taken to indicate the nature of the relationship between the towing vessel and the vessel being towed as authorized by Rule 36, in particular by illuminating the towline.
+(i) Where from any sufficient cause it is impracticable for a vessel not normally engaged in towing operations to display the lights prescribed in paragraph (a) or (c) of this Rule, such vessel shall not be required to exhibit those lights when engaged in towing another vessel in distress or otherwise in need of assistance. All possible measures shall be taken to indicate the nature of the relationship between the towing vessel and the vessel being towed as authorized by <bi> Rule <.bi> 36, in particular by illuminating the towline.
 
 
 <<<
@@ -51,7 +51,7 @@ In cases where assistance is to be rendered to vessels in distress all available
 
 (h) In case it is not practical to display the lights and shapes prescribed in paras (e) or (g) adequate steps must be taken to light the vessel or object being towed.
 
-(i) If it is not practical to display the lights prescribed in paras a or c of this Rule the towing vessel.
+(i) If it is not practical to display the lights prescribed in paras a or c of this <bi> Rule <.bi> the towing vessel.
 
 	- Illuminate the towline.
 

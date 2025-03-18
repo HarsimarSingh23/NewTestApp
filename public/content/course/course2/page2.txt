@@ -5,7 +5,7 @@ Rule Five Lookouts and Watchkeeping.
 
 >>> Click to see rule
 
-Every vessel shall at all times maintain a proper look-out by sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions so as to make a full appraisal of the situation and of the risk of collision. 
+Every vessel shall at all times maintain a proper <bi> look-out <.bi> by sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions so as to make a full <bi> appraisal <.bi> of the situation and of the risk of collision. 
 
 <<<
 
@@ -14,5 +14,5 @@ A lookout is a person on a ship in charge of the observation of the sea for haza
 
 Lookouts have been traditionally placed forward or in high places on the forecastle on masts and in crows nests.
 
-Every vessel must at all times keep a proper lookout by sight (day shape or lights by eyes or visual aids) hearing sound signal or Marine VHF radio and all available means e. G. Radar area AIS guess in.
+Every vessel must at all times keep a proper lookout by sight (day shape or lights by eyes or visual aids) hearing sound signal or Marine VHF radio and all available means e. G. <bi> Radar <.bi> area AIS guess in.
 Order to judge if risk of collision exists.

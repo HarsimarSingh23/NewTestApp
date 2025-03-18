@@ -2,7 +2,7 @@ Rules of the road
 Application Responsibility and Definitions
 
 
-IRPCS: Rule Two
+IRPCS: <bi> Rule <.bi> Two
 
 Responsibility 
 
@@ -11,7 +11,7 @@ Responsibility
 
 a) Nothing in these Rules shall exonerate any vessel, or the owner, Captain or crew thereof, from the consequences of any neglect to comply with these Rules or of the neglect of any precaution which may be required by the ordinary practice of seamen, or by the special circumstances of the case.
 
-b) In construing and complying with these Rules, due regard shall be had to all dangers of navigation and collision and to any special circumstances, including the limitations of the vessels involved, which may make a departure from these Rules necessary to avoid immediate danger.
+b) In construing and complying with these Rules, due regard shall be had to all dangers of <bi> navigation <.bi> and collision and to any special circumstances, including the limitations of the vessels involved, which may make a departure from these Rules necessary to avoid immediate danger.
 
 NOTE : General Prudential Rule: The mariner is  responsible not only for complying with the Rules but also for avoiding a collision, in
                • Special Situations
@@ -24,4 +24,4 @@ NOTE : General Prudential Rule: The mariner is  responsible not only for complyi
 
 A) No-one is exempt from any consequences of neglect to comply with these Rules or exempt from the consequences of any damage caused by neglect of these Rules.
 
-B) Pay due regard to all dangers of navigation and collision. If there should arise a need to avoid immediate danger to your vessel or her crew depart from these Rules as need be.
+B) Pay due regard to all dangers of <bi> navigation <.bi> and collision. If there should arise a need to avoid immediate danger to your vessel or her crew depart from these Rules as need be.

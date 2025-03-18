@@ -7,5 +7,5 @@ Rules in this section apply to vessels in sight of one another
 
 These do not apply to vessels detected by radar.
 
-Vessels may initially have to comply with Rule 19 if they are in restricted visibility and then revert to this
+Vessels may initially have to comply with <bi> Rule <.bi> 19 if they are in restricted visibility and then revert to this
 section when they are in sight of one another.

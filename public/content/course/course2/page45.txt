@@ -26,28 +26,28 @@ vi. The draught in relation to the available depth of water.
 
 b.  Additionally, by vessels with operational radar:
 
-i. The characteristics, efficiency and limitations of the radar equipment.
+i. The characteristics, efficiency and limitations of the <bi> radar <.bi> equipment.
 
-ii. Any constraint imposed by the radar range scale in use.
+ii. Any constraint imposed by the <bi> radar <.bi> range scale in use.
 
-iii. The effect on radar detection of the sea state, weather and other sources of interference.
+iii. The effect on <bi> radar <.bi> detection of the sea state, weather and other sources of interference.
 
-iv. The possibility that small vessels, ice and other floating objects may not be detected by radar at an adequate range.
+iv. The possibility that small vessels, ice and other floating objects may not be detected by <bi> radar <.bi> at an adequate range.
 
 v. The number, location and movement of vessels detected by radar, and
 
-vi. The more exact assessment of the visibility that may be possible when radar is used to determine the range of vessels or other objects in the vicinity.
+vi. The more exact assessment of the visibility that may be possible when <bi> radar <.bi> is used to determine the range of vessels or other objects in the vicinity.
 
 
 <<<
 
 When a vessel is fitted with an operational radar.
 
-● Radar must be used for justification of going at a higher speed.
+● <bi> Radar <.bi> must be used for justification of going at a higher speed.
 
-● The human eye is better than radar as the latter may fail to pick up small objects like small boats or floating debris.
+● The human eye is better than <bi> radar <.bi> as the latter may fail to pick up small objects like small boats or floating debris.
 
-● All vessels of gross tons and upwards must have Automatic Radar Plotting Aids area specified by the limo solar. A dedicated person competent in the use and deciphering of radar images must be stationed at the screen especially in conditions of restricted visibility nicety de Larrinaga situla.
+● All vessels of gross tons and upwards must have Automatic <bi> Radar <.bi> Plotting Aids area specified by the limo solar. A dedicated person competent in the use and deciphering of <bi> radar <.bi> images must be stationed at the screen especially in conditions of restricted visibility nicety de Larrinaga situla.
 
 ● The range scale used is important the longer the range scale definition the less is the discrimination. Small targets are likely to be overlooked.
 

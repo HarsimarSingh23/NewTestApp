@@ -7,13 +7,13 @@ Squat in Confined Channels
 
 Blockage Factor :
 
-In narrow channels squat is greater because
+In narrow channels <bi> squat <.bi> is greater because
 
 	● The sides of the channel restrict water flow
 
 	● Water velocity increases
 
-	● There is a suction zone created amidships
+	● There is a <bi> suction <.bi> zone created amidships
 
 Canal Effect
 

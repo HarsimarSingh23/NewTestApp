@@ -14,11 +14,11 @@ Performing a Navigational Watch contd.
 
 1. The person steering the ship or the automatic pilot is steering the correct course;
 
-2. The standard compass error is determined at least once a watch and, when possible, after any major alteration of course; the standard and gyro-compasses are frequently compared and repeaters are synchronized with their master compass;
+2. The standard compass error is determined at least once a watch and, when possible, after any major alteration of course; the standard and gyro-compasses are frequently compared and repeaters are synchronized with their <bi> master <.bi> compass;
 
 3. The automatic pilot is tested manually at least once a watch;
 
-4. The navigation and signal lights and other navigational equipment are functioning properly;
+4. The <bi> navigation <.bi> and signal lights and other navigational equipment are functioning properly;
 
 5. The radio equipment is functioning properly in accordance with paragraph 86 of this section, and
 

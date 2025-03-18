@@ -1,7 +1,7 @@
 Rules of the road
 Application Responsibility and Definitions
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
 Precautions required by Good Seamanship.
 
@@ -11,4 +11,4 @@ Precautions required by Good Seamanship.
 
 ● When a vessel anchors she must do so without endangering navigating vessels nearby. She must maintain the proper distance from other vessels while anchoring using sufficient cable and a second anchor if necessary.
 
-● In dense fog, a vessel without operational radar should anchor if it is safe and practicable
+● In dense fog, a vessel without operational <bi> radar <.bi> should anchor if it is safe and practicable

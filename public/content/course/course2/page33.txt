@@ -10,7 +10,7 @@ Performing a Navigational Watch (contd.)
 
 >>> Click to see rule
 
-41. Despite the requirement to notify the Master immediately in the foregoing circumstances, the officer in charge of the navigational watch shall in addition not hesitate to take immediate action for the safety of the ship, where circumstances so require.
+41. Despite the requirement to notify the <bi> Master <.bi> immediately in the foregoing circumstances, the officer in charge of the navigational watch shall in addition not hesitate to take immediate action for the safety of the ship, where circumstances so require.
 
 42. The officer in charge of the navigational watch shall give watchkeeping personnel all appropriate instructions and information which will ensure the keeping of a safe watch, including a proper look-out.
 

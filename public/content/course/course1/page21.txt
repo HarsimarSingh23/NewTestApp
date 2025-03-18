@@ -1,13 +1,13 @@
 Rules of the road
 Application Responsibility and Definitions
 
-IRPCS: Rule Two (contd.)
+IRPCS: <bi> Rule <.bi> Two (contd.)
 
 
-<h5> Special Exceptions to Good Seamanship </5>
+<h5> Special Exceptions to Good <bi> Seamanship <.bi> </5>
 
 Strict implication of the Rules may not be possible in the following cases.
 
-<h5> Dangers of Navigation and Collision </h5>
+<h5> Dangers of <bi> Navigation <.bi> and Collision </h5>
 
 A vessel meeting another head in a narrow channel may NOT be able to alter course to starboard as there may be shallow water starboard and another vessel overtaking her on her starboard side.

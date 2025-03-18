@@ -2,7 +2,7 @@ Rules of the road
 Application Responsibility and Definitions
 
 
-IRPCS: Rule One (contd.)
+IRPCS: <bi> Rule <.bi> One (contd.)
 
 Application (contd.)
 
@@ -13,7 +13,7 @@ a) These rules shall apply to all vessels upon the high seas and in all waters c
 
 b) Nothing in these Rules shall interfere with the operation of special rules made by an appropriate authority for roadsteads, harbours, rivers, lakes or inland waterways connected with the high seas and navigable by seagoing vessels.  Such special rules shall conform as closely as possible to these Rules.
 
-c) Nothing in these Rules shall interfere with the operation of any special rules made by the Government of any State with respect to additional station or signal lights, shapes or whistle signals for ships of war and vessels proceeding under convoy, or with respect to additional station or signal lights or shapes for fishing vessels engaged in fishing as a fleet.  These additional station or signal lights, shapes or whistle signals shall, so far as possible, be such that they cannot be mistaken for for any light, shape or signal authorized elsewhere under these Rules.
+c) Nothing in these Rules shall interfere with the operation of any special rules made by the Government of any State with respect to additional station or signal lights, shapes or <bi> whistle <.bi> signals for ships of war and vessels proceeding under convoy, or with respect to additional station or signal lights or shapes for fishing vessels engaged in fishing as a fleet.  These additional station or signal lights, shapes or <bi> whistle <.bi> signals shall, so far as possible, be such that they cannot be mistaken for for any light, shape or signal authorized elsewhere under these Rules.
 
 d) Traffic separation schemes may be adopted by the Organization for the purpose of these Rules.
 

@@ -13,21 +13,21 @@ Watchkeeping Arrangements and Principles to be Observed
 
 1. Administrations shall direct the attention of companies, Masters. chief engineer, officers and all watchkeeping personnel to the requirements, principles and guidance set out in the STCW Code which shall be observed to ensure that a safe continuous watch or watches appropriate to the prevailing circumstances and conditions are maintained in all seagoing ships at all times.
 
-2. Administrations shall require the Master of every ship to ensure that watchkeeping arrangements are adequate for maintaining a safe watch or watches, taking into account the prevailing circumstances and conditions and that, under the Master's general direction:
+2. Administrations shall require the <bi> Master <.bi> of every ship to ensure that watchkeeping arrangements are adequate for maintaining a safe watch or watches, taking into account the prevailing circumstances and conditions and that, under the Master's general direction:
 
-(1) Officers in charge of the navigational watch are responsible for navigating the ship safely during their periods of duty, when they shall be physically present on the navigating bridge or in a directly associated location such as the chartroom or bridge control room at all times;
+(1) Officers in charge of the navigational watch are responsible for navigating the ship safely during their periods of duty, when they shall be physically present on the navigating <bi> bridge <.bi> or in a directly associated location such as the chartroom or <bi> bridge <.bi> control room at all times;
 
 (2) Radio operators are responsible for maintaining a continuous radio watch on appropriate frequencies during their periods of duty;
 
 (3) Officers in charge of an engineering watch, as defined in the STCW Code and under the direction of the chief engineer officer, shall be immediately available and on call to attend the machinery spaces and, when required, shall be physically present in the machinery space during their periods of responsibility; and
 
-(4) An appropriate and effective watch or watches are maintained for the purpose of safety at all times, while the ship is at anchor or moored and, if the ship is carrying hazardous cargo, the organization of such watch or watches takes full account of the nature, quantity, packing and stowage of the hazardous cargo and of any special conditions prevailing on board, afloat or ashore.
+(4) An appropriate and effective watch or watches are maintained for the purpose of safety at all times, while the ship is at anchor or <bi> moored <.bi> and, if the ship is carrying hazardous cargo, the organization of such watch or watches takes full account of the nature, quantity, packing and stowage of the hazardous cargo and of any special conditions prevailing on board, afloat or ashore.
 
 
 
 <<<
 
-International Convention on Standards of Training Certification and watchkeeping for Seafarers ANNEX
+International <bi> Convention <.bi> on Standards of Training Certification and watchkeeping for <bi> Seafarers <.bi> ANNEX
 
 Regulation VIII/2 - Watchkeeping Arrangements and Principles 
 
@@ -36,4 +36,4 @@ Regulation VIII/2 - Watchkeeping Arrangements and Principles
 2. Every ships captain should ensure that watchkeeping arrangements are adequate for maintaining a.
 Safe watch taking into account the prevailing circumstances and conditions and under his general direction:
 
-	A. Officers in charge of the navigation watch are responsible for navigating the ship safely 	during their watch and that they shall be physically present on the bridge or in a place close 	by ( like the chart room or the bridge control room ).
+	A. Officers in charge of the <bi> navigation <.bi> watch are responsible for navigating the ship safely 	during their watch and that they shall be physically present on the <bi> bridge <.bi> or in a place close 	by ( like the chart room or the <bi> bridge <.bi> control room ).

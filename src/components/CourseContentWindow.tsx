@@ -121,7 +121,19 @@ export function ContentWindow({
     const processText = (text: string) => {
       // Split by lines first to preserve line breaks
       return text.split('\n').map(line => {
-        // Process each line separately
+        // Process bold formatting
+        line = line.replace(/<b>(.*?)<\.b>/g, '<strong>$1</strong>');
+        
+        // Process italic formatting
+        line = line.replace(/<i>(.*?)<\.i>/g, '<em>$1</em>');
+
+        
+        line = line.replace(/<bi>(.*?)<\.bi>/g, '<strong><em>$1</em></strong>');
+        
+        // Process images
+        line = line.replace(/<addimage\s+(.*?)\s+<\.addimage>/g, '<img src="$1" alt="Content image" class="my-4 max-w-full" />');
+        
+        // Process each line separately for dictionary words
         const processedLine = line.split(/(\s+)/).map(part => {
           // Keep whitespace as is
           if (part.trim() === '') return part;

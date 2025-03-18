@@ -15,4 +15,4 @@ When a ship moves towards a canal bank.
 	● This area of water near the bow is called the Pressure Zone
 
 Smelling the Ground.
-This is another similar effect with a submerged bank or shoal. A ship passing a submerged bank experiences increased pressure in the water between the bank and the ship causing it to deflect from the bank.
+This is another similar effect with a submerged bank or shoal. A ship passing a submerged bank experiences increased pressure in the water between the bank and the ship causing it to <bi> deflect <.bi> from the bank.
