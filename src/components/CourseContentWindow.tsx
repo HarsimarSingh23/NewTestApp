@@ -30,6 +30,8 @@ export function ContentWindow({
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   const [expandedSections, setExpandedSections] = useState<Set<number>>(new Set());
+  const [isPdfCourse, setIsPdfCourse] = useState(false);
+  const [pdfUrl, setPdfUrl] = useState('');
   
   // Dictionary state
   const [dictionary, setDictionary] = useState<DictionaryEntry[]>([]);
@@ -46,6 +48,7 @@ export function ContentWindow({
     7: 27,
     8: 31,
     9: 31,
+    10: 1, // Course 10 has only 1 file (PDF)
   };
 
   useEffect(() => {
@@ -54,9 +57,44 @@ export function ContentWindow({
 
   useEffect(() => {
     if (isOpen) {
-      loadAllContent(courseNumber);
+      if (courseNumber === 10) {
+        setIsPdfCourse(true);
+        loadPdfContent();
+      } else {
+        setIsPdfCourse(false);
+        loadAllContent(courseNumber);
+      }
     }
   }, [isOpen, courseNumber]);
+
+  const loadPdfContent = async () => {
+    try {
+      setIsLoading(true);
+      setError('');
+      
+      const pdfPath = '/content/course/course10/ror.pdf';
+      
+      // Check if the PDF exists
+      const response = await fetch(pdfPath, { method: 'HEAD' });
+      
+      if (!response.ok) {
+        throw new Error('PDF not found or failed to load.');
+      }
+      
+      setPdfUrl(pdfPath);
+      setTotalFiles(1);
+      setCurrentFile(0);
+    } catch (err) {
+      console.error('Error loading PDF:', err);
+      setError('PDF not found or failed to load.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const openPdfInNewWindow = () => {
+    window.open(pdfUrl, '_blank');
+  };
 
   const loadDictionary = async () => {
     try {
@@ -259,7 +297,7 @@ export function ContentWindow({
 
   if (!isOpen) return null;
 
-  const formattedContent = formatContentWithDictionaryIdentifiers(content[currentFile]);
+  const formattedContent = !isPdfCourse ? formatContentWithDictionaryIdentifiers(content[currentFile]) : { title: 'Course 10 Material', header: '', subheader: '', body: '', collapsibleSections: [] };
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -283,14 +321,32 @@ export function ContentWindow({
           onMouseOver={handleWordHover}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="prose max-w-none">
-            {isLoading ? (
-              <div className="flex justify-center items-center py-8">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600" />
+          {isLoading ? (
+            <div className="flex justify-center items-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600" />
+            </div>
+          ) : error ? (
+            <div className="text-red-600 text-center py-8">{error}</div>
+          ) : isPdfCourse ? (
+            <div className="w-full flex flex-col items-center justify-center py-12">
+              <div className="text-center mb-8">
+                <h1 className="text-3xl font-bold text-gray-900 mb-4">Course 10 ROR Cards</h1>
+                <p className="text-gray-600 mb-8">This course material is available as a PDF document.</p>
+                
+                <button 
+                  onClick={openPdfInNewWindow}
+                  className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white text-lg font-medium rounded-md hover:bg-indigo-700 transition-colors"
+                >
+                  Open PDF Document
+                </button>
               </div>
-            ) : error ? (
-              <div className="text-red-600 text-center py-8">{error}</div>
-            ) : (
+              
+              <div className="text-gray-500 text-sm mt-4">
+                <p>Click the button above to open the PDF in a new window.</p>
+              </div>
+            </div>
+          ) : (
+            <div className="prose max-w-none">
               <div className="space-y-4">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
                   {formattedContent.title}
@@ -306,14 +362,12 @@ export function ContentWindow({
                   </h3>
                 )}
 
-                
-
                 <div 
                   className="text-gray-600 space-y-2 leading-relaxed"
                   dangerouslySetInnerHTML={{ __html: formattedContent.body }}
                 />
 
-            {formattedContent.collapsibleSections.map((section, index) => (
+                {formattedContent.collapsibleSections.map((section, index) => (
                   <div key={index} className="border rounded-lg overflow-hidden mb-4">
                     <button
                       onClick={() => toggleSection(index)}
@@ -334,11 +388,9 @@ export function ContentWindow({
                     )}
                   </div>
                 ))}
-            
-                
               </div>
-            )}
-          </div>
+            </div>
+          )}
 
           {hoveredDefinition && (
             <div 
@@ -360,9 +412,9 @@ export function ContentWindow({
         <div className="border-t border-gray-200 px-6 py-4 flex items-center justify-between bg-gray-50">
           <button
             onClick={handlePrevious}
-            disabled={currentFile === 0 || isLoading}
+            disabled={currentFile === 0 || isLoading || isPdfCourse}
             className={`flex items-center ${
-              currentFile === 0 || isLoading
+              currentFile === 0 || isLoading || isPdfCourse
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:text-indigo-700'
             }`}
@@ -371,13 +423,13 @@ export function ContentWindow({
             Previous
           </button>
           <span className="text-sm text-gray-500">
-            Page {currentFile + 1} of {totalFiles}
+            {isPdfCourse ? 'PDF Document' : `Page ${currentFile + 1} of ${totalFiles}`}
           </span>
           <button
             onClick={handleNext}
-            disabled={currentFile === totalFiles - 1 || isLoading}
+            disabled={currentFile === totalFiles - 1 || isLoading || isPdfCourse}
             className={`flex items-center ${
-              currentFile === totalFiles - 1 || isLoading
+              currentFile === totalFiles - 1 || isLoading || isPdfCourse
                 ? 'text-gray-400 cursor-not-allowed' 
                 : 'text-indigo-600 hover:text-indigo-700'
             }`}

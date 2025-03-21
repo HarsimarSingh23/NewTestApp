@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, BookOpen } from 'lucide-react';
+import { ArrowLeft, BookOpen, FileText } from 'lucide-react';
 import { courses } from './CoursesPage';
 import { ImageCarousel } from '../components/ImageCarousel';
 import { ContentWindow } from '../components/CourseContentWindow';
@@ -23,6 +23,7 @@ export function CourseDetailsPage() {
     "Part C: Lights and Shapes": 7,
     "Part C: Lights and Shapes (Contd.)": 8,
     "Part D: Sound and Light Signals": 9,
+    "ROR Course": 10
   };
 
   const course = courses.find((c) => c.id === Number(courseId));
