@@ -19,8 +19,8 @@ export function LoginPage() {
           src={crestImage}
           alt="Company Logo"
         />
-        <h1 className="text-center text-4xl font-extrabold text-white drop-shadow-xl tracking-wide">
-          School of Excellence
+        <h1 className="text-center text-2xl font-extrabold text-white drop-shadow-xl tracking-wide">
+          In Pursuit of Excellence with Speed and Accuracy
         </h1>
         
         <LoginForm />

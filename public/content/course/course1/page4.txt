@@ -31,3 +31,5 @@ Treat a <bi> rule <.bi> as a kind of implicit social contract rather than an ext
 
 Train yourself to properly interpret the Rules within the parameters of the International Regulations for
 Collision at Sea. This is more difficult and requires practice at sea.
+
+<addimage>content/img/course1/collsioned_ship.jpg<.addimage>

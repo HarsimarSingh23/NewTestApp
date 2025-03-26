@@ -169,10 +169,23 @@ export function ContentWindow({
         line = line.replace(/<bi>(.*?)<\.bi>/g, '<strong><em>$1</em></strong>');
         
         // Process images
-        line = line.replace(/<addimage\s+(.*?)\s+<\.addimage>/g, '<img src="$1" alt="Content image" class="my-4 max-w-full" />');
+        line = line.replace(
+          /<addimage>(.*?)<\.addimage>/g, 
+          (match, imagePath) => `
+            <div class="my-4 flex justify-center">
+              <div class="w-96 h-64 bg-gray-100 rounded-lg overflow-hidden shadow-md flex items-center justify-center">
+                <img 
+                  src="/${imagePath}" 
+                  alt="Content Image" 
+                  class="object-cover w-full h-full transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            </div>
+          `
+        );
         
-        line = line.replace(/<addgif>(.*?)<\.addgif>/g, '<img src="/' + '$1" alt="Content gif" class="my-4 max-w-full rounded-lg object-contain" />');
-    
+        line = line.replace(/<addgif>(.*?)<\.addgif>/g, '<img src="/' + '$1" alt="Content gif" class="my-4 max-w-full rounded-lg" />');
+
         // Process each line separately for dictionary words
         const processedLine = line.split(/(\s+)/).map(part => {
           // Keep whitespace as is

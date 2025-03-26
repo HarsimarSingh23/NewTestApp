@@ -5,6 +5,8 @@ Introduction
 
 Why do ships collide?
 
+<addimage>content/img/course1/ship_collision_2.jpg<.addimage>
+
 Ships confront more chances of collision because on the water.
 ● There are no white lines or barriers.
 ● There are no brakes no streetlights no policemen and no height separations.

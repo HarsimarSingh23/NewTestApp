@@ -59,7 +59,7 @@ export function Sidebar() {
             src={crestImage}
             alt="Company Logo"
           />
-          <p className="text-sm font-large text-center">School of Excellence</p>
+          <p className="text-sm font-medium text-center">In Pursuit of Excellence with Speed and Accuracy</p>
         </div>
       </div>
     </div>
