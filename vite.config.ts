@@ -8,5 +8,5 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
   },
-  assetsInclude: ['**/**.txt']
+  assetsInclude: ['**/**.txt', '**/**.gif']
 });

@@ -171,6 +171,8 @@ export function ContentWindow({
         // Process images
         line = line.replace(/<addimage\s+(.*?)\s+<\.addimage>/g, '<img src="$1" alt="Content image" class="my-4 max-w-full" />');
         
+        line = line.replace(/<addgif>(.*?)<\.addgif>/g, '<img src="/' + '$1" alt="Content gif" class="my-4 max-w-full rounded-lg object-contain" />');
+    
         // Process each line separately for dictionary words
         const processedLine = line.split(/(\s+)/).map(part => {
           // Keep whitespace as is
