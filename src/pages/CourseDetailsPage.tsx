@@ -23,7 +23,9 @@ export function CourseDetailsPage() {
     "Part C: Lights and Shapes": 7,
     "Part C: Lights and Shapes (Contd.)": 8,
     "Part D: Sound and Light Signals": 9,
-    "ROR Course": 10
+    "ROR Course": 10,
+    "ROR Question Bank" : 11
+
   };
 
   const course = courses.find((c) => c.id === Number(courseId));

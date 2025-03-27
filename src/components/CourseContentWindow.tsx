@@ -49,6 +49,7 @@ export function ContentWindow({
     8: 31,
     9: 31,
     10: 1, // Course 10 has only 1 file (PDF)
+    11: 1,
   };
 
   useEffect(() => {
@@ -59,7 +60,10 @@ export function ContentWindow({
     if (isOpen) {
       if (courseNumber === 10) {
         setIsPdfCourse(true);
-        loadPdfContent();
+        loadPdfContent('/content/course/course10/ror.pdf');
+      } else if (courseNumber === 11) {
+        setIsPdfCourse(true);
+        loadPdfContent('/content/course/course11/ROR_QB.pdf');
       } else {
         setIsPdfCourse(false);
         loadAllContent(courseNumber);
@@ -67,13 +71,11 @@ export function ContentWindow({
     }
   }, [isOpen, courseNumber]);
 
-  const loadPdfContent = async () => {
+  const loadPdfContent = async (pdfPath: string) => {
     try {
       setIsLoading(true);
       setError('');
-      
-      const pdfPath = '/content/course/course10/ror.pdf';
-      
+
       // Check if the PDF exists
       const response = await fetch(pdfPath, { method: 'HEAD' });
       
@@ -345,7 +347,7 @@ export function ContentWindow({
           ) : isPdfCourse ? (
             <div className="w-full flex flex-col items-center justify-center py-12">
               <div className="text-center mb-8">
-                <h1 className="text-3xl font-bold text-gray-900 mb-4">Course 10 ROR Cards</h1>
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">Course {courseNumber}</h1>
                 <p className="text-gray-600 mb-8">This course material is available as a PDF document.</p>
                 
                 <button 
