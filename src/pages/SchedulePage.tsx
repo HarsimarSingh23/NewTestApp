@@ -4,21 +4,21 @@ import { Calendar as CalendarIcon } from 'lucide-react';
 const events = [
   {
     id: 1,
-    title: 'Instructor Workshop',
+    title: 'Doubt Clearing Session by Instructor',
     time: '10:00 AM - 11:30 AM',
     date: 'Today',
     type: 'Workshop',
   },
   {
     id: 2,
-    title: 'Navigation Advanced Concepts',
+    title: 'Lecture: Origin of IRPCS and Amendments',
     time: '2:00 PM - 3:30 PM',
     date: 'Today',
     type: 'Lecture',
   },
   {
     id: 3,
-    title: 'Logistics Fundamentals',
+    title: 'Understanding of Annexures',
     time: '11:00 AM - 12:30 PM',
     date: 'Tomorrow',
     type: 'Course',
