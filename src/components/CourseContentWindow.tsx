@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { X, ChevronLeft, ChevronRight, Info, ChevronDown, ChevronUp } from 'lucide-react';
 import { supabase } from '../backend/supabaseClient';
+import ReactDOM from 'react-dom/client';
 
 // Dictionary interface
 interface DictionaryEntry {
   word: string;
   description: string;
+}
+
+interface DYKContent {
+  id: number;
+  text: string;
+  image_url: string;
 }
 
 interface ContentWindowProps {
@@ -70,6 +77,24 @@ export function ContentWindow({
       }
     }
   }, [isOpen, courseNumber]);
+
+  useEffect(() => {
+    if (!isOpen || !content.length) return;
+  
+    const renderDYKContent = () => {
+      document.querySelectorAll('.dyk-content-placeholder').forEach(element => {
+        const id = element.getAttribute('data-id');
+        if (id) {
+          const root = ReactDOM.createRoot(element);
+          root.render(<DYKContentComponent id={parseInt(id)} />);
+        }
+      });
+    };
+  
+    // Use setTimeout to ensure the DOM is ready
+    const timer = setTimeout(renderDYKContent, 100);
+    return () => clearTimeout(timer);
+  }, [currentFile, isOpen, content]);
 
   const loadPdfContent = async (pdfPath: string) => {
     try {
@@ -147,6 +172,76 @@ export function ContentWindow({
     return { regularContent, collapsibleSections: sections };
   };
 
+  // Create this new component
+  const DYKContentComponent: React.FC<{ id: number }> = ({ id }) => {
+    const [content, setContent] = useState<DYKContent | null>(null);
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState('');
+
+    useEffect(() => {
+      const fetchContent = async () => {
+        try {
+          setIsLoading(true);
+          setError('');
+          
+          const { data, error } = await supabase
+            .from('dyk_content')
+            .select('*')
+            .eq('id', id)
+            .single();
+
+          if (error) throw error;
+          if (!data) throw new Error('Content not found');
+
+          setContent(data);
+        } catch (err) {
+          console.error('Error fetching DYK content:', err);
+          setError('Failed to load content');
+        } finally {
+          setIsLoading(false);
+        }
+      };
+
+      fetchContent();
+    }, [id]);
+
+    if (isLoading) {
+      return (
+        <div className="flex justify-center items-center py-4">
+          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-indigo-600" />
+        </div>
+      );
+    }
+
+    if (error) {
+      return <div className="text-red-500 text-center py-4">{error}</div>;
+    }
+
+    if (!content) {
+      return <div className="text-gray-500 text-center py-4">Content not available</div>;
+    }
+
+    return (
+      <div className="animate-fadeIn bg-indigo-50 rounded-lg p-4 my-4 border border-indigo-100">
+        <div className="flex flex-col md:flex-row gap-4">
+          {content.image_url && (
+            <div className="md:w-1/3 flex-shrink-0">
+              <img 
+                src={content.image_url} 
+                alt="DYK Content" 
+                className="w-full h-48 object-cover rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+              />
+            </div>
+          )}
+          <div className="flex-1">
+            <h3 className="text-lg font-semibold text-indigo-800 mb-2">Did You Know?</h3>
+            <p className="text-gray-700">{content.text}</p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   const formatContentWithDictionaryIdentifiers = (content: string) => {
     if (!content) return { title: '', header: '', subheader: '', body: '', collapsibleSections: [] };
     
@@ -170,6 +265,11 @@ export function ContentWindow({
         
         line = line.replace(/<bi>(.*?)<\.bi>/g, '<strong><em>$1</em></strong>');
         
+        line = line.replace(
+          /<dykcontent>(\d+)<\.dykcontent>/g, 
+          (match, id) => `<div class="dyk-content-placeholder" data-id="${id}"></div>`
+        );
+
         // Process images
         line = line.replace(
           /<addimage>(.*?)<\.addimage>/g, 
@@ -315,6 +415,8 @@ export function ContentWindow({
   if (!isOpen) return null;
 
   const formattedContent = !isPdfCourse ? formatContentWithDictionaryIdentifiers(content[currentFile]) : { title: 'Course 10 Material', header: '', subheader: '', body: '', collapsibleSections: [] };
+
+  
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">

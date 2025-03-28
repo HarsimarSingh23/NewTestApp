@@ -27,3 +27,5 @@ A collision-scenario exists
 ● corrections are made by one party and simultaneous reflective corrections are made by the other
 
 ● corrections are imagined so thoroughly that they cause what they are trying to prevent …
+
+<dykcontent>1<.dykcontent>
